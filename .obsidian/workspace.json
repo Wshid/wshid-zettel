@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "5e133216aaefc461",
+    "type": "split",
+    "children": [
+      {
+        "id": "b70ee1cccd4fa4d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c6cb5f23395eb7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "305a01fbb70d9068",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b9595c3f5a4c38b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d242474a2eb8d24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4d1968254b1cd534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#trino",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8352c0438f89c152",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 542.5
+  },
+  "right": {
+    "id": "563b7e3a135cb1cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "b13561efa77feeb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d87d1311761e1ef5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2dad06ee4698fc5a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc4fb9ee2e01ea67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "76a3a32f47ce298f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md"
+              }
+            }
+          },
+          {
+            "id": "5d244e58000ae12f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "9c6cb5f23395eb7f",
+  "lastOpenFiles": [
+    "snippet.css",
+    "raw/repository/daily-poc/docs/[240308]Trino_Hive_Connector.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH02]A_Brief_History_of_AI.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH01]Machine_Learning_Concept.md",
+    "raw/repository/daily-poc/docs/[240222]Layer_계층.md",
+    "raw/repository/daily-poc/docs/[240215]dbt_expectations.md",
+    "raw/repository/daily-poc/docs/[240214]Data_Quality_with_DBT_tests_and_Great_Expectations.md",
+    "raw/repository/daily-poc/docs/[240213]DuckDB_vs_MotherDuck.md",
+    "raw/repository/daily-poc/docs/[240212]DBT와_Airflow_도입하며_마주한_7가지_문제들.md",
+    "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
+    "raw/repository/daily-poc/README.md",
+    "raw/repository/daily-poc/renamed_kanban.md",
+    "raw/repository/daily-poc/Untitled.md",
+    "raw/repository/daily-poc/Untitled.canvas",
+    "raw/repository/daily-poc/3.md",
+    "raw/repository/daily-poc/1.md",
+    "raw/20240409.md",
+    "raw/daily",
+    "raw/repository",
+    "raw/repository/prompt_engineering/[PART_11]추가_제공_영상/[CH01]최근_연구된_신규_프롬프트_기법_RAG_평가_방법.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH02]Function_Calling_Tooling.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH01]적합한_모델_선택하기.md",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH03]웹_앱_개발_프레임워크_소개.md",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH02]주요_라이브러리_소개.md",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH01]LLM_애플리케이션_아키텍처.md",
+    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무/[CH06]ChatGPT에게_프롬프트_작성_도움받기.md",
+    "raw/repository/prompt_engineering/[PART_11]추가_제공_영상",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발",
+    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무",
+    "raw/repository/prompt_engineering/[PART_04]프롬프트_엔지니어링_기초지식",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습",
+    "raw/repository/prompt_engineering/[PART_03]프롬프트_엔지니어링_개요",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해"
+  ]
+}
