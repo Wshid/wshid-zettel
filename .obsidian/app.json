@@ -1,5 +1,8 @@
 {
   "showLineNumber": true,
   "showUnsupportedFiles": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./"
 }
