@@ -1,11 +1,13 @@
 ---
 date: 2024-04-10
-datetime: 2024-04-10 11:27:45
+datetime: 2024-04-10 16:12:04
 book: 데이터_품질의_비밀
 page:
   - "26"
 tags: 
-references:
+references: 
+aliases:
+  - 데이터 품질
 ---
 ### 파이프라인별 품질 측정
 - [[batch_pipeline]]과 [[streaming_pipeline]]에서 데이터 품질을 측정하는 방법
