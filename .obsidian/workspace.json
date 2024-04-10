@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+                "file": "concept/zero_shot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+                "file": "concept/zero_shot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+                "file": "concept/zero_shot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md"
+                "file": "concept/zero_shot.md"
               }
             }
           },
@@ -161,42 +161,42 @@
   },
   "active": "9c6cb5f23395eb7f",
   "lastOpenFiles": [
-    "snippet.css",
-    "raw/repository/daily-poc/docs/[240308]Trino_Hive_Connector.md",
-    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+    "raw/repository/prompt_engineering/[PART_04]프롬프트_엔지니어링_기초지식/[CH02]프롬프팅테크닉_Top7.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH03]자연어_처리_태스크_Top10.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH02]생성_조건_이해하기.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH04]프롬프팅_테크닉_Top_7_실습.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH05]액팅_포맷팅.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH06]프롬프트_체이닝.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH01]적합한_모델_선택하기.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH02]Function_Calling_Tooling.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH07]좋은_프롬프트_만들기.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH01]프롬프트_디자인_프레임워크.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH05]이것이_왜_그렇게_중요한가.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH06]파인튜닝_프롬프트_엔지니어링.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH07]새로운_기회_찾기.md",
+    "concept/zero_shot.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH03]LLM_완전히_새로운_시대의_개막.md",
     "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH02]A_Brief_History_of_AI.md",
     "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH01]Machine_Learning_Concept.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+    "concept",
+    "snippet.css",
+    "raw/repository/daily-poc/docs/[240308]Trino_Hive_Connector.md",
     "raw/repository/daily-poc/docs/[240222]Layer_계층.md",
     "raw/repository/daily-poc/docs/[240215]dbt_expectations.md",
     "raw/repository/daily-poc/docs/[240214]Data_Quality_with_DBT_tests_and_Great_Expectations.md",
     "raw/repository/daily-poc/docs/[240213]DuckDB_vs_MotherDuck.md",
     "raw/repository/daily-poc/docs/[240212]DBT와_Airflow_도입하며_마주한_7가지_문제들.md",
-    "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
-    "raw/repository/daily-poc/README.md",
-    "raw/repository/daily-poc/renamed_kanban.md",
-    "raw/repository/daily-poc/Untitled.md",
     "raw/repository/daily-poc/Untitled.canvas",
-    "raw/repository/daily-poc/3.md",
-    "raw/repository/daily-poc/1.md",
-    "raw/20240409.md",
     "raw/daily",
     "raw/repository",
-    "raw/repository/prompt_engineering/[PART_11]추가_제공_영상/[CH01]최근_연구된_신규_프롬프트_기법_RAG_평가_방법.md",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH02]Function_Calling_Tooling.md",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH01]적합한_모델_선택하기.md",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH03]웹_앱_개발_프레임워크_소개.md",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH02]주요_라이브러리_소개.md",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH01]LLM_애플리케이션_아키텍처.md",
-    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무/[CH06]ChatGPT에게_프롬프트_작성_도움받기.md",
     "raw/repository/prompt_engineering/[PART_11]추가_제공_영상",
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화",
     "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발",
     "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무",
     "raw/repository/prompt_engineering/[PART_04]프롬프트_엔지니어링_기초지식",
-    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습",
-    "raw/repository/prompt_engineering/[PART_03]프롬프트_엔지니어링_개요",
-    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해"
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습"
   ]
 }
