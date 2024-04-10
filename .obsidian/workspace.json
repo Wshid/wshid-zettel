@@ -26,46 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dd32051e33fffb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concept/data_lakehouse.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "493a6753cf069514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concept/data_quality.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a08aee8394517522",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concept/도메인 주도 설계.md",
+                "file": "document/[240325]Trino_기본_개념.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -152,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
+                "file": "document/[240325]Trino_기본_개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
+                "file": "document/[240325]Trino_기본_개념.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md"
+                "file": "document/[240325]Trino_기본_개념.md"
               }
             }
           },
@@ -225,32 +186,33 @@
   },
   "active": "65fee15ddae0a54c",
   "lastOpenFiles": [
-    "concept/sre.md",
-    "concept/streaming_data.md",
-    "concept/data_analyst.md",
-    "concept/batch_pipeline.md",
-    "concept/필요조건.md",
-    "concept/편재성.md",
-    "concept/사회 기술적 패러다임.md",
-    "concept/도메인 주도 설계.md",
-    "concept/데이터 산업 동향.md",
-    "concept/교차 가능 조직.md",
-    "concept/data_mesh.md",
-    "document/데이터 다운타임이 증가하는 이유.md",
-    "concept/data_silo.md",
-    "concept/dev_ops.md",
-    "concept/data_ops.md",
-    "concept/data_downtime.md",
     "concept/data_quality.md",
-    "concept/data_lake.md",
-    "concept/data_engineer.md",
+    "document/데이터 다운타임이 증가하는 이유.md",
+    "document/[240325]Trino_기본_개념.md",
+    "document/Trino Configuration.md",
+    "document/Trino 동작 순서.md",
+    "document/Trino 구조 및 설명.md",
+    "document/Data Engineering Trends 2024.md",
+    "concept/data_mesh.md",
+    "document/Trino WEB UI.md",
+    "concept/trino_driver.md",
+    "document/Untitled.md",
+    "concept/streaming_pipeline.md",
+    "concept/trino_split.md",
+    "raw/repository/daily-poc/docs/[240325]Trino_기본_개념.md",
+    "concept/trino_task.md",
+    "concept/trino_stage.md",
+    "concept/trino_catalog.md",
+    "concept/trino_connector.md",
+    "concept/trino_worker.md",
+    "concept/trino_server_types.md",
+    "concept/trino_coordinator.md",
+    "concept/도메인 주도 설계.md",
+    "concept/sre.md",
+    "concept/사회 기술적 패러다임.md",
     "concept/data_lakehouse.md",
-    "concept/data_pipeline.md",
-    "data_warehouse.md",
-    "데이터 메시.md",
-    "concept/data_scientist.md",
-    "template/book.md",
-    "concept/zero_shot.md",
+    "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
+    "document/docs",
     "template",
     "concept",
     "snippet.css",
@@ -260,7 +222,6 @@
     "raw/repository/prompt_engineering/[PART_11]추가_제공_영상",
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화",
     "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발",
-    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무",
-    "raw/repository/prompt_engineering/[PART_04]프롬프트_엔지니어링_기초지식"
+    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무"
   ]
 }
