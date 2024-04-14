@@ -19,6 +19,11 @@ aliases:
 - Rust의 thread가 어떻게 만들어지는지
 - thread내 안전하게 메모리를 공유하는 방법
 
+### 0. docker run
+```bash
+docker run --name rust_concurrency_programming -v /Users/sion/Workspace/wshid-zettel/workspace/rust:/root/workspace -it rust:latest /bin/bash
+```
+
 ### 1.1 러스트의 스레드
 - 모든 program은 main thread로부터 수행
 	- main thread, main 함수 수행, 다른 스레드 실행
@@ -30,14 +35,20 @@ aliases:
 use std::thread;
 
 fn main() {
-	thread::spawn(f);
-	thread::spawn(f);
-	println("Hello from the main thread");
+thread::spawn(f);
+thread::spawn(f);
+println!("Hello from the main thread");
 }
 
 fn f() {
 	println!("Hello from another thread!");
 	let id = thread::current().id();
-	println("This is my thread id: {id:?}");
+	println!("This is my thread id: {id:?}");
 }
+```
+
+```bash
+# in docker
+rustc 1_1_hello_world.rs
+./1_1_hello_world.rs
 ```

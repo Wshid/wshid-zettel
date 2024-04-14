@@ -186,8 +186,10 @@
   },
   "active": "65fee15ddae0a54c",
   "lastOpenFiles": [
-    "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
     "document/Base_Rust.md",
+    "workspace/rust",
+    "workspace",
+    "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
     "document/[240325]Trino_기본_개념.md",
     "concept/data_quality.md",
     "document/데이터 다운타임이 증가하는 이유.md",
@@ -211,7 +213,6 @@
     "concept/trino_coordinator.md",
     "concept/도메인 주도 설계.md",
     "concept/sre.md",
-    "concept/사회 기술적 패러다임.md",
     "document/docs",
     "template",
     "concept",
@@ -220,8 +221,6 @@
     "raw/daily",
     "raw/repository",
     "raw/repository/prompt_engineering/[PART_11]추가_제공_영상",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발",
-    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무"
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화"
   ]
 }
