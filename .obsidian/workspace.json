@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/[240325]Trino_기본_개념.md",
+                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/[240325]Trino_기본_개념.md",
+                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/[240325]Trino_기본_개념.md",
+                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/[240325]Trino_기본_개념.md"
+                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md"
               }
             }
           },
@@ -186,9 +186,9 @@
   },
   "active": "65fee15ddae0a54c",
   "lastOpenFiles": [
+    "document/[240325]Trino_기본_개념.md",
     "concept/data_quality.md",
     "document/데이터 다운타임이 증가하는 이유.md",
-    "document/[240325]Trino_기본_개념.md",
     "document/Trino Configuration.md",
     "document/Trino 동작 순서.md",
     "document/Trino 구조 및 설명.md",
