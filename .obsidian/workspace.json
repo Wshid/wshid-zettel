@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md",
+                "file": "spawn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "caedafe6bd7dcef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "closure.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b07f0e72adae4170",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "static lifetime을 갖는 타입.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed7a61557adf1357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spawn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f70f079bcfabfe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spawn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +91,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md",
+                "file": "panic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d8d67bdda1417bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "thread builder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"workspace/rust/\" ",
+                "query": "closure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +184,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md",
+                "file": "closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md",
+                "file": "closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md"
+                "file": "closure.md"
               }
             }
           },
@@ -210,15 +276,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e791d81c476f7394",
+  "active": "caedafe6bd7dcef8",
   "lastOpenFiles": [
+    "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
+    "closure.md",
+    "static lifetime을 갖는 타입.md",
     "spawn.md",
-    "document/Rust_Concurrency_Programming/CHAP1/Base_Rust.md",
+    "panic.md",
+    "thread builder.md",
     "concept/사회 기술적 패러다임.md",
     "`spawn`.md",
     "document/Rust_Concurrency_Programming/CHAP1",
     "document/Rust_Concurrency_Programming",
-    "panic.md",
     "출력 잠금.md",
     "document/attachments/Pasted image 20240414130835.png",
     "workspace/rust/CHAP_1_1/1_1_hello_world_wait",
@@ -249,9 +318,6 @@
     "concept/streaming_pipeline.md",
     "concept/trino_split.md",
     "raw/repository/daily-poc/docs/[240325]Trino_기본_개념.md",
-    "concept/trino_task.md",
-    "concept/trino_stage.md",
-    "concept/trino_catalog.md",
     "raw/repository/daily-poc/Untitled.canvas"
   ]
 }
