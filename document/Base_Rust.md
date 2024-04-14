@@ -1,0 +1,43 @@
+---
+date: 2024-04-14
+datetime: 2024-04-14 11:58:16
+book: 러스트_동시성_프로그래밍
+page: 
+tags: 
+references: 
+aliases:
+---
+
+- OS는 각 ps를 최대한 격리, ps가 다른 ps에 영향받지 않도록 함 
+- ps는 다른 ps의 메모리 공간에 접근 x
+	- 직접 통신도 불가능
+	- 통신은 OS의 kernel을 통해 이루어짐
+- ps는 여러개의 thread를 만들 수 있음
+	- thread는 서로 격리되지 않음
+	- 메모리 공유 및 상호작용 가능
+
+- Rust의 thread가 어떻게 만들어지는지
+- thread내 안전하게 메모리를 공유하는 방법
+
+### 1.1 러스트의 스레드
+- 모든 program은 main thread로부터 수행
+	- main thread, main 함수 수행, 다른 스레드 실행
+- 새로운 스레드의 생성
+	- `std::thread::spawn`
+		- 인수: 스레드에서 실행시킬 함수
+
+```rust
+use std::thread;
+
+fn main() {
+	thread::spawn(f);
+	thread::spawn(f);
+	println("Hello from the main thread");
+}
+
+fn f() {
+	println!("Hello from another thread!");
+	let id = thread::current().id();
+	println("This is my thread id: {id:?}");
+}
+```

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
+                "file": "document/Base_Rust.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "범용적 상호",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
+                "file": "document/Base_Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
+                "file": "document/Base_Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md"
+                "file": "document/Base_Rust.md"
               }
             }
           },
@@ -186,6 +186,8 @@
   },
   "active": "65fee15ddae0a54c",
   "lastOpenFiles": [
+    "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
+    "document/Base_Rust.md",
     "document/[240325]Trino_기본_개념.md",
     "concept/data_quality.md",
     "document/데이터 다운타임이 증가하는 이유.md",
@@ -210,8 +212,6 @@
     "concept/도메인 주도 설계.md",
     "concept/sre.md",
     "concept/사회 기술적 패러다임.md",
-    "concept/data_lakehouse.md",
-    "raw/repository/daily-poc/docs/[240211]2024_Data_Engineering_Trends.md",
     "document/docs",
     "template",
     "concept",
