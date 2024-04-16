@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/daily/20240410.md",
+                "file": "raw/daily/20240416.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "raw/daily/20240410.md",
+            "file": "raw/daily/20240416.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "raw/daily/20240410.md",
+            "file": "raw/daily/20240416.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "raw/daily/20240410.md"
+            "file": "raw/daily/20240416.md"
           }
         }
       }
@@ -132,19 +132,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "64bc6f9d1ebd3d54",
   "lastOpenFiles": [
+    "raw/daily/20240410.md",
+    "raw/daily/20240416.md",
     "concept/data_lakehouse.md",
     "document/Data Engineering Trends 2024.md",
     "data_warehouse.md",
