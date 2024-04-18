@@ -36,12 +36,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
-    "file": "raw/daily/20240416.md",
->>>>>>> origin/main
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ab3ecf0e0e4b13df",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/파인튜닝.excalidraw.md"
               }
             }
           }
@@ -121,7 +129,7 @@
         "state": {
           "type": "backlink",
           "state": {
-<<<<<<< main
+            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -138,6 +146,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -149,7 +158,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "closure 1.md"
+            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
           }
         }
       }
@@ -166,16 +175,24 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "vscode-editor:Create Code File": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "705cf273bd71b696",
+  "active": "7fc98ce4834f1c01",
   "lastOpenFiles": [
-    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
+    "텍스트 임베딩.md",
+    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "임베딩.md",
+    "파인튜닝.md",
+    "Excalidraw/파인튜닝.excalidraw.md",
+    "fonts/나눔손글씨 하나되어 손글씨.ttf",
+    "fonts",
+    "Excalidraw",
+    "유클리드 거리.md",
     "closure 1.md",
+    "document/실전_LLM",
+    "raw/daily/20240416.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
     "concept/누수 재앙.md",
     "concept/출력 잠금.md",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
@@ -192,8 +209,6 @@
     "document/데이터 다운타임이 증가하는 이유.md",
     "concept/교차 가능 조직.md",
     "Excalidraw/Drawing 2024-04-10 17.49.18.excalidraw.md",
-    "Untitled.md",
-    "Excalidraw",
-    "Untitled"
+    "Untitled.md"
   ]
 }
