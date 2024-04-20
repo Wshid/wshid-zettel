@@ -8,137 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9c6cb5f23395eb7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99db9777d442e596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spawn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "caedafe6bd7dcef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "closure.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b07f0e72adae4170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "static lifetime을 갖는 타입.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed7a61557adf1357",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spawn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f70f079bcfabfe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spawn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e791d81c476f7394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "panic.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d8d67bdda1417bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "thread builder.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d3567ca0975b0d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spawn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd251481a754e6db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/사회 기술적 패러다임.md",
+                "file": "document/BranchRule.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "closure.md",
+                "file": "document/BranchRule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "closure.md",
+                "file": "document/BranchRule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "closure.md"
+                "file": "document/BranchRule.md"
               }
             }
           },
@@ -276,48 +157,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caedafe6bd7dcef8",
+  "active": "cd251481a754e6db",
   "lastOpenFiles": [
+    "concept/사회 기술적 패러다임.md",
+    "파인튜닝.md",
+    "텍스트 임베딩.md",
+    "임베딩.md",
+    "유클리드 거리.md",
+    "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
+    "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
+    "workspace/rust/CHAP_1_2",
+    "raw/daily/20240416.md",
+    "fonts/나눔손글씨 하나되어 손글씨.ttf",
+    "fonts",
+    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "document/실전_LLM",
+    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
+    "document/BranchRule.md",
+    "concept/출력 잠금.md",
+    "concept/누수 재앙.md",
+    "concept/static lifetime을 갖는 타입.md",
+    "concept/panic.md",
+    "concept/closure.md",
+    "Excalidraw/파인튜닝.excalidraw.md",
+    "Excalidraw",
+    "spawn.md",
+    "thread builder.md",
+    "panic.md",
+    "static lifetime을 갖는 타입.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
     "closure.md",
-    "static lifetime을 갖는 타입.md",
-    "spawn.md",
-    "panic.md",
-    "thread builder.md",
-    "concept/사회 기술적 패러다임.md",
     "`spawn`.md",
     "document/Rust_Concurrency_Programming/CHAP1",
     "document/Rust_Concurrency_Programming",
     "출력 잠금.md",
     "document/attachments/Pasted image 20240414130835.png",
     "workspace/rust/CHAP_1_1/1_1_hello_world_wait",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.1_1_hello_world_wait.3a08dfe139dcdc16-cgu.0.rcgu.o",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.1_1_hello_world_wait.3a08dfe139dcdc16-cgu.1.rcgu.o",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.2jpqyj56zxkavk0j.rcgu.o",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs",
-    "workspace/rust/CHAP_1_1/1_1_hello_world.rs",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
-    "document/attachments",
     "document/Pasted image 20240414130313.png",
-    "workspace/rust/CHAP_1_1/1_1_hello_world.1_1_hello_world.394ce0d770190a6e-cgu.0.rcgu.o",
     "concept/data_warehouse.md",
     "concept/sre.md",
     "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
-    "document/[240325]Trino_기본_개념.md",
-    "concept/data_quality.md",
-    "document/데이터 다운타임이 증가하는 이유.md",
-    "document/Trino Configuration.md",
-    "document/Trino 동작 순서.md",
-    "document/Trino 구조 및 설명.md",
-    "document/Data Engineering Trends 2024.md",
-    "concept/data_mesh.md",
-    "document/Trino WEB UI.md",
-    "concept/trino_driver.md",
-    "document/Untitled.md",
-    "concept/streaming_pipeline.md",
-    "concept/trino_split.md",
-    "raw/repository/daily-poc/docs/[240325]Trino_기본_개념.md",
     "raw/repository/daily-poc/Untitled.canvas"
   ]
 }
