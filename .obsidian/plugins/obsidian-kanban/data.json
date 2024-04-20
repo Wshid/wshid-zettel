@@ -1,0 +1,14 @@
+{
+  "show-checkboxes": false,
+  "hide-tags-in-title": true,
+  "date-colors": [
+    {
+      "isToday": false,
+      "distance": 1,
+      "unit": "days",
+      "direction": "after"
+    }
+  ],
+  "archive-with-date": false,
+  "hide-date-in-title": true
+}

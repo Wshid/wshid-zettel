@@ -4,8 +4,6 @@
 	- 브랜치를 overwrite하고 dev,stage 환경에서 재빌드
 - 이때, 과거 dev, stage에서 checkout한 feature의 경우, 과거 형상의 빌드 파일을 가지게 됨
 - 과거 형상의 feature와 overwrite된 dev/stage의 빌드파일에서 conflict가 발생함
-
-### conflict가 발생하는 이유
 - 아래 두 형상이 다르기 때문
 	- feature의 빌드 파일
 	- dev/stage의 빌드 파일

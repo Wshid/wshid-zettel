@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/BranchRule.md",
+                "file": "Kanban.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "closure",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/BranchRule.md",
+                "file": "Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/BranchRule.md",
+                "file": "Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/BranchRule.md"
+                "file": "Kanban.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,6 +160,13 @@
   },
   "active": "cd251481a754e6db",
   "lastOpenFiles": [
+    "raw/daily/20240420.md",
+    "Kanban.md",
+    "thread builder.md",
+    "Untitled.md",
+    "document/BranchRule.md",
+    "document/Untitled.md",
+    "document/Kanban T.md",
     "concept/사회 기술적 패러다임.md",
     "파인튜닝.md",
     "텍스트 임베딩.md",
@@ -173,7 +181,6 @@
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "document/실전_LLM",
     "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
-    "document/BranchRule.md",
     "concept/출력 잠금.md",
     "concept/누수 재앙.md",
     "concept/static lifetime을 갖는 타입.md",
@@ -182,23 +189,17 @@
     "Excalidraw/파인튜닝.excalidraw.md",
     "Excalidraw",
     "spawn.md",
-    "thread builder.md",
     "panic.md",
     "static lifetime을 갖는 타입.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
     "closure.md",
-    "`spawn`.md",
     "document/Rust_Concurrency_Programming/CHAP1",
     "document/Rust_Concurrency_Programming",
-    "출력 잠금.md",
     "document/attachments/Pasted image 20240414130835.png",
     "workspace/rust/CHAP_1_1/1_1_hello_world_wait",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
-    "concept/data_warehouse.md",
-    "concept/sre.md",
-    "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
     "raw/repository/daily-poc/Untitled.canvas"
   ]
 }
