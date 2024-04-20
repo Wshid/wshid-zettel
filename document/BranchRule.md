@@ -64,3 +64,9 @@ jobs:
         git commit -m "Apply changes from PR except for spark-models and models directories" || echo "No changes to commit"
         git push origin HEAD:${{ github.head_ref }}
 ```
+
+
+### WAY 2. 불필요한 빌드 파일 제거
+- main브랜치에서 dev,stage의 해당 빌드 결과물은 필요 없던 상황
+- main 브랜치상에서 해당 결과물을 모두 제거한다
+- 추가적으로 지정한 디렉터리 외 변경사항이 존재할때, 검증 실패를 발생시키면 되지 않을까?
