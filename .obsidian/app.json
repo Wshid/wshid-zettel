@@ -4,5 +4,7 @@
   "readableLineLength": false,
   "livePreview": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "concept"
 }

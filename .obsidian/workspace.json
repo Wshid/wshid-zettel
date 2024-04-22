@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "b70ee1cccd4fa4d0",
+        "id": "d8d6a06bb0f1e301",
         "type": "tabs",
         "children": [
           {
-            "id": "cd251481a754e6db",
+            "id": "1b75e19649b34a82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kanban.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42f821ea60d2535d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffec1cefaa59abd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concept/그레고리 베이튼슨.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 542.5
+    "width": 405.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban.md",
+                "file": "concept/그레고리 베이튼슨.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban.md",
+                "file": "concept/그레고리 베이튼슨.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban.md"
+                "file": "concept/그레고리 베이튼슨.md"
               }
             }
           },
@@ -158,20 +185,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd251481a754e6db",
+  "active": "ffec1cefaa59abd4",
   "lastOpenFiles": [
-    "raw/daily/20240420.md",
+    "concept/up_time.md",
+    "concept/thread builder.md",
+    "concept/노라 베이트슨.md",
     "Kanban.md",
-    "thread builder.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/반향실 효과.md",
+    "concept/피렌체 카메라타.md",
+    "concept/Symmathesy.md",
+    "concept/그레고리 베이튼슨.md",
+    "concept/보이지 않는 대학.md",
+    "카메라타.md",
+    "document/Untitled.md",
+    "document/Creative_Programmer",
+    "raw/daily/20240420.md",
     "Untitled.md",
     "document/BranchRule.md",
-    "document/Untitled.md",
     "document/Kanban T.md",
     "concept/사회 기술적 패러다임.md",
-    "파인튜닝.md",
-    "텍스트 임베딩.md",
-    "임베딩.md",
-    "유클리드 거리.md",
+    "concept/파인튜닝.md",
+    "concept/텍스트 임베딩.md",
+    "concept/임베딩.md",
+    "concept/유클리드 거리.md",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
     "workspace/rust/CHAP_1_2",
@@ -183,20 +220,10 @@
     "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
     "concept/출력 잠금.md",
     "concept/누수 재앙.md",
-    "concept/static lifetime을 갖는 타입.md",
-    "concept/panic.md",
-    "concept/closure.md",
-    "Excalidraw/파인튜닝.excalidraw.md",
     "Excalidraw",
-    "spawn.md",
-    "panic.md",
-    "static lifetime을 갖는 타입.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
-    "closure.md",
     "document/Rust_Concurrency_Programming/CHAP1",
     "document/Rust_Concurrency_Programming",
     "document/attachments/Pasted image 20240414130835.png",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
