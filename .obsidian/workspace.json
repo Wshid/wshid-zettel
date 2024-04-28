@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/데이터 다운타임이 증가하는 이유.md",
-                "mode": "preview",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/데이터 다운타임이 증가하는 이유.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/데이터 다운타임이 증가하는 이유.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/데이터 다운타임이 증가하는 이유.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md"
               }
             }
           },
@@ -186,6 +186,9 @@
   },
   "active": "b0a9bfa5725a55b8",
   "lastOpenFiles": [
+    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
+    "document/데이터 다운타임이 증가하는 이유.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "Excalidraw/LLM_2_3_2.excalidraw.md",
     "concept/data_lake.md",
@@ -212,9 +215,6 @@
     "concept/반향실 효과.md",
     "concept/피렌체 카메라타.md",
     "concept/Symmathesy.md",
-    "concept/보이지 않는 대학.md",
-    "카메라타.md",
-    "document/Untitled.md",
     "document/Creative_Programmer",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
