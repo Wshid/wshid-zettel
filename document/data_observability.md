@@ -2,6 +2,13 @@
 tags:
   - data-quality
   - data-observability
+date: 2024-04-30
+datetime: 2024-04-30 21:42:16
+book: 
+page: 
+references: 
+aliases:
+  - Data Observability
 ---
 
 # Data Observability

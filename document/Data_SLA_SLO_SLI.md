@@ -1,6 +1,15 @@
+---
+date: 2024-04-30
+datetime: 2024-04-30 21:40:33
+book: 
+page: 
+tags: 
+references:
+  - https://www.montecarlodata.com/blog-how-to-make-your-data-pipelines-more-reliable-with-slas/
+  - https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
+aliases:
+---
 # Why You Need to Set SLAs for Your Data Pipelines
-- https://www.montecarlodata.com/blog-how-to-make-your-data-pipelines-more-reliable-with-slas/
-- https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
 - 다른 분야에서는 SRE, SLA, SLI, SLO 등의 방법을 통해
   - application downtime을 줄임
 - 데이터 분야에서도 서비스 수준을 고려해야함
