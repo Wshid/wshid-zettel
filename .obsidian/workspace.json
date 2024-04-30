@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP2.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Data_Quality/CHAP2.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Data_Quality/CHAP2.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Data_Quality/CHAP2.md"
+                "file": "document/Creative_Programmer/CHAP3_Communication.md"
               }
             }
           },
@@ -212,8 +212,13 @@
   },
   "active": "f55b0efc6f685824",
   "lastOpenFiles": [
-    "document/data_observability.md",
+    "concept/Symmathesy.md",
+    "concept/피렌체 카메라타.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/그레고리 베이튼슨.md",
+    "concept/노라 베이트슨.md",
     "document/Data_Quality/CHAP2.md",
+    "document/data_observability.md",
     "document/Data_SLA_SLO_SLI.md",
     "document/Trino 구조 및 설명.md",
     "document/Trino 동작 순서.md",
@@ -233,13 +238,8 @@
     "concept/rust_quote_static.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
     "document/데이터 다운타임이 증가하는 이유.md",
-    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
-    "Excalidraw/LLM_2_3_2.excalidraw.md",
-    "concept/의미 기반 검색 시스템.md",
-    "Excalidraw/LLM_2_3.excalidraw.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
-    "concept/data_lakehouse.md",
     "document/Data_Quality",
     "document/Creative_Programmer",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",

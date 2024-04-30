@@ -1,3 +1,13 @@
+---
+date: 2024-04-30
+datetime: 2024-04-30 22:10:59
+book: 
+page: 
+tags: 
+references: 
+aliases:
+  - 시마테시
+---
  개념 결합
 - sym(함께)
 - mathesi(배우다)
