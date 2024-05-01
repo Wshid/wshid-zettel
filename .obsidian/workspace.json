@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "concept/data_race.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "concept/data_race.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "concept/data_race.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md"
+                "file": "concept/data_race.md"
               }
             }
           },
@@ -212,9 +212,13 @@
   },
   "active": "f55b0efc6f685824",
   "lastOpenFiles": [
+    "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
+    "concept/data_race.md",
+    "concept/데이터 경합.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/Symmathesy.md",
     "concept/피렌체 카메라타.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/그레고리 베이튼슨.md",
     "concept/노라 베이트슨.md",
     "document/Data_Quality/CHAP2.md",
@@ -226,7 +230,6 @@
     "concept/ETL.md",
     "concept/data_lake.md",
     "concept/Federated Learning.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
     "concept/reference_&T.md",
     "concept/rust_rc.md",
     "concept/rust_arc.md",
@@ -235,9 +238,6 @@
     "concept/rust_reference.md",
     "concept/스레드 안전성.md",
     "concept/rust_box.md",
-    "concept/rust_quote_static.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
-    "document/데이터 다운타임이 증가하는 이유.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
