@@ -212,8 +212,9 @@
   },
   "active": "f55b0efc6f685824",
   "lastOpenFiles": [
-    "concept/data_race.md",
+    "concept/정의되지 않은 동작.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
+    "concept/data_race.md",
     "concept/데이터 경합.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
@@ -237,7 +238,6 @@
     "concept/rust_static.md",
     "concept/rust_reference.md",
     "concept/스레드 안전성.md",
-    "concept/rust_box.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
