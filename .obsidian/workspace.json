@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/데이터_삭제_정책_적용.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/데이터_삭제_정책_적용.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/데이터_삭제_정책_적용.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/데이터_삭제_정책_적용.md"
+                "file": "document/Creative_Programmer/CHAP3_Communication.md"
               }
             }
           },
@@ -186,8 +186,12 @@
   },
   "active": "f55b0efc6f685824",
   "lastOpenFiles": [
-    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+    "concept/천재 클러스터.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/프톨레마이오스.md",
+    "concept/깨진 유리창 이론.md",
     "document/데이터_삭제_정책_적용.md",
+    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "concept/내적.md",
     "concept/코사인 유사도.md",
@@ -199,7 +203,6 @@
     "concept/data_race.md",
     "concept/데이터 경합.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/Symmathesy.md",
     "concept/피렌체 카메라타.md",
     "concept/그레고리 베이튼슨.md",
@@ -209,9 +212,6 @@
     "document/Trino 구조 및 설명.md",
     "document/Trino 동작 순서.md",
     "concept/mission_critical.md",
-    "concept/ETL.md",
-    "concept/Federated Learning.md",
-    "concept/reference_&T.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
