@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md"
               }
             }
           },
@@ -186,8 +186,12 @@
   },
   "active": "f55b0efc6f685824",
   "lastOpenFiles": [
-    "concept/천재 클러스터.md",
+    "concept/reference_&T.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "concept/독점 레퍼런스.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/천재 클러스터.md",
     "concept/프톨레마이오스.md",
     "concept/깨진 유리창 이론.md",
     "document/데이터_삭제_정책_적용.md",
@@ -198,7 +202,6 @@
     "concept/rust_static.md",
     "concept/data_lake.md",
     "document/Data_Quality/CHAP2.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
     "concept/정의되지 않은 동작.md",
     "concept/data_race.md",
     "concept/데이터 경합.md",
@@ -209,9 +212,6 @@
     "concept/노라 베이트슨.md",
     "document/data_observability.md",
     "document/Data_SLA_SLO_SLI.md",
-    "document/Trino 구조 및 설명.md",
-    "document/Trino 동작 순서.md",
-    "concept/mission_critical.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
