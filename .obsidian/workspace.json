@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/data_lake.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f55b0efc6f685824",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md"
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
               }
             }
           },
@@ -184,10 +170,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f55b0efc6f685824",
+  "active": "ffec1cefaa59abd4",
   "lastOpenFiles": [
-    "concept/reference_&T.md",
+    "concept/data_lake.md",
+    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "concept/임베딩.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "concept/reference_&T.md",
     "concept/독점 레퍼런스.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
@@ -196,11 +185,9 @@
     "concept/깨진 유리창 이론.md",
     "document/데이터_삭제_정책_적용.md",
     "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
-    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "concept/내적.md",
     "concept/코사인 유사도.md",
     "concept/rust_static.md",
-    "concept/data_lake.md",
     "document/Data_Quality/CHAP2.md",
     "concept/정의되지 않은 동작.md",
     "concept/data_race.md",
@@ -211,7 +198,6 @@
     "concept/그레고리 베이튼슨.md",
     "concept/노라 베이트슨.md",
     "document/data_observability.md",
-    "document/Data_SLA_SLO_SLI.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
