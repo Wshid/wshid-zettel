@@ -84,5 +84,63 @@ aliases:
 - [[data_observability|Data Observability]]를 달성하려면, 지표 수집 이상의 것이 필요
 	- 스트리밍 데이터, 데이터 레이크, 대시보드, 머신러닝 모델 및 기타 자산의 신뢰성 모니터링
 - 웨어하우스 뿐만 아니라, 다른 자산에서도 지표와 메타 데이터를 가져올 수 있는 방법 필요
-- 이런 통합을 통해 **최종 사용자**에게 잘 맞는 솔류션에 투자하기
-	- 포지션과 무관하게
+- 이런 통합을 통해 **최종 사용자**에게 잘 맞는 솔루션에 투자하기
+	- 포지션과 무관하게 중요
+	- DE, AE, ML, ...
+- snowflake 예시
+	- 하지만 redshift, bigquery, 기타 인기 있는 OLAP 기반 웨어하우스에서 데이터 품질 정보를 가져올 때도 유사한 프로세스를 거침
+
+#### 스노우플레이크에서 데이터 품질 지표 가져오기
+- snowflake
+	- 가장 인기 있는 클라우드 데이터 웨어하우징 툴 중 하나
+	- 초기부터 데이터 품질, 무결성을 우선으로 하는 설계 채택
+- 데이터 품질 지표를 가져와 쉽게 분석할 수 있도록 시각화 가능
+
+#### 스노우플레이크 데이터 품질지표 수집 4단계
+
+##### 1. 인벤토리 매핑하기
+- `ANALYTICS`라는 단일 데이터베이스만 있다고 할 때
+- 추적할 데이터베이스명을 `ANAYTICS`로만 변경하면 됨
+- 웨어하우스에 있는 모든 테이블을 매핑하여 추적해야할 사항 파악
+	- 매핑 스키마는 각 테이블에 어떤 내용이 있는지, 시간에 따라 어떻게 변화하는지를 이해하는데 유용한 도구
+- 관련 메타 데이터가 있는 테이블 목록을 끌어오는 쿼리
+```sql
+SELECT
+	TABLE_CATALOG,
+	TABLE_SCHEMA,
+	TABLE_NAME,
+	TABLE_OWNER,
+	TABLE_TYPE,
+	IS_TRANSIENT,
+	RETENTION_TIME,
+	AUTO_CLUSTERING_ON,
+	COMMENT
+FROM 'ANAYTICS'.information_schema.tables
+WHERE
+	table_schema NOT IN ('INFORMATION_SCHEMA')
+	AND TABLE_TYPE IN ('VIEW', 'EXTERNAL TABLE')
+ORDER BY TABLE_CATALOG, TABLE_SCHEMA, TABLE_NAME;
+```
+- 스노우플레이크의 테이블에 대한 스키마 검색
+```sql
+SELECT
+	'"' || TABLE_CATALOG || '"."' TABLE_SCHEMA || '"."' TABLE_NAME || '"' AS FULL_NAME,
+	COLUMN_NAME,
+	DATA_TYPE,
+	COLUMN_DEFAULT,
+	IS_NULLABLE,
+	COMMENT,
+	CHARACTER_MAXIMUM_LENGTH,
+	NUMERIC_PRECISION,
+	NUMERIC_SCALE,
+	DATETIME_PRECISION
+FROM "ANALYTICS".information_schema.columns;
+```
+- 뷰와 외부 테이블의 메타 데이터를 가져오려면, 아래와 같은 쿼리 필요
+```sql
+SHOW VIEWS IN DATABASE "ANALYTICS";
+SHOW EXTERNAL TABLES IN DATABASE "ANALYTICS";
+```
+- 구현시 복잡성을 증가시킬 수 있으나,
+	- 위의 쿼리는 `information_schema.tables`를 쿼리할때 사용할 수 없는 유용한 정보를 가져옴
+	- e.g. 뷰에 대한 기본 SQL 쿼리를 조회하는 통찰력 제공

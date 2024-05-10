@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
+                "file": "document/Data_Quality/CHAP2.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "ffec1cefaa59abd4",
   "lastOpenFiles": [
-    "concept/data_lake.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "concept/data_lake.md",
     "concept/임베딩.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
     "concept/reference_&T.md",
