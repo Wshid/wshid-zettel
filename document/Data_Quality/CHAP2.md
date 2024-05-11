@@ -144,3 +144,70 @@ SHOW EXTERNAL TABLES IN DATABASE "ANALYTICS";
 - 구현시 복잡성을 증가시킬 수 있으나,
 	- 위의 쿼리는 `information_schema.tables`를 쿼리할때 사용할 수 없는 유용한 정보를 가져옴
 	- e.g. 뷰에 대한 기본 SQL 쿼리를 조회하는 통찰력 제공
+
+##### 2. 데이터 신선도와 볼륨 모니터링 하기
+- 볼륨과 신선도를 추적하는 작업은
+	- 스노우플레이크 [[data_observability]]와 [[data_pipeline|데이터 파이프라인]]을 이해하는데 매우 중요
+- 스노우플레이크는 데이터가 [[data_warehouse|데이터 웨어하우스]] 테이블에 기록되는 것을 추적함
+- 테이블에 있는 바이트 수, 최근에 업데이트 된 시간을 가져오는 쿼리
+```sql
+SELECT
+	TABLE_CATALOG,
+	TABLE_SCHEMA,
+	TABLE_NAME,
+	ROW_COUNT,
+	BYTES,
+	CONVERT_TIMEZONE('UTC', CREATED) as CREATED,
+	CONVERT_TIMEZONE('UTC', LAST_ALTERED) as LAST_ALTERED
+FROM "ANALYTICS".information_schema.tables
+WHERE
+	table_schema NOT IN ('INFORMATION_SCHEMA')
+	AND TABLE_TYPE NOT IN ('VIEW', 'EXTERNAL_TABLE')
+ORDER BY TABLE_CATALOG, TABLE_SCHEMA, TABLE_NAME;
+```
+- 위 지표를 저장하고 시간이 지남에 따라 어떻게 변경되는지 관찰
+	- 테이블이 업데이트 되는 빈도와 각 업데이트에서 예상되는 데이터양 가늠 가능
+- 누락된 데이터가 있는지, 데이터에 비정상적인 업데이트는 없었는지 식별
+- 뷰와 외부테이블의 경우에는
+	- 뷰의 볼륨과 신선도를 측정하는 것은,
+		- 기본 쿼리에 포함된 테이블의 함수이기 때문에 **명확하지 않음**
+	- 외부 테이블에 대해서는 `SHOW EXTERNAL TABLES...`부분을 활용하여 신선도 정보를 확인하는 것이 좋음
+
+##### 3. 쿼리 기록 작성하기
+- 모든 쿼리에서 정확한 기록을 보유 -> 문제 해결에 유용한 도구
+- 최근 작성된 테이블을 언제, 어떻게 작성했는지 확인 가능
+- 광범위한 쿼리 로그 분석 -> 테이블 간의 종속성 매핑시 도움
+- 쿼리 로그 추출 쿼리
+	- 노이즈를 줄이기 위해 시스템 및 오류 필터링
+	- 이를 가지고 주어진 테이블을 **어떤 용도로 사용했는지**에 대한 중요한 정보 확인 가능 
+```sql
+SELECT
+	"QUERY_TEXT",
+	"DATABASE_NAME",
+	"SCHEMA_NAME",
+	"QUERY_TYPE",
+	"USER_NAME",
+	"ROLE_NAME",
+	"EXECUTION_STATUS",
+	"START_TIME",
+	"END_TIME",
+	"TOTAL_ELAPSED_TIME",
+	"BYTES_SCANNED",
+	"ROWS_PRODUCED",
+	"SESSION_ID",
+	"QUERY_ID",
+	"QUERY_TAG",
+	"WAREHOUSE_NAME",
+	"ROWS_INSERTED",
+	"ROWS_UPDATED",
+	"ROWS_DELETED",
+	"ROWS_UNLOADED"
+FROM snowflake.account_usage.query_history
+WHERE
+	start_time BETWEEN to_timestamp_ltz('2021-01-01 00:00:00.000000+00:00')
+		AND to_timestamp_ltz('2021-01-01 01:00:00.000000+00:00')
+	AND QUERY_TYPE NOT IN ('DESCRIBE', 'SHOW')
+	AND (DATABASE_NAME IS NULL OR DATABASE_NAME NOT IN ('UTIL_DB', 'SNOWFLAKE'))
+	AND ERROR_CODE is NULL
+ORDER BY start_time DESC;
+```
