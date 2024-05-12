@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ffec1cefaa59abd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data-aware Scheduling.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a719ad84303cd31a",
             "type": "leaf",
             "state": {
@@ -32,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3426f8d2dcc2099d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concept/240512_flow_er_방향성_정리.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(schema on )",
+                "query": "Datasetor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Data-aware Scheduling.md",
+                "file": "concept/240512_flow_er_방향성_정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Data-aware Scheduling.md",
+                "file": "concept/240512_flow_er_방향성_정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Data-aware Scheduling.md"
+                "file": "concept/240512_flow_er_방향성_정리.md"
               }
             }
           },
@@ -155,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,10 +173,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ffec1cefaa59abd4",
+  "active": "3426f8d2dcc2099d",
   "lastOpenFiles": [
-    "document/Data_Quality/CHAP2.md",
+    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+    "concept/240512_flow_er_방향성_정리.md",
+    "document/Data_SLA_SLO_SLI.md",
     "document/Data-aware Scheduling.md",
+    "document/Data_Quality/CHAP2.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "concept/data_lake.md",
     "concept/임베딩.md",
@@ -186,7 +192,6 @@
     "concept/프톨레마이오스.md",
     "concept/깨진 유리창 이론.md",
     "document/데이터_삭제_정책_적용.md",
-    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "concept/내적.md",
     "concept/코사인 유사도.md",
     "concept/rust_static.md",
@@ -196,8 +201,6 @@
     "document/Rust_Concurrency_Programming/CHAP1/1_3_스레드_소유권과_레퍼런스_카운팅.md",
     "concept/Symmathesy.md",
     "concept/피렌체 카메라타.md",
-    "concept/그레고리 베이튼슨.md",
-    "concept/노라 베이트슨.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
