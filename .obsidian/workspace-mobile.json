@@ -11,19 +11,9 @@
             "id": "64bc6f9d1ebd3d54",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs"
-              }
-            }
-          },
-          {
-            "id": "cbd2f41e96ab1ab4",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "document/BranchRule.md",
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "document/BranchRule.md",
+            "file": "document/Creative_Programmer/CHAP3_Communication.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -133,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "document/BranchRule.md",
+            "file": "document/Creative_Programmer/CHAP3_Communication.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "document/BranchRule.md"
+            "file": "document/Creative_Programmer/CHAP3_Communication.md"
           }
         }
       }
@@ -165,41 +154,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbd2f41e96ab1ab4",
+  "active": "64bc6f9d1ebd3d54",
   "lastOpenFiles": [
-    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
-    "document/BranchRule.md",
-    "document/[240212]DBT와_Airflow_도입하며_마주한_7가지_문제들.md",
-    "document/[240213]DuckDB_vs_MotherDuck.md",
+    "concept/혁신 곡선.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/잡종 옥수수의 확산에 관한 고전적인 연구.md",
+    "concept/브라이스 라이언.md",
+    "concept/닐 로스.md",
+    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs",
+    "concept/Concetto Spaziale.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "concept/240512_flow_er_방향성_정리.md",
+    "document/Data-aware Scheduling.md",
+    "document/BranchRule.md",
+    "concept/정의되지 않은 동작.md",
+    "concept/반향실 효과.md",
+    "concept/rust_leak.md",
+    "concept/보이지 않는 대학.md",
+    "document/데이터_삭제_정책_적용.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
+    "Kanban.md",
+    "concept/ETL.md",
+    "concept/유클리드 거리.md",
+    "concept/텍스트 임베딩.md",
+    "concept/데이터 경합.md",
+    "concept/노라 베이트슨.md",
+    "document/Creative_Programmer",
+    "concept/rust_arc.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "concept/rust_quote_static.md",
+    "concept/늪지화.md",
+    "document/Data_Quality",
+    "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
+    "Excalidraw/attachments",
     "document/Daily_PoC",
-    "텍스트 임베딩.md",
-    "임베딩.md",
-    "파인튜닝.md",
-    "Excalidraw/파인튜닝.excalidraw.md",
     "fonts/나눔손글씨 하나되어 손글씨.ttf",
     "fonts",
     "Excalidraw",
-    "유클리드 거리.md",
-    "closure 1.md",
     "document/실전_LLM",
-    "raw/daily/20240416.md",
-    "concept/누수 재앙.md",
-    "concept/출력 잠금.md",
-    "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
-    "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
-    "workspace/rust/CHAP_1_2/1_2_scoped_thread.js.md",
-    "Untitled 1.md",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs",
-    "workspace/rust/CHAP_1_2",
-    "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
-    "raw/daily/20240410.md",
-    "concept/data_lakehouse.md",
-    "document/Data Engineering Trends 2024.md",
-    "data_warehouse.md",
-    "document/데이터 다운타임이 증가하는 이유.md",
-    "concept/교차 가능 조직.md",
-    "Excalidraw/Drawing 2024-04-10 17.49.18.excalidraw.md",
-    "Untitled.md"
+    "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs"
   ]
 }
