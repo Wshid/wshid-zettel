@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/240512_flow_er_방향성_정리.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5,
-    "collapsed": true
+    "width": 405.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concept/240512_flow_er_방향성_정리.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concept/240512_flow_er_방향성_정리.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concept/240512_flow_er_방향성_정리.md"
+                "file": "document/Data_Quality/CHAP2.md"
               }
             }
           },
@@ -175,16 +174,20 @@
   },
   "active": "3426f8d2dcc2099d",
   "lastOpenFiles": [
+    "concept/쿼리 로그.md",
+    "document/Data_Quality/CHAP2.md",
+    "concept/QUERY_HISTORY.md",
+    "concept/STL_QUERY.md",
+    "concept/근본 원인 분석.md",
+    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+    "concept/240512_flow_er_방향성_정리.md",
     "concept/혁신 곡선.md",
     "concept/잡종 옥수수의 확산에 관한 고전적인 연구.md",
     "concept/브라이스 라이언.md",
     "concept/닐 로스.md",
     "concept/Concetto Spaziale.md",
-    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
-    "concept/240512_flow_er_방향성_정리.md",
     "document/Data_SLA_SLO_SLI.md",
     "document/Data-aware Scheduling.md",
-    "document/Data_Quality/CHAP2.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "concept/data_lake.md",
     "concept/임베딩.md",
@@ -197,10 +200,6 @@
     "concept/프톨레마이오스.md",
     "concept/깨진 유리창 이론.md",
     "document/데이터_삭제_정책_적용.md",
-    "concept/내적.md",
-    "concept/코사인 유사도.md",
-    "concept/rust_static.md",
-    "concept/정의되지 않은 동작.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
