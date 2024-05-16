@@ -155,3 +155,100 @@ doc_emb.shape # == (2,768)
 	- 임베딩 과정에 대한 큰 유연성과 제어 제공
 - 이 책의 예시 코드 링크
 	- https://github.com/sinanuozdemir/quick-start-guide-to-llms
+
+#### 2.4.2. 문서 청킹
+- 텍스트 임베딩 엔진이 설정되면
+	- 큰 문서를 임베딩하는 어려움 고려
+- 연구 논문과 같은 긴 문서를 다룰 때
+	- 전체 문서를 단일 벡터로 임베딩하는 것은
+	- 실용적이지 x
+- [[ 문서 청킹]](document chunking)을 사용하기
+
+##### 최대 토큰 범위 분할
+- 문서 청킹의 한 방법
+	- 최대 토큰 범위 분할(Max Token Window Chunking)
+	- 구현하기 쉬운 방법
+	- 주어진 최대 크기의 청크로 문서를 나누는 것을 포함
+	- e.g. 토큰 범위 500 설정시 각 청크가 500 token보다 약간 작을 것으로 예상함
+	- 비슷한 크기의 청크를 생성하는 것은 시스템을 일관성 있게 만드는데에 도움
+- 우려 사항
+	- 중요한 텍스트 일부를 나눠진 청크 사이에서 잘라낼 수 있음 => 문맥이 분리됨
+	- 이 문제 보완을 위해, 토큰이 청크 사이에 공유되도록
+		- 지정한 양의 토큰으로 겹치는 범위 설정
+	- 다소 중복되는 느낌이 있으나, 더 높은 정확도와 대기시간을 얻을 수 있음
+- 전체 교과서 가져오기
+```python
+# PDF를 가져오기 위해 PyPDF 사용
+import PyPDF2
+
+# PDF read by br mode
+with open('../data/pds2.pdf', 'rb') as file:
+	reader = PyPDF2.PdfReader(file)
+	principles_of_ds =''
+	for page in tqdm(reader.pages):
+		text = page.extract_text()
+		# 추출할 텍스트의 시작점 찾기, ']'에서 시작하는 텍스트 추출
+		principles_of_ds += '\n\n' + text[text.find(' ]')+2:]
+
+# 결과 문자열에서 앞, 뒤 공백 제거
+principles_of_ds = principles_of_ds.strip()
+```
+
+- 이 문서를 특정 최대 토큰 범위로 분할
+	- 중첩을 포함하는 또는 포함하지 않는 교과서 분할
+```python
+def overlapping_chunks(textr, max_tokens = 500, overlapping_factor = 5):
+	'''
+	max_tokens: 각 조각에 들어갈 최대 토큰 수
+	overlapping_factir: 각 조각이 시작할 때 이전 청크와 중첩되는 문장의 숫자
+	'''
+	# 구두점을 사용하여 텍스트 분할
+	sentences = re.split(r'[.?!]', text)
+
+	# 각 문장의 토큰 수 얻기
+	n_tokens = [len(tokenizer.encode(" " + sentence)) for sentence in sentences]
+	chunks, tokens_so_far, chunk = [], 0, []
+
+	# 튜플로 결합된 문장과 토큰을 반복하여 처리
+	for sentence, token in zip(sentences, n_tokens):
+
+		# if 지금까지의 토큰 수 + 현재 문장의 토큰 수 > 최대 토큰수:
+		# 분할 조각을 청크 목록에 추가, 지금까지의 청크 및 토큰 리셋
+		if tokens_so_far + token > max_tokens:
+			chunks.append(". ".join(chunk) + ".")
+			if overlapping_factor > 0:
+				chunk = chunk[-overlapping_factor:]
+				tokens_so_far = sum([len(tokenizer.encode(c)) fcor c in chunk])
+			else:
+				chunk = []
+				tokens_so_far = 0
+		# if 지금 문장의 토큰 수 > 최대 토큰 수
+		# 다음 문장으로
+		if token > max_tokens:
+			continue
+
+		# 그렇지 않다면, 문장을 조각에 추가하고 토큰 수를 총합에 더하기
+		chunk.append(sentense)
+		tokens_so_far += token + 1
+	return chunks
+
+split = overlapping_chunks(principles_of_ds, overlapping_factor=0)
+avg_length = sum([len(tokenizer.encode(t)) for t in split]) / len(split)
+
+# 비중첩 청킹의 문서수와 평균 토큰 길이
+print(f'non-overlapping chunking approach has {len(split)} documents with average length {avg_length:.1f} tokens')
+
+# 각 조각에 5개의 중첩 문장 포함
+split = overlapping_chunks(principles_of_ds, overlapping_factor=5)
+avg_length = sum([len(tokenizer.encode(t)) for t in split]) / len(split)
+
+# 중첩 청킹의 문서수와 평균 토큰 길이
+print(f'overlapping chunking approach has {len(split)} documents with average length {avg_length:.1f} tokens')
+```
+- 중첩을 사용하면 청크의 수가 증가(대체적으로 같은 크기의 청크)
+- 중첩 비율이 높을 수록 시스템에 더 많은 중복성이 생김
+- 최대 토큰 범위 방법은
+	- 문서의 자연스러운 구조를 고려하지 않아
+	- 정보가 청크 사이에 나누어 질 수 있거나
+	- 중복된 정보가 있는 청크가 생길 수 있음
+- 이러한 현상은 **검색 시스템**을 혼란스럽게 할 수 있음
