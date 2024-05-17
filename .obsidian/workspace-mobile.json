@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -55,7 +55,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "가변 소유권 대여",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+            "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+            "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
+            "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md"
           }
         }
       }
@@ -156,8 +156,18 @@
   },
   "active": "64bc6f9d1ebd3d54",
   "lastOpenFiles": [
-    "concept/문서 청킹.md",
+    "concept/내부 가변성.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "concept/독점 레퍼런스.md",
+    "concept/UnsafeCell.md",
+    "concept/Atomic.md",
+    "concept/Mutex.md",
+    "concept/RwLock.md",
+    "concept/RefCell.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
+    "concept/Cell.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "concept/문서 청킹.md",
     "concept/STL_QUERY.md",
     "concept/근본 원인 분석.md",
     "concept/쿼리 로그.md",
@@ -173,16 +183,6 @@
     "document/Data-aware Scheduling.md",
     "document/BranchRule.md",
     "concept/정의되지 않은 동작.md",
-    "concept/반향실 효과.md",
-    "concept/rust_leak.md",
-    "concept/보이지 않는 대학.md",
-    "document/데이터_삭제_정책_적용.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_4_소유권_대여와_데이터_경합.md",
-    "Kanban.md",
-    "concept/ETL.md",
-    "concept/유클리드 거리.md",
-    "concept/텍스트 임베딩.md",
-    "concept/데이터 경합.md",
     "document/Creative_Programmer",
     "document/Data_Quality",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
