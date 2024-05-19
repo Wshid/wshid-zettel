@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "73e925ea718d1c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concept/Chaos Monkey.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ab3ecf0e0e4b13df",
             "type": "leaf",
             "state": {
@@ -30,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,8 +98,7 @@
         }
       }
     ],
-    "currentTab": 0,
-    "pinned": true
+    "currentTab": 0
   },
   "right": {
     "id": "4726172052c45feb",
@@ -105,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+            "file": "concept/Chaos Monkey.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+            "file": "concept/Chaos Monkey.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +147,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md"
+            "file": "concept/Chaos Monkey.md"
           }
         }
       }
@@ -154,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64bc6f9d1ebd3d54",
+  "active": "73e925ea718d1c2b",
   "lastOpenFiles": [
-    "concept/내부 가변성.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "concept/Chaos Monkey.md",
+    "concept/내부 가변성.md",
     "concept/독점 레퍼런스.md",
     "concept/UnsafeCell.md",
     "concept/Atomic.md",
@@ -182,7 +196,6 @@
     "concept/240512_flow_er_방향성_정리.md",
     "document/Data-aware Scheduling.md",
     "document/BranchRule.md",
-    "concept/정의되지 않은 동작.md",
     "document/Creative_Programmer",
     "document/Data_Quality",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
