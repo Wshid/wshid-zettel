@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/Chaos Monkey.md",
+                "file": "concept/Community Smell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "concept/Chaos Monkey.md",
+            "file": "concept/Community Smell.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "concept/Chaos Monkey.md",
+            "file": "concept/Community Smell.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -147,7 +147,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "concept/Chaos Monkey.md"
+            "file": "concept/Community Smell.md"
           }
         }
       }
@@ -169,8 +169,13 @@
   },
   "active": "73e925ea718d1c2b",
   "lastOpenFiles": [
-    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/Community Smell.md",
+    "concept/기술 부채.md",
+    "concept/스프린트.md",
+    "concept/Code Smell.md",
     "concept/Chaos Monkey.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
     "concept/내부 가변성.md",
     "concept/독점 레퍼런스.md",
     "concept/UnsafeCell.md",
@@ -186,16 +191,11 @@
     "concept/근본 원인 분석.md",
     "concept/쿼리 로그.md",
     "concept/QUERY_HISTORY.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/혁신 곡선.md",
     "concept/잡종 옥수수의 확산에 관한 고전적인 연구.md",
     "concept/브라이스 라이언.md",
     "concept/닐 로스.md",
     "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs",
-    "concept/Concetto Spaziale.md",
-    "concept/240512_flow_er_방향성_정리.md",
-    "document/Data-aware Scheduling.md",
-    "document/BranchRule.md",
     "document/Creative_Programmer",
     "document/Data_Quality",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
