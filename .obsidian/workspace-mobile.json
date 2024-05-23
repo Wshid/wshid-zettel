@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/Community Smell.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "concept/Community Smell.md",
+            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "concept/Community Smell.md",
+            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -147,7 +147,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "concept/Community Smell.md"
+            "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
           }
         }
       }
@@ -169,8 +169,8 @@
   },
   "active": "73e925ea718d1c2b",
   "lastOpenFiles": [
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/Community Smell.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/기술 부채.md",
     "concept/스프린트.md",
     "concept/Code Smell.md",
