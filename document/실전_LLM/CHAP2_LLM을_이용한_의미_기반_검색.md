@@ -155,3 +155,194 @@ doc_emb.shape # == (2,768)
 	- 임베딩 과정에 대한 큰 유연성과 제어 제공
 - 이 책의 예시 코드 링크
 	- https://github.com/sinanuozdemir/quick-start-guide-to-llms
+
+#### 2.4.2. 문서 청킹
+- 텍스트 임베딩 엔진이 설정되면
+	- 큰 문서를 임베딩하는 어려움 고려
+- 연구 논문과 같은 긴 문서를 다룰 때
+	- 전체 문서를 단일 벡터로 임베딩하는 것은
+	- 실용적이지 x
+- [[ 문서 청킹]](document chunking)을 사용하기
+
+##### 최대 토큰 범위 분할
+- 문서 청킹의 한 방법
+	- 최대 토큰 범위 분할(Max Token Window Chunking)
+	- 구현하기 쉬운 방법
+	- 주어진 최대 크기의 청크로 문서를 나누는 것을 포함
+	- e.g. 토큰 범위 500 설정시 각 청크가 500 token보다 약간 작을 것으로 예상함
+	- 비슷한 크기의 청크를 생성하는 것은 시스템을 일관성 있게 만드는데에 도움
+- 우려 사항
+	- 중요한 텍스트 일부를 나눠진 청크 사이에서 잘라낼 수 있음 => 문맥이 분리됨
+	- 이 문제 보완을 위해, 토큰이 청크 사이에 공유되도록
+		- 지정한 양의 토큰으로 겹치는 범위 설정
+	- 다소 중복되는 느낌이 있으나, 더 높은 정확도와 대기시간을 얻을 수 있음
+- 전체 교과서 가져오기
+```python
+# PDF를 가져오기 위해 PyPDF 사용
+import PyPDF2
+
+# PDF read by br mode
+with open('../data/pds2.pdf', 'rb') as file:
+	reader = PyPDF2.PdfReader(file)
+	principles_of_ds =''
+	for page in tqdm(reader.pages):
+		text = page.extract_text()
+		# 추출할 텍스트의 시작점 찾기, ']'에서 시작하는 텍스트 추출
+		principles_of_ds += '\n\n' + text[text.find(' ]')+2:]
+
+# 결과 문자열에서 앞, 뒤 공백 제거
+principles_of_ds = principles_of_ds.strip()
+```
+
+- 이 문서를 특정 최대 토큰 범위로 분할
+	- 중첩을 포함하는 또는 포함하지 않는 교과서 분할
+```python
+def overlapping_chunks(textr, max_tokens = 500, overlapping_factor = 5):
+	'''
+	max_tokens: 각 조각에 들어갈 최대 토큰 수
+	overlapping_factir: 각 조각이 시작할 때 이전 청크와 중첩되는 문장의 숫자
+	'''
+	# 구두점을 사용하여 텍스트 분할
+	sentences = re.split(r'[.?!]', text)
+
+	# 각 문장의 토큰 수 얻기
+	n_tokens = [len(tokenizer.encode(" " + sentence)) for sentence in sentences]
+	chunks, tokens_so_far, chunk = [], 0, []
+
+	# 튜플로 결합된 문장과 토큰을 반복하여 처리
+	for sentence, token in zip(sentences, n_tokens):
+
+		# if 지금까지의 토큰 수 + 현재 문장의 토큰 수 > 최대 토큰수:
+		# 분할 조각을 청크 목록에 추가, 지금까지의 청크 및 토큰 리셋
+		if tokens_so_far + token > max_tokens:
+			chunks.append(". ".join(chunk) + ".")
+			if overlapping_factor > 0:
+				chunk = chunk[-overlapping_factor:]
+				tokens_so_far = sum([len(tokenizer.encode(c)) fcor c in chunk])
+			else:
+				chunk = []
+				tokens_so_far = 0
+		# if 지금 문장의 토큰 수 > 최대 토큰 수
+		# 다음 문장으로
+		if token > max_tokens:
+			continue
+
+		# 그렇지 않다면, 문장을 조각에 추가하고 토큰 수를 총합에 더하기
+		chunk.append(sentense)
+		tokens_so_far += token + 1
+	return chunks
+
+split = overlapping_chunks(principles_of_ds, overlapping_factor=0)
+avg_length = sum([len(tokenizer.encode(t)) for t in split]) / len(split)
+
+# 비중첩 청킹의 문서수와 평균 토큰 길이
+print(f'non-overlapping chunking approach has {len(split)} documents with average length {avg_length:.1f} tokens')
+
+# 각 조각에 5개의 중첩 문장 포함
+split = overlapping_chunks(principles_of_ds, overlapping_factor=5)
+avg_length = sum([len(tokenizer.encode(t)) for t in split]) / len(split)
+
+# 중첩 청킹의 문서수와 평균 토큰 길이
+print(f'overlapping chunking approach has {len(split)} documents with average length {avg_length:.1f} tokens')
+```
+- 중첩을 사용하면 청크의 수가 증가(대체적으로 같은 크기의 청크)
+- 중첩 비율이 높을 수록 시스템에 더 많은 중복성이 생김
+- 최대 토큰 범위 방법은
+	- 문서의 자연스러운 구조를 고려하지 않아
+	- 정보가 청크 사이에 나누어 질 수 있거나
+	- 중복된 정보가 있는 청크가 생길 수 있음
+- 이러한 현상은 **검색 시스템**을 혼란스럽게 할 수 있음
+
+##### 맞춤형 구분 기호 찾기
+- 청킹 방법을 돕기 위해
+	- 페이지 분리나 단락 사이의 새로운 줄과 같은
+	- 맞춤형 자연 구분 기호 생성 가능
+- 주어진 문서에 대해, 텍스트 내의 자연스러운 공백 식별 및
+	- 임베딩되는 청크에 들어갈 의미있는 텍스트 단위 생성
+- 중복을 포함하는 최대 토큰 범위: 청크간 중복 텍스트 내역 존재
+- 중복이 없는 자연 공백 청킹: 청크1 = 페이지1, 청크2 = 페이지2, ...
+- 자연 공백으로 교과서를 청크로 나누기
+```python
+from collections import Counter
+import re
+
+# principles_of_ds에서 하나 이상의 공백 있는 곳 찾기
+matches = re.findall(r'[\s]{1,}', principles_of_ds)
+
+# 문서에서 가장 빈번하게 발생하는 5개의 공백
+most_common_spaces = Counter(matches).most_common(5)
+
+# 가장 흔한 공백과 그들의 빈도수 출력
+print(most_common_spaces)
+```
+- 가장 흔한 공백은, 연속된 두 개의 개행 문자(newlines)
+	- 실제로 페이지를 구분하는 방법
+- 청크를 구분하는 방식에 있어, 좀 더 창의적으로 접근하기 위해 ML을 활용할 수도 있음
+
+
+##### 클러스터링을 사용하여 의미 기반 문서 생성하기
+- 의미 기반으로 문서를 생성하기 위해 **클러스터링**을 사용
+	- 의미적으로 유사한 작은 정보 청크를 결합하여 새로운 문서를 생성하는 것
+- 청크에 대한 어떤 수정이든, 결과로 벡터를 변경할 수 있으므로
+	- 약간의 창의성이 필요함
+- scikit-learn의 병합 클러스터링 인스턴스
+	- 유사한 문장이나 단락을 함께 그룹화 하여 새로운 문서를 형성
+- 중복이 없는 자연 공백을 사용하는 청킹: 청크1 = 페이지1, 청크2 = 페이지2
+- 중복을 포함하는 최대 토큰 범위 방법: 청크1=페이지1+페이지3, 청크2=페이지2, 청크3=페이지4, ...
+- 의미적 유사성에 따라 문서 페이지 클러스터링
+```python
+from sklearn.cluster import AgglomerativeClustering
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+
+# embeddings라고 부르는 텍스트 임베딩 리스트 가정
+# 모든 임베딩 쌍의 코사인 유사도 행렬 계산
+cosine_sim_matrix = cosine_similarity(embeddings)
+
+# AgglomerativeClustering 모델의 인스턴스 생성
+agg_clustering = AgglomerativeClustering(
+										 n_clusters=None, # 데이터 기반으로 최적의 클러스터 수 결정
+										 distance_threshold = 0.1 # 클러스터간 모든 다른 임베딩 쌍과의 거리가 0.1보다 클때까지 클러스터 형성
+										 affinity='precomputed', # 입력으로 미리 계산된 거리 행렬(1-유사도 행렬)을 제공
+										 linkage='complete' # 컴포넌트 간의 최대 거리 기반, 가장 작은 클러스터를 반복적으로 병합하여 클러스터 형성
+)
+
+# 모델과 코사인 거리 행렬(1- 유사도 행렬)에 맞춤
+agg_clustering.fit( 1 - cosine_sim_matrix)
+
+# 각 임베딩에 대한 클러스터 레이블을 얻음
+cluster_labels = agg_clustering.labels
+
+# 각 클러스터에 있는 임베딩의 수 출력
+unique_labels, counts = np.unique(cluster_labels, return_counts=True)
+for label, count in zip(unique_labels, counts):
+	print(f'Cluster {label}: {count} embeddings')
+```
+- 이 접근 방식은 일반적으로 의미적으로 연관성 있는 청크를 생성하나
+	- 내용의 일부가 주변 텍스트와 맥락에 벗어날 수 있음
+- 따라서 청크들이 서로 관련이 없을 때
+	- **청크들이 서로 독립적일 때 잘 작동**
+
+##### 청크를 나누지 않고 전체 문서 사용하기
+- 전반적으로 가장 쉬운 옵션
+- 단, 문서가 너무 길어서 텍스트 임베딩시 문맥 윈도우 한계에 도달할 수 있음
+- 문서가 불필요한 문맥 포인트로 채워졌을 때
+	- 결과 임베딩들이 너무 많은 것을 인코딩 하려고 하여, 전체적인 품질이 저하될 수 있음
+	- 여러 페이지의 큰 문서에서 복합적으로 나타남
+- 결과적으로 문서 임베딩을 위한 접근 방식 선택시
+	- 청크 사용과 전체 문서 사용의 장단점 고려할 것
+
+
+| 청킹 유형                 | 설명                               | 장점                             | 단점                                           |
+| --------------------- | -------------------------------- | ------------------------------ | -------------------------------------------- |
+| 최대 토큰 범위 청킹(중복 x)     | 문서는 고정된 크기의 범위로 나눔, 각 범위는 별도의 청크 | 단순하고 구현하기 쉬움                   | 청크 사이의 문맥이 잘리면서 정보 손실 발생                     |
+| 최대 토큰 범위 청킹(중복 o)     | 문서는 고정된 크기의 중복 범위로 나눔            | 단순하고 구현하기 쉬움                   | 다른 청크 간의 중복된 정보                              |
+| 자연 구분자를 기준으로 한 청킹     | 문서의 자연 공백이 청크 경계를 결정함            | 자연스럽게 끝나는 의미 있는 청크             | 적절한 구분기호 찾는 비용                               |
+| 의미 기반 문서 생성을 위한 클러스터링 | 비슷한 청크 결합. 더 큰 의미 기반 문서 형성       | 문서의 전반적인 의미 포착하는 더 의미 있는 문서 생성 | 더 많은 컴퓨팅 자원, 구현 복잡도 높음                       |
+| 전체 문서 사용(청킹 x)        | 전체 문서가 하나의 청킹                    | 단순하고 구현하기 쉬움                   | 임베딩을 위한 문맥 윈도우로 인해, 문맥이 과도하게 들어가, 임베딩 품질에 영향 |
+|                       |                                  |                                |                                              |
+
+문서를 어떻게 청킹할지 결정하면,
+- 생성한 임베딩을 저장할 곳이 필요
+로컬에서는 빠른 검색을 위해 **행렬 연산**에 의존할 수 있음
+여기서는 클라우드 환경에 구축하는데 필요한 데이터베이스 옵션 확인
