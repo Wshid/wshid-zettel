@@ -39,7 +39,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
+                "file": "document/Data_Quality/CHAP2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc25a707580df7d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5850e7c1547800b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concept/데이터 검색.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,8 +119,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
+                "file": "document/Data_Quality/CHAP2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md"
+                "file": "document/Data_Quality/CHAP2.md"
               }
             }
           },
@@ -186,16 +211,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "afc1cca39014967c",
+  "active": "dc25a707580df7d9",
   "lastOpenFiles": [
+    "concept/데이터 검색.md",
+    "concept/데이터 카탈로그.md",
+    "document/Data_Quality/CHAP2.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
     "concept/PhantomData<T>.md",
     "concept/rust_trait.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
     "concept/Send.md",
     "concept/Sync.md",
     "concept/rust_arc.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
-    "document/Data_Quality/CHAP2.md",
     "concept/스프린트.md",
     "concept/문서 청킹.md",
     "concept/내부 가변성.md",
@@ -212,8 +239,6 @@
     "concept/쿼리 로그.md",
     "concept/QUERY_HISTORY.md",
     "concept/STL_QUERY.md",
-    "concept/근본 원인 분석.md",
-    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",

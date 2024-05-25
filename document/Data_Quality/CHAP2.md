@@ -352,3 +352,79 @@ ORDER BY bucket_start ASC;
 	- **단일 파이프라인에만 쓰기 권한을 부여하는 것임을 명시하기**
 - 이는, 데이터 품질이 좀 더 능동적으로 처리되도록 보장
 - 데이터 품질에 대한 이해를 돕는 데이터 스택의 또 다른 핵심 요소는 **데이터 카탈로그**임
+
+
+## 2.5. [[데이터 카탈로그]] 설계
+- Alation, Collibra, Informatica와 같은 기업에서는
+	- 데이터를 계속 모니터링 및 자동화와 통합하여 데이터를 좀 더 쉽고 협업하도록 함
+	- 이제는 조직 및 업계 전체 또는 정부 규정까지 준수할 수 있는 솔루션 제공
+
+## 2.6. 데이터 카탈로그 구축
+- 카탈로그를 처음부터 구축한다면?
+- 첫번째 단계
+	- 운영 및 분석 팀의 다운스트림 이해관계자와 협력,
+		- 비즈니스에 가장 중요한 데이터가 무엇인지 파악
+		- 문서화 및 카탈로그화
+	- 대다수 조직에서는
+		- 데이터 소스와 연결 대상
+		- 마지막 업데이트 시기를 스프레드시트에 강조 표시하는 것으로 첫단계 시작
+- 두번째 단계
+	- 컬럼(및 데이터)를 최신 상태로 유지할 책임이 있는 **소유자**를 지정
+	- 일부 조직에서는 소스, 스키마 또는 데이터 도메인 기반으로 소유권 할당
+- 가장 기본적인 데이터 카탈로그
+	- 데이터의 위치, 소유권, 잠재적인 사용 사례에 대한 맥락, 통찰력을 제공하는 데이터(메타데이터)의 모음
+	- 위 정보를 채우기 위해
+		- [[data_warehouse|데이터 웨어하우스]]의 모든 데이터를 수동으로 검색하거나
+		- 자동화된 SQL Parser를 사용하여 작업 수행 가능
+		- 오픈소스 형 SQL 구문 분석 솔루션
+			- Sqlparse, ANTLR, Apache Calcite, MYSQL SQL Parser
+- 기본적인 카탈로그 초안
+
+| 테이블 이름                | 대시보드/보고 형식              | 최근 업데이트 일자 | 소유자     | 비고                                  |
+| --------------------- | ----------------------- | ---------- | ------- | ----------------------------------- |
+| LIOR_GOOD_TABLE_3.csv | 임원 사업 예측 V3(루커, Looker) | 2022.03.03 | 라이어 개비쉬 | 라이어의 테이블: 임원을 위한 재무 예측에 사용 e.g. ARR |
+
+### SQL Parser
+- SQL문의 일부(키워드, 식별자, 절 등)를 다른 루틴이 처리할 수 있는 데이터 구조로 분리
+- SQL 구문 분석 이후, SQL을 저장하고 처리할 곳이 필요함
+	- e.g. ELK, PostgreSQL, Mysql, MariaDB, ...
+- 데이터 베이스에 대한 정보를 연결하는 쿼리를 푸는 코드
+	- ANTLR을 사용하여 CSV 파일에서 쿼리 추출 및 쿼리 출력을 MYSQL로 연결
+
+```java
+String sql = "SELECT CUST_NAME FROM CUSTOMERS WHERE CUST_NAME LIKE 'Kash%'"
+
+MySqlLexer lexer = new MysqlLexer(CharStreams.fromString(sql));
+MysqlParser parser = new MysqlParser(new CommonTokenStream(lexer));
+ParseTree root = parser.dmlStatement();
+
+System.out.println(root.toStringTree(parser));
+```
+- 위 쿼리의 결과로 주어진 데이터 베이스의 데이터에 대한
+	- 메타 데이터를 렌더링
+	- 이 데이터는 데이터 카탈로그 또는 검색 도구에 저장
+```sql
+(dmlStatement
+	(selectStatement
+		(querySpecification SELECT
+		(selectElements
+			(selectElement
+			(fullColumnName
+			(uid
+				(simpleId CUST_NAME)
+				...
+				)))))))
+				
+```
+- GraphQL, REST, Cube.js와 같은 오픈 소스 쿼리 언어 도구를 사용하면
+	- 데이터베이스에서 SQL을 쿼리하고
+	- Ammudsen, Apache Atlas, DataHub CKAN과 같은 **카탈로그 시각화 서비스**에서 렌더링 가능
+- [[데이터 검색]]
+
+
+## 2.7. 마치며
+- 검색 가능한 데이터를 얻으려면 [[데이터 카탈로그]]화 뿐 아니라,
+	- 정확하고 깨끗하게, 수집에서 사용까지 완벽하게 관찰 필요
+	- 즉, 신뢰가 가능해야함
+- 그리고 모든 라이프사이클 단계와 도메인에 걸쳐
+	- 데이터 자체와 데이터의 상태, 그 사용방법까지 이해 필요
