@@ -1,0 +1,24 @@
+/* opened file with red background */
+.nav-file-title.is-active {
+    background-color: #cc1a1a;
+    }
+
+/* hovered file with red background */	
+.nav-file:hover {
+    background-color: #cc1a1a;
+    }
+
+/* hovered folder with red background */
+.theme-dark{
+    /* file navigator */
+    --nav-item-background-active: #cc1a1a;
+    --nav-item-background-hover: #cc1a1a;
+    --nav-item-background-selected: #cc1a1a;
+}
+
+.theme-light{
+    /* file navigator */
+    --nav-item-background-active: #cc1a1a;
+    --nav-item-background-hover: #cc1a1a;
+    --nav-item-background-selected: #cc1a1a;
+}

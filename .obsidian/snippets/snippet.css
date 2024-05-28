@@ -6,3 +6,33 @@ body {
     --h5-size: 1.12em;
     --h6-size: 1.12em;
   }
+  
+
+/* opened file with red background */
+.nav-file-title.is-active {
+  background-color: #A020F0;
+  }
+
+/* hovered file with red background */	
+.nav-file:hover {
+  background-color: #A020F0;
+  }
+
+/* hovered folder with red background */
+.theme-dark{
+  /* file navigator */
+  --nav-item-background-active: #A020F0;
+  --nav-item-background-hover: #A020F0;
+  --nav-item-background-selected: #A020F0;
+}
+
+.theme-light{
+  /* file navigator */
+  --nav-item-background-active: #A020F0;
+  --nav-item-background-hover: #A020F0;
+  --nav-item-background-selected: #A020F0;
+}
+
+h1 { color: blue; }  
+  h2 { color: red; }
+  h3 { color: cyan; }

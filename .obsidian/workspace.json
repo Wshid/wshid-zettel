@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "file": "document/[240301]openFGA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,12 +50,9 @@
             "id": "b0bb3c5f17276935",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "document/Creative_Programmer/CHAP3_Communication.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "snippet.css"
               }
             }
           },
@@ -73,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+                "file": "document/[240301]openFGA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+                "file": "document/[240301]openFGA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md"
+                "file": "document/[240301]openFGA.md"
               }
             }
           },
@@ -212,10 +208,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4d1968254b1cd534",
+  "active": "afc1cca39014967c",
   "lastOpenFiles": [
-    "concept/사회적 부채.md",
+    "document/[240302]DBT_Model_with_OpenFGA.md",
+    "document/[240301]openFGA.md",
+    "snippet.css",
     "document/Creative_Programmer/CHAP3_Communication.md",
+    "document/데이터 다운타임이 증가하는 이유.md",
+    "document/데이터_삭제_정책_적용.md",
+    "document/[240314]Trino_Hive_Connector2.md",
+    "document/Trino Configuration.md",
+    "document/Trino WEB UI.md",
+    "document/Trino 동작 순서.md",
+    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+    "concept/사회적 부채.md",
     "concept/Community Smell.md",
     "concept/페어 프로그래밍.md",
     "document/Data_Quality/CHAP2.md",
@@ -231,15 +237,6 @@
     "concept/Send.md",
     "concept/Sync.md",
     "concept/rust_arc.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
-    "concept/스프린트.md",
-    "concept/문서 청킹.md",
-    "concept/내부 가변성.md",
-    "concept/기술 부채.md",
-    "concept/UnsafeCell.md",
-    "concept/RwLock.md",
-    "concept/RefCell.md",
-    "concept/Mutex.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
@@ -250,7 +247,6 @@
     "fonts/나눔손글씨 하나되어 손글씨.ttf",
     "fonts",
     "document/실전_LLM",
-    "Excalidraw",
     "document/attachments/Pasted image 20240414130835.png",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
