@@ -17,7 +17,7 @@ relation { name: "owner" }
 
 ### Editors -> Viewer
 - 권한 상속이 가능함
-- owner -> editor -> viewr
+- owner -> editor -> viewer
 ```bash
 name: "doc"
 relation { name: "owner" }
