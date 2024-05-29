@@ -24,6 +24,5 @@ aliases:
 위 두가지 trait은
 - 구조체 타입에 따라, 구조체에 해당 trait이 자동 구현되는 **자동 트레이트**(auto trait)
 	- 구조체의 필드가 모두 [[Send]]와 [[Sync]]를 구현하는 구조체는, 그 자체로도 Send, Sync 구현
-
-[[PhantomData<T>|std::marker::PhantomData<T>]]
+- [[PhantomData<T>|std::marker::PhantomData<T>]]
 
