@@ -26,6 +26,7 @@
     "datetime": "datetime",
     "date": "date",
     "references": "multitext",
-    "page": "multitext"
+    "page": "multitext",
+    "excalidraw-export-embed-scene": "checkbox"
   }
 }
