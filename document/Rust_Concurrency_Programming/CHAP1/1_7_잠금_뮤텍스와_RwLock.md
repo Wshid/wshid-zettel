@@ -106,3 +106,55 @@ fn main() {
 - 뮤텍스를 잠금 상태로 만들었을 때, 소요되는 시간을 최소화 해야함
 - 뮤텍스를 필요 이상으로 잠금 상태로 사용시
 	- 병렬 처리의 이점이 사라지고, 작업이 순서대로 진행됨
+
+# 1.7.2. 잠금 오염
+- `unwrap()`은 [[잠금 오염]](lock poisoning)과 연관됨
+
+## MutexGuard의 라이프 타임
+- MutexGaurd가 drop 될때 [[Mutex]]가 잠금 해제되는 것은 매우 편리하나, 예상치 못한일이 발생할 수도 있음
+- `MutexGaurd`의 변수 이름을 `let`을 사용해 선언하면,
+	- 지역 변수는 선언된 범위를 벗어날 때 drop 되므로
+	- 해당 변수가 언제 drop 되는지 예측 가능함
+- 하지만 명시적으로 메모리에서 guard를 삭제하지 않는 것은
+	- 뮤텍스를 필요 이상으로 잠금 상태로 오래 유지시킬 가능성 존재
+- MutexGaurd를 **변수로 선언하지 않고** 사용하는 것도 가능함
+	- 몇몇 케이스에서는 편함
+- MutexGuard가 보호된 데이터에 대한 [[독점 레퍼런스]]처럼 동작하기 때문에, 변수로 만들지 않고 바로 사용 가능
+- 예시
+	- 한줄의 코드로 `Mutex<Vec<i32>>` 타입의 뮤텍스를 잠금 상태로 만들고
+	- Vec에 새로운 원소를 추가한 다음 다시 뮤텍스를 잠금 해제
+		```rust
+		list.lock().unwrap().push(1);
+		```
+	- `lock()`이 리턴하는 `MutexGuard`와 같은 모든 임시 변수들은, 해당 선언문이 끝날 때 삭제 됨
+		- 당연해보이지만, `match, if, let, while let`을 사용하는 경우 문제 발생  
+		```rust
+		if let Some(item) = list.lock().unwrap().pop() {
+			process_item(item);
+		}
+		```
+		- 리스트를 잠근 다음, 아이템을 하나 꺼내고, 리스트를 잠금 해제 한 후 다음 작업 처리
+			- `MutexGuard`가 `if let` 문이 끝날 때 까지 제거되지 않음
+			- 꺼낸 아이템을 처리하는 동안 Mutex가 잠금 상태로 남음
+	- 단, 아래 코드는 문제가 발생하지 않음
+		```rust
+		if list.lock().unwrap().pop() == Some(1) {
+			do_something();
+		}
+		```
+		- `MutexGuard`가 if문이 시작되기 전에 삭제 됨
+			- `if`문의 조건문은 항상 아무 값도 대여하지 않는 boolean 값이기 때문
+			- 조건문에 사용된 변수를 `if`문 끝까지 연장할 필요가 없음
+	- `if let`을 사용할 경우,
+		- `pop()`이 아닌 `front()`를 쓴다면
+			- `item`은 `list`로부터 값을 대여하므로 guard를 범위 안에 계속 유지해야 함
+		- 대여 체커(borrow checker)는 여기서 검사만 진행,
+			- 실제로 언제 그리고 무엇이 드랍되는지는 **영향을 주지 않아서** (`pop()`)을 사용하는 경우 같은 일 발생
+	- 단, `pop()`을 별도 라인으로 분리하면 문제 해결
+		- `guard`가 `if let`에 들어가기 전에 드랍
+		```rust
+		let item = list.lock().unwrap().pop();
+		if let Some(item) = item {
+			process_item(item);
+		}
+		```

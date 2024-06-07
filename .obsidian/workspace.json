@@ -101,7 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -155,8 +155,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md"
               }
             }
           },
@@ -250,10 +249,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4d1968254b1cd534",
+  "active": "7f592478bf4d2836",
   "lastOpenFiles": [
-    "concept/Interpolation.md",
+    "concept/잠금 오염.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+    "concept/Interpolation.md",
     "concept/Isolation Forest.md",
     "concept/Untitled Kanban 1.md",
     "concept/데이터 검색.md",
@@ -267,7 +269,6 @@
     "concept/역문서 빈도.md",
     "concept/Cross-Encoder.md",
     "document/Data_Quality/CHAP2.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "concept/ANNOY.md",
     "concept/Weaviate.md",
     "concept/Pgvector.md",
@@ -277,8 +278,6 @@
     "concept/독점 레퍼런스.md",
     "concept/Mutex.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
-    "concept/PhantomData<T>.md",
-    "concept/delta.md",
     "snippet.css",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
