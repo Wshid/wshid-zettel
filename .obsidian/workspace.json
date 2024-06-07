@@ -101,10 +101,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "60ff1c11e0fa912b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md"
               }
             }
           }
@@ -175,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md"
+                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
               }
             }
           },
@@ -251,8 +261,11 @@
   },
   "active": "7f592478bf4d2836",
   "lastOpenFiles": [
-    "concept/잠금 오염.md",
+    "concept/Cross-Encoder.md",
+    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
+    "concept/잠금 오염.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "concept/Interpolation.md",
@@ -264,10 +277,8 @@
     "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "document/attachments/Pasted image 20240414130835.png",
-    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "concept/BM25.md",
     "concept/역문서 빈도.md",
-    "concept/Cross-Encoder.md",
     "document/Data_Quality/CHAP2.md",
     "concept/ANNOY.md",
     "concept/Weaviate.md",
@@ -277,7 +288,6 @@
     "concept/최근접 이웃 탐색.md",
     "concept/독점 레퍼런스.md",
     "concept/Mutex.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
     "snippet.css",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",

@@ -364,3 +364,112 @@ for label, count in zip(unique_labels, counts):
 - 결과를 **재순위화**하는 한가지 방법은
 	- [[Cross-Encoder]]를 사용하는 것
 - [[BM25]]와 같은 전통적인 검색 모델 사용도 가능
+
+### 2.4.7. API
+- 사용자가 문서에 빠르고, 안전하고 쉽게 접근 가능하도록 API 구성
+
+#### FastAPI
+- python
+- 의미 기반 검색 API에 알맞음
+- `Pydantic` 데이터 검증 라이브러리를 사용하여, 요청 및 답변 데이터 검증
+- `uvicorn`도 사용: 높은 성능의 ASGI 서버 
+- OpenAPI 문서 표준으로 자동 문서화 생성 제공
+- API 문서화 및 클라이언트 라이브러리를 구축하기 쉽게 만듦
+- 예시 코드
+```python
+import hashlib
+import os
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+openai.api_key = os.environ.get('OPENAI_API_KEY', '')
+pinecone_key = os.environ.get('PINECONE_KEY', '')
+
+# pinecone에 필요한 속성으로 index 생성
+def my_hash(s):
+	# 입력 문자열의 MD5 해시를 16진수 문자열로 변환
+	return hashlib.md5(s.encode()).haxdigest()
+
+class DocumentInputRequest(BaseModel):
+	# /document/ingest 입력 정의
+
+class DocumentInputResponse(BaseModel):
+	# /document/ingest 출력 정의
+
+class DocumentRetrieveRequest(BaseModel):
+	# /document/retrieve 입력 정의
+
+class DocumentRetrieveResponse(BaseModel):
+	# /document/retrieve 출력 정의
+
+# 문서 저장 API 루트
+@app.post("/document/ingest", response_model=DocumentInputResponse)
+async def document_ingest(request: DocumentInputRequest):
+	# 요청된 데이터 분석하고 청크 분할
+	# 각 청크에 대한 임베딩, 메타데이터 생성
+	# 임베딩과 메타 데이터를 파인콘에 upsert
+	# upsert된 청크 개수 반환
+	return DocumentInputResponse(chunks_count=num_chunks)
+
+# 문서 검색 API 루트
+@app.post("/document/retrieve", response_model=DocumentRetrieveResponse)
+async def document_retrieve(request: DocumentRetrieveRequest):
+	# 요청된 데이터를 분석, 일치하는 임베딩을 위해 pinecone에 쿼리
+	# 재순위화 전략이 있다면 그에 따라 결과 정렬
+	# 결과 문서 목록 반환
+	return DocumentRetrieveResponse(documents=documents)
+
+if __name__ == '__main__':
+	unicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
+```
+
+## 2.5. 통합
+- 모든 컴포넌트
+- 1단계: 문서 저장
+	- 임베딩을 위한 문서  저장: 관리하기 더 쉽게 하기 위해 어떤 문서든 **청크**로 나눔
+	- 의미 있는 정보를 인코딩 하기 위해 **텍스트 임베딩** 생성: **OpenAI의 임베딩**
+	- 나중에 쿼리가 주어졌을 때 검색할 수 있도록 임베딩을 데이터베이스에 저장: **파인콘**
+- 2단계: 문서 검색
+	- 사용자에게 전처리되고 정리할 수 있는 쿼리: **FastAPI**
+	- 후보 문서 검색: OpenAI 임베딩 + 파인콘
+	- 필요한 경우 후보 문서 재순위화: [[Cross-Encoder]]
+	- 최종 검색 결과 반환: FastAPI
+- ![[Drawing 2024-06-07 23.11.36.excalidraw]]
+
+### 2.5.1. 성능
+- 위 다양한 구성요소들이 어떻게 함께 작동하는지 테스트
+- **BoolQ 데이터셋**을 사용하여 테스트
+	- 약 16k의 예시를 포함한 예/아니오 질문에 대한 질문-답변 데이터셋
+	- 주어진 질문에 대해, 그 구절이 질문에 대한 최적의 답변을 제공할 수 있는지를 나타내는 `(질문, 구절)`쌍이 포함됨
+
+#### 두가지 측면
+- 성능
+	- 최상위 결과의 정확도
+	- BoolQ 검증셋의 각 알려진 `(질문, 구절)`쌍에 대해 시스템의 최상위 결과가 의도된 구절인지 테스트
+- 대기시간
+	- 파인콘을 사용하여 이러한 예시들을 실행하는데 걸리는 시간
+	- 각 임베더에 대해 인덱스 재설정, 새로운 백터 업로드,
+	- 이후 간단하고 표준화된 상태 유지를 위해 노트북 메모리에 [[Cross-Encoder]] 사용
+- 가장 성능이 좋았던 임베더는
+	- Sentence-transformers/multi-qa-mpnetbase-cos-v1(open source)
+	- 0.85260의 정확도
+	- 16분의 평균 평가실행 시간을 가짐
+	- 파인튜닝이 없는 [[Bi-Encoder]]에서 OpenAI의 표준 임베딩을 간신히 능가
+	- 임베딩이 API를 사용하지 않고 계산을 수행하기 때문에 빠름
+
+## 2.6. 클로즈드 소스 구성 요소의 비용
+- FastAPI의 경우이나, 나머지는 유료
+- OpenAI의 텍스트 임베딩 서비스
+	- 월 100k의 요청으로 무료
+- 책 작성당시 기준, 100만개의 임베딩 시스템 구축. 매달 새로운 임베딩으로 한번씩 인덱스 업데이트시 비용
+	- 파인콘 = $70
+	- OpenAI = $50
+	- FastAPI = $7 (호스트 비용)
+	- 약 $127/month
+- 비용을 줄이기 위해 다른 전략 혹은 오픈소스 대안을 찾는 것이 좋음
+	- e.g. 임베딩을 위한 오픈소스 -> [[Bi-Encoder]] 사용, 벡터 데이터베이스로 `Pgvector` 사용
+
+## 2.7. 마치며
+- 새로운 의미 기반 검색 시스템을 만들어보기
