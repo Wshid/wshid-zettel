@@ -109,6 +109,19 @@
             }
           },
           {
+            "id": "ccb62cc42b3647de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concept/LLM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "60ff1c11e0fa912b",
             "type": "leaf",
             "state": {
@@ -119,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+                "file": "concept/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+                "file": "concept/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md"
+                "file": "concept/LLM.md"
               }
             }
           },
@@ -259,10 +272,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f592478bf4d2836",
+  "active": "ccb62cc42b3647de",
   "lastOpenFiles": [
-    "concept/Cross-Encoder.md",
+    "concept/Token.md",
+    "concept/LLM.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "concept/Cross-Encoder.md",
     "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "concept/잠금 오염.md",
@@ -286,8 +301,6 @@
     "concept/Vector Database.md",
     "concept/Pinecone.md",
     "concept/최근접 이웃 탐색.md",
-    "concept/독점 레퍼런스.md",
-    "concept/Mutex.md",
     "snippet.css",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
