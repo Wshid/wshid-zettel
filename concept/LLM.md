@@ -7,7 +7,7 @@ tags:
 references: 
 aliases:
 ---
-
+	
 # Playground
 - https://platform.openai.com/playground/chat?models=gpt-3.5-turbo 
 ### Temperature

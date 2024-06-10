@@ -114,7 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/LLM.md",
+                "file": "document/동기_비동기_블로킹_논블록킹.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -198,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concept/LLM.md",
+                "file": "document/동기_비동기_블로킹_논블록킹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concept/LLM.md",
+                "file": "document/동기_비동기_블로킹_논블록킹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concept/LLM.md"
+                "file": "document/동기_비동기_블로킹_논블록킹.md"
               }
             }
           },
@@ -274,8 +274,13 @@
   },
   "active": "ccb62cc42b3647de",
   "lastOpenFiles": [
-    "concept/Token.md",
+    "concept/협력적 스케줄링.md",
+    "document/동기_비동기_블로킹_논블록킹.md",
+    "concept/coroutine.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
+    "concept/Untitled 1.md",
     "concept/LLM.md",
+    "concept/Token.md",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "concept/Cross-Encoder.md",
     "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
@@ -289,7 +294,6 @@
     "concept/데이터 검색.md",
     "concept/Untitled Kanban.md",
     "concept/Extrapolation.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "document/attachments/Pasted image 20240414130835.png",
     "concept/BM25.md",
@@ -297,10 +301,6 @@
     "document/Data_Quality/CHAP2.md",
     "concept/ANNOY.md",
     "concept/Weaviate.md",
-    "concept/Pgvector.md",
-    "concept/Vector Database.md",
-    "concept/Pinecone.md",
-    "concept/최근접 이웃 탐색.md",
     "snippet.css",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
