@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "804dfc866366f5d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "72200f9904b7c289",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64bc6f9d1ebd3d54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9d48cfd4bb7a007",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-03 22.57.06.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b593af51b55e091",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "705cf273bd71b696",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1018e3014e6acb87",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "가변 소유권 대여",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f4ece0daa56a963e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "cb4cf1c03421ced5",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "4726172052c45feb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "97bdf05b182bf523",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "aece3af2a8989716",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c9bc23924a8f9d70",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "792bf54937492677",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "vscode-editor:Create Code File": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "64bc6f9d1ebd3d54",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-06-03 22.57.06.excalidraw.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
+    "concept/상자 바깥에서 생각하기.md",
+    "concept/그린필드.md",
+    "concept/브라운필드.md",
+    "concept/요한 볼프강 폰 괴테.md",
+    "concept/폴 세잔.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "concept/Untitled.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
+    "Excalidraw/파인튜닝.excalidraw.md",
+    "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
+    "document/[240308]Trino_Hive_Connector.md",
+    "document/[240213]DuckDB_vs_MotherDuck.md",
+    "concept/BM25.md",
+    "concept/Weaviate.md",
+    "concept/반구조화된 데이터.md",
+    "concept/Cross-Encoder.md",
+    "concept/Sync.md",
+    "concept/Vector Database.md",
+    "concept/PhantomData<T>.md",
+    "concept/역문서 빈도.md",
+    "concept/rust_trait.md",
+    "concept/ANNOY.md",
+    "concept/데이터 카탈로그.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
+    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs",
+    "document/Creative_Programmer",
+    "document/Data_Quality",
+    "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
+    "Excalidraw/attachments",
+    "document/Daily_PoC",
+    "fonts/나눔손글씨 하나되어 손글씨.ttf",
+    "fonts",
+    "Excalidraw",
+    "document/실전_LLM",
+    "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "cssTheme": "",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "snippet"
+  ],
+  "theme": "obsidian"
+}

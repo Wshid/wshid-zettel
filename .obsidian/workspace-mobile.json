@@ -1,32 +1,22 @@
 {
   "main": {
-    "id": "804dfc866366f5d6",
+    "id": "17e0e24a96eefa89",
     "type": "split",
     "children": [
       {
-        "id": "72200f9904b7c289",
+        "id": "c1a5427437bf966f",
         "type": "tabs",
         "children": [
           {
-            "id": "64bc6f9d1ebd3d54",
+            "id": "ad415cec81be8a0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e9d48cfd4bb7a007",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-03 22.57.06.excalidraw.md"
               }
             }
           }
@@ -36,11 +26,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2b593af51b55e091",
+    "id": "440cfe899205f2e2",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "705cf273bd71b696",
+        "id": "ae1bb89e3950c487",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -50,12 +40,12 @@
         }
       },
       {
-        "id": "1018e3014e6acb87",
+        "id": "f066948a8733c3e3",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "가변 소유권 대여",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -65,7 +55,7 @@
         }
       },
       {
-        "id": "f4ece0daa56a963e",
+        "id": "95827b04ea9c367c",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -76,7 +66,7 @@
         }
       },
       {
-        "id": "cb4cf1c03421ced5",
+        "id": "d176aa5af2ed309d",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -87,24 +77,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "4726172052c45feb",
+    "id": "e40d3ca3e39302aa",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "97bdf05b182bf523",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "aece3af2a8989716",
+        "id": "d9375edf15a00c77",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+            "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -116,24 +98,24 @@
         }
       },
       {
-        "id": "c9bc23924a8f9d70",
+        "id": "a5a2c0f50617cfdc",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+            "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "792bf54937492677",
+        "id": "e0b420e261fc7ec2",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+            "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md"
           }
         }
       }
@@ -142,56 +124,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "vscode-editor:Create Code File": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "64bc6f9d1ebd3d54",
+  "active": "ad415cec81be8a0a",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-06-03 22.57.06.excalidraw.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
-    "concept/상자 바깥에서 생각하기.md",
-    "concept/그린필드.md",
-    "concept/브라운필드.md",
-    "concept/요한 볼프강 폰 괴테.md",
-    "concept/폴 세잔.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
-    "concept/Untitled.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
-    "Excalidraw/파인튜닝.excalidraw.md",
-    "document/[240318]Speed_Trino_Queries_with_these_Performance_tuning_tips.md",
-    "document/[240308]Trino_Hive_Connector.md",
-    "document/[240213]DuckDB_vs_MotherDuck.md",
-    "concept/BM25.md",
-    "concept/Weaviate.md",
-    "concept/반구조화된 데이터.md",
-    "concept/Cross-Encoder.md",
-    "concept/Sync.md",
-    "concept/Vector Database.md",
-    "concept/PhantomData<T>.md",
-    "concept/역문서 빈도.md",
-    "concept/rust_trait.md",
-    "concept/ANNOY.md",
-    "concept/데이터 카탈로그.md",
+    "concept/RwLock.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
-    "workspace/rust/CHAP_1_1/1_1_hello_world_wait.rs",
-    "document/Creative_Programmer",
-    "document/Data_Quality",
-    "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
-    "Excalidraw/attachments",
-    "document/Daily_PoC",
+    "writer starvation.md",
+    "MutexGuard.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "raw/repository/daily-poc",
+    "raw/repository/prompt_engineering",
+    "raw/repository",
+    "raw",
     "fonts/나눔손글씨 하나되어 손글씨.ttf",
     "fonts",
-    "Excalidraw",
-    "document/실전_LLM",
-    "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs"
+    "snippet.css",
+    "concept/thread builder.md",
+    "concept/Send.md",
+    "concept/Cell.md",
+    "concept/rust_trait.md",
+    "concept/Token.md",
+    "concept/data_warehouse.md",
+    "concept/출력 잠금.md",
+    "concept/dev_ops.md",
+    "concept/mission_critical.md",
+    "concept/Apache Kafka.md",
+    "concept/rust_arc.md",
+    "concept/Pgvector.md",
+    "concept/data_race.md",
+    "concept/rust_static.md",
+    "concept/240512_flow_er_방향성_정리.md",
+    "concept/panic.md",
+    "concept/coroutine.md",
+    "concept/sre.md",
+    "concept/data_mesh.md",
+    "concept/페어 프로그래밍.md",
+    "concept/늪지화.md",
+    "concept",
+    "document/attachments/Pasted image 20240414130835.png",
+    "document/attachments/Pasted image 20240414130345.png",
+    "document/Rust_Concurrency_Programming/CHAP1",
+    "document/Pasted image 20240414130313.png",
+    "document/attachments",
+    "Excalidraw/attachments/Pasted Image 20240425211931_073.png"
   ]
 }

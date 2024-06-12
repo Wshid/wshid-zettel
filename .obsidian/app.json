@@ -1,10 +1,4 @@
 {
-  "showLineNumber": true,
-  "showUnsupportedFiles": true,
   "readableLineLength": false,
-  "livePreview": true,
-  "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./attachments",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "concept"
+  "alwaysUpdateLinks": true
 }
