@@ -114,7 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -198,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md"
               }
             }
           },
@@ -274,10 +274,13 @@
   },
   "active": "5fe743d10970ff1f",
   "lastOpenFiles": [
+    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "writer starvation.md",
+    "MutexGuard.md",
     "concept/Apache Kafka.md",
     "concept/Amazon Kinesis.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "document/동기_비동기_블로킹_논블록킹.md",
     "concept/협력적 스케줄링.md",
     "concept/coroutine.md",
@@ -298,9 +301,6 @@
     "concept/Extrapolation.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "document/attachments/Pasted image 20240414130835.png",
-    "concept/BM25.md",
-    "concept/역문서 빈도.md",
-    "document/Data_Quality/CHAP2.md",
     "snippet.css",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
