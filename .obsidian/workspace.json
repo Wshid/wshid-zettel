@@ -13,126 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+                "file": "document/LLM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3426f8d2dcc2099d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77d659521aac26e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "017ee362f945a3eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94dd4d8062ccc4f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0bb3c5f17276935",
-            "type": "leaf",
-            "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "snippet.css"
-              }
-            }
-          },
-          {
-            "id": "5850e7c1547800b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f592478bf4d2836",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fe743d10970ff1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60ff1c11e0fa912b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "기본 수준 범주",
+                "query": "\"presense",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md"
+                "file": "document/LLM.md"
               }
             }
           },
@@ -272,11 +160,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5fe743d10970ff1f",
+  "active": "1d242474a2eb8d24",
   "lastOpenFiles": [
-    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
+    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH04]프롬프팅_테크닉_Top_7_실습.md",
+    "raw/repository/prompt_engineering/[PART_11]추가_제공_영상/[CH01]최근_연구된_신규_프롬프트_기법_RAG_평가_방법.md",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH02]주요_라이브러리_소개.md",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH03]웹_앱_개발_프레임워크_소개.md",
+    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH01]LLM_애플리케이션_아키텍처.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
+    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
+    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
+    "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "snippet.css",
+    "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
     "writer starvation.md",
     "MutexGuard.md",
     "concept/Apache Kafka.md",
@@ -284,24 +187,9 @@
     "document/동기_비동기_블로킹_논블록킹.md",
     "concept/협력적 스케줄링.md",
     "concept/coroutine.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "concept/Untitled 1.md",
-    "concept/LLM.md",
-    "concept/Token.md",
-    "concept/Cross-Encoder.md",
-    "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
-    "concept/잠금 오염.md",
-    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
-    "concept/Interpolation.md",
-    "concept/Isolation Forest.md",
-    "concept/Untitled Kanban 1.md",
-    "concept/데이터 검색.md",
-    "concept/Untitled Kanban.md",
-    "concept/Extrapolation.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
+    "document/LLM.md",
     "document/attachments/Pasted image 20240414130835.png",
-    "snippet.css",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
