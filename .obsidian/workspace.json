@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md"
               }
             }
           },
@@ -162,6 +162,9 @@
   },
   "active": "a719ad84303cd31a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Recover Partitioned DBT Model.md",
     "Excalidraw/Drawing 2024-06-16 16.30.13.excalidraw.md",
     "document/LLM.md",
@@ -173,13 +176,11 @@
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
     "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
     "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "snippet.css",
     "document/실전_LLM/CHAP2_LLM을_이용한_의미_기반_검색.md",
@@ -188,7 +189,6 @@
     "concept/Apache Kafka.md",
     "concept/Amazon Kinesis.md",
     "document/동기_비동기_블로킹_논블록킹.md",
-    "concept/협력적 스케줄링.md",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "Excalidraw/attachments",
