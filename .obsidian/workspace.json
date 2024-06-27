@@ -11,8 +11,13 @@
             "id": "a719ad84303cd31a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md"
+              }
             }
           },
           {
