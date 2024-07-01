@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md"
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
               }
             }
           },
@@ -162,6 +162,7 @@
   },
   "active": "a719ad84303cd31a",
   "lastOpenFiles": [
+    "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
@@ -184,7 +185,6 @@
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
     "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
-    "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
     "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
