@@ -136,3 +136,67 @@ JSON: "english": (입력 문장), "turkish": (번역된 터키어 버전)
 - FLAN-T5
 	- 지시어 수행 방법을 알고 있음
 	- 주관적인 작업에서 어려움
+
+# 3.4. ChatGPT와 Q/A 챗봇 만들기
+- API Endpoint 중 하나는 자연어 질문을 받아 `BoolQ` 데이터셋에서 문서를 검색하는데 사용함
+- Q/A 챗봇을 만들기 위해 해야할 일
+	- ChatGPT를 위한 시스템 프롬프트 디자인
+	- 새로운 사용자 메시지마다 저장된 지식에서 의미 검색
+		- 벡터 데이터베이스에서 결과 검색
+	- 데이터베이스에서 찾은 의미를 ChatGPT의 **시스템 프롬프트**에 삽입
+	- ChatGPT가 알아서 질문에 답변 
+
+## 코드 작성
+- https://github.com/sinanuozdemir/quick-start-guide-to-llms/blob/main/notebooks/3_prompt_engineering.ipynb
+```python
+class ChatbotGPT():
+
+	def __init__(self, system_prompt, threshold=.8):
+		# 시스템 프롬프트 사용, 대화 목록의 첫번째 차례 초기화
+		# 사용자 입력, 지식베이스간의 유사도 점수에 대한 threshold 설정
+		pass
+	
+	def display_conversation(self):
+		# 대화 각 턴 반복
+		# 턴의 역할과 내용을 가져와
+		# 역할과 내용을 읽기 쉬운 형식으로 출력
+		pass
+
+	def user_turn(self, message):
+		# 사용자의 입력을 대화에 차례로 추가
+		# pinecorn을 사용하여 지식 베이스에서 가장 잘 매칭되는 결과 가져오기
+		# 사용자의 입력과 문서 사이의 신뢰 점수가 임계 값을 충족하는지 확인
+		# OpenAI의 API를 사용하여 ChatGPT 모델로부터 답변 생성
+		# GPT-3.5 답변을 대화의 한 턴으로 추가
+		# 어시스턴트의 답변 리턴
+		pass
+```
+- 초기 시스템 프롬프트
+```python
+SYSTEM_PROMPT = '''
+You are a helpful Q/A bot that can only use reference material from a knowledge base.
+If a user asks anything that is not "from the knowledge base", say that you cannot answer.
+'''.strip()
+```
+- 당신은 지식 베이스의 자료만 참조할 수 있는 유용한 Q/A 봇입니다.
+- 사용자가 '지식 베이스'가 아닌 내용을 묻는 경우 답변할 수 없다고 말합니다
+
+# 3.5. 마치며
+- 언어 모델의 성능을 향상시키기 위해 프롬프트 디자인 및 최적화 하는 과정은
+	- 다소 반복적이며 까다로울 수 있음
+- 정렬 이해하기, 직접 요청하기, 퓨샷 학습, 출력 구조화, 페르소나 지정하기, 여러모델과 프롬프트 작업하기
+- 능숙한 프롬프트 엔지니어링과 효과적인 글쓰기 사이에는 강한 상관관계 존재
+	- 명확한 지시, 원하는 답변 반환
+	- LLM에도 잘 구조화되고 유용함
+- 프롬프트가 여러 답변을 허용하거나 일반적으로 모호한 경우
+	- 이는 LLM에도 좋지 않은 프롬프트
+- 프롬프트 엔지니어링과 글쓰기는 유사함
+	- 효과적인 프롬프트 작성은 전통적인 엔지니어링 작업보다
+	- 데이터 주석 지침을 만들거나 숙련된 글쓰기에 가까움
+- 프롬프트 엔지니어링 -> 언어 모델의 성능 향상에 중요한 과정
+- 프롬프트 설계 및 최적화로
+	- 언어 모델이 사용자의 입력을 더 잘 이해하고, 이에 정확한 답을 하도록 만들 수 있음
+- 5장에서 아래와 같은 주제를 다룸
+	- LLM 출력 검증
+	- LLM이 생각하는 과정을 표현하기 위한 연쇄적 사고(Chain-of-Though) 프롬프트
+	- 여러 프롬프트를 더 큰 워크플로에 연결
