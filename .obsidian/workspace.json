@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md"
               }
             }
           },
@@ -161,11 +160,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4d1968254b1cd534",
+  "active": "a719ad84303cd31a",
   "lastOpenFiles": [
+    "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
+    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
+    "document/Rust_Concurrency_Programming/CHAP2",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "데이터 신뢰성 라이프 사이클.md",
@@ -187,8 +189,6 @@
     "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
-    "Excalidraw/Drawing 2024-06-07 23.11.36.excalidraw.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_6_스레드_안전성_Send와_Sync.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
@@ -200,7 +200,6 @@
     "workspace/rust/CHAP_1_2",
     "fonts/나눔손글씨 하나되어 손글씨.ttf",
     "fonts",
-    "document/실전_LLM",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
