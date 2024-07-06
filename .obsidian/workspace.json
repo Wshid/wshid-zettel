@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Merge Small file on Apache Hive.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"presense",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Merge Small file on Apache Hive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Merge Small file on Apache Hive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md"
+                "file": "document/Merge Small file on Apache Hive.md"
               }
             }
           },
@@ -162,8 +162,11 @@
   },
   "active": "a719ad84303cd31a",
   "lastOpenFiles": [
-    "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
+    "document/Merge Small file on Apache Hive.md",
+    "document/Column Level Lineage.md",
+    "document/[240307]Data_Governance.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+    "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
@@ -186,9 +189,6 @@
     "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH01]LLM_애플리케이션_아키텍처.md",
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
     "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
-    "raw/repository/prompt_engineering/[PART_02]AI의_역사_LLM_현황_및_핵심_개념_이해/[CH04]어떻게_가능해졌나.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
-    "concept/명문대 입시 휩쓸고 있는 한국의 IB학교를 아십니까.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
