@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Merge Small file on Apache Hive.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Merge Small file on Apache Hive.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Merge Small file on Apache Hive.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Merge Small file on Apache Hive.md"
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
               }
             }
           },
@@ -162,6 +162,8 @@
   },
   "active": "a719ad84303cd31a",
   "lastOpenFiles": [
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Merge Small file on Apache Hive.md",
     "document/Column Level Lineage.md",
     "document/[240307]Data_Governance.md",
@@ -172,10 +174,8 @@
     "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "데이터 신뢰성 라이프 사이클.md",
     "concept/sre.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_SLA_SLO_SLI.md",
     "파블로 피카소.md",
     "Untitled.md",
