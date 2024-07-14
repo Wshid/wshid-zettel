@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a069441fc9f35be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md"
               }
             }
           },
@@ -160,8 +174,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a719ad84303cd31a",
+  "active": "9a069441fc9f35be",
   "lastOpenFiles": [
+    "Feature Engineering.md",
+    "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+    "데이터 레이블링.md",
+    "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Merge Small file on Apache Hive.md",
@@ -171,8 +190,6 @@
     "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP2",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
-    "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
     "데이터 신뢰성 라이프 사이클.md",
     "concept/sre.md",
@@ -186,9 +203,6 @@
     "raw/repository/prompt_engineering/[PART_11]추가_제공_영상/[CH01]최근_연구된_신규_프롬프트_기법_RAG_평가_방법.md",
     "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH02]주요_라이브러리_소개.md",
     "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH03]웹_앱_개발_프레임워크_소개.md",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH01]LLM_애플리케이션_아키텍처.md",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH04]임베딩과_시멘틱_서치.md",
-    "raw/repository/prompt_engineering/[PART_06]프롬프트_엔지니어링_응용_심화/[CH03]프롬프트_평가와_테스팅.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
