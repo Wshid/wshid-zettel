@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75feea8b95c1a52d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md"
               }
             }
           },
@@ -174,10 +187,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a069441fc9f35be",
+  "active": "75feea8b95c1a52d",
   "lastOpenFiles": [
-    "Feature Engineering.md",
+    "concept/독점 레퍼런스.md",
+    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+    "Feature Engineering.md",
     "데이터 레이블링.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
@@ -186,7 +201,6 @@
     "document/Merge Small file on Apache Hive.md",
     "document/Column Level Lineage.md",
     "document/[240307]Data_Governance.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP2",
@@ -202,7 +216,6 @@
     "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH04]프롬프팅_테크닉_Top_7_실습.md",
     "raw/repository/prompt_engineering/[PART_11]추가_제공_영상/[CH01]최근_연구된_신규_프롬프트_기법_RAG_평가_방법.md",
     "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH02]주요_라이브러리_소개.md",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH03]웹_앱_개발_프레임워크_소개.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",

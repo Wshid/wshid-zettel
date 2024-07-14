@@ -36,4 +36,63 @@ aliases:
 - 두 스레드에서 변수들에 대한 연산이 **스레드마다 다른 순서로 발생**할 수 있다는 의미
 	- e.g. A 스레드가 a 변수에 값을 쓰고, b 변수에 빠르게 쓸 경우
 		- B 스레드에서는 해당 내용이 반대 순서로 발생하는 것처럼 보임
-- 2장에서는 위 문제 대신 `Relaex`를 사용하여 아토믹 연산을 간단하게 살펴볼 예정
+- 2장에서는 위 문제 대신 `Relaxed`를 사용하여 아토믹 연산을 간단하게 살펴볼 예정
+
+## 2.1. 아토믹한 데이터 load 및 store 연산
+- `load`, `store`는 가장 기본적인 연산
+- `AtomicI32`를 예시로 다음과 같이 구성됨
+```rust
+impl AtomicI32 {
+	pub fn load(&self, ordering: Ordering) -> i32;
+	pub fn store(&self, value: i32, ordering: Ordering)
+}
+```
+- load: 아토믹 변수에 저장된 값을 아토믹하게 읽어들이기
+- store: 메서드는 아토믹의 새 값을 변수에 씀
+	- 값을 수정하더라도 [[독점 레퍼런스|&mut]]가 아닌 [[reference_&T|&T]]를 사용함
+- 두 메서드의 실질적인 예시들
+
+## 예시 1. 정지 플래그
+- `AtomicBool`을 **정지 플래그**(stop flag)로 사용하는 것
+- 해당 플래그는 **다른 스레드를 멈추는데 사용함**
+```rust
+use std::sync::atomic::AtomicBool;
+use std::sync::atomic::Ordering::Relaxed;
+
+fn main() {
+	static STOP: AtomicBool::new(false);
+	// 작업을 수행할 스레드를 생성함
+	let background_thread = thread::spawn(|| {
+		while !STOP.load(Relaxed) {
+			some_work();
+		}
+	});
+
+	// 메인 스레드에서 사용자 입력을 받음
+	for line in std::io::stdin().lines() {
+		match line.unwrap().as_str() {
+			"help" => println!("commands: help, stop"),
+			"stop" => break,
+			cmd => println!("unknown command: {cmd:?}"),
+		}
+	}
+
+	// 백그라운드 스레드가 멈추도록 함
+	STOP.store(true, Relaxed);
+
+	// 백그라운드 스레드가 멈출 때까 기다림
+	background_thread.join().unwrap();
+}
+```
+- 백그라운드 스레드가 `some_work()`를 반복적으로 실행하는 동시에,
+	- 메인 스레드에서는 사용자가 프로그램과 상호작용 하기 위한 몇가지 명령 입력
+	- `stop`이라는 유효한 명령어 사용 가능
+- 백그라운드 스레드가 중지되도록 하려면,
+	- `STOP` 변수를 사용하여, 이 조건을 백그라운드 스레드에 전달
+- 메인 스레드가 사용자로부터 중지 명령을 받으면
+	- 플래그를 `true`로 설정하고,
+	- 백그라운드 스레드는 새로운 반복이 시작되기 전 이 플래그를 확인
+- 메인 스레드는 `join` 메서드를 사용하여 백그라운드 스레드가 현재 반복을 완료할때까지 대기
+- 백그라운드 스레드가 정기적으로 확인하는 한, 이 해결책은 잘 작동하나,
+	- 스레드가 `some_work()`에 오랫동안 대기한다면,
+	- 중지 명령 - 프로그램 종료 사이에 상당한 지연이 발생할 수 있음
