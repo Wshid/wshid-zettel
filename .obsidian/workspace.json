@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f57d24f32f7c2245",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "demoscene.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md"
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
               }
             }
           },
@@ -189,13 +202,15 @@
   },
   "active": "75feea8b95c1a52d",
   "lastOpenFiles": [
-    "concept/독점 레퍼런스.md",
+    "demoscene.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
+    "인터렉티브 아트 경험.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+    "concept/독점 레퍼런스.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
     "Feature Engineering.md",
     "데이터 레이블링.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Merge Small file on Apache Hive.md",
@@ -214,8 +229,6 @@
     "Excalidraw/Drawing 2024-06-16 16.30.13.excalidraw.md",
     "document/LLM.md",
     "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH04]프롬프팅_테크닉_Top_7_실습.md",
-    "raw/repository/prompt_engineering/[PART_11]추가_제공_영상/[CH01]최근_연구된_신규_프롬프트_기법_RAG_평가_방법.md",
-    "raw/repository/prompt_engineering/[PART_08]LLM_애플리케이션_개발/[CH02]주요_라이브러리_소개.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
