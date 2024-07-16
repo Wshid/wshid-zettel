@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75feea8b95c1a52d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
               }
             }
           },
@@ -200,19 +187,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75feea8b95c1a52d",
+  "active": "9a069441fc9f35be",
   "lastOpenFiles": [
-    "demoscene.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
-    "인터렉티브 아트 경험.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
-    "concept/독점 레퍼런스.md",
+    "형식 강제.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+    "concept/data_warehouse.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
+    "demoscene.md",
+    "인터렉티브 아트 경험.md",
+    "concept/독점 레퍼런스.md",
     "Feature Engineering.md",
     "데이터 레이블링.md",
     "document/실전_LLM/CHAP3_프롬프트_엔지니어링의_첫번째_단계.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Merge Small file on Apache Hive.md",
     "document/Column Level Lineage.md",
     "document/[240307]Data_Governance.md",
@@ -227,8 +216,6 @@
     "Untitled.md",
     "document/Recover Partitioned DBT Model.md",
     "Excalidraw/Drawing 2024-06-16 16.30.13.excalidraw.md",
-    "document/LLM.md",
-    "raw/repository/prompt_engineering/[PART_05]프롬프트_엔지니어링_기초_실습/[CH04]프롬프팅_테크닉_Top_7_실습.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
