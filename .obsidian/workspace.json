@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Great Expectations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Great Expectations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+                "file": "document/Great Expectations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md"
+                "file": "document/Great Expectations.md"
               }
             }
           },
@@ -202,8 +203,10 @@
   },
   "active": "3dfb3d09fe84ca6e",
   "lastOpenFiles": [
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "MECE.md",
+    "document/Great Expectations.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
     "Jconsole.md",
@@ -227,8 +230,6 @@
     "document/[240307]Data_Governance.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_1_러스트와_스레드.md",
     "document/Rust_Concurrency_Programming/CHAP2",
-    "document/Rust_Concurrency_Programming/CHAP1/1_7_잠금_뮤텍스와_RwLock.md",
-    "데이터 신뢰성 라이프 사이클.md",
     "snippet.css",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
