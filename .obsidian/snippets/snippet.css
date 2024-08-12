@@ -1,18 +1,17 @@
 body {
-    --h1-size: 2em;
-    --h1-color: #874CCC;
-    --h2-size: 1.6em;
-    --h2-color: #874CCC;
-    --h3-size: 1.37em;
-    --h3-color: #874CCC;
-    --h4-size: 1.25em;
-    --h4-color: #874CCC;
+    --h1-size: 2.5em;
+    --h1-color: #C8A4D4;
+    --h2-size: 2.0em;
+    --h2-color: #795695;
+    --h3-size: 1.6em;
+    --h3-color: #653B9F;
+    --h4-size: 1.3em;
+    --h4-color: #AC94F4;
     --h5-size: 1.12em;
-    --h5-color: #874CCC;
+    --h5-color: #371F76;
     --h6-size: 1.12em;
     --h6-color: #874CCC;
   }
-  
 
 /* opened file with red background */
 .nav-file-title.is-active {
