@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "relaxed",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md"
               }
             }
           },
@@ -162,10 +162,16 @@
   },
   "active": "80595a5fb0e62fb3",
   "lastOpenFiles": [
+    "concept/closure.md",
+    "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+    "move closure.md",
+    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
+    "Relaxed.md",
+    "concept/panic.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "snippet.css",
     "demoscene.md",
     "공포 관리 이론.md",
@@ -176,7 +182,6 @@
     "빈센트 반 고흐.md",
     "document/Great Expectations.md",
     "MECE.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
     "Jconsole.md",
@@ -184,10 +189,6 @@
     "구문론적 모호성.md",
     "의미론적 모호성.md",
     "Untitled 1.md",
-    "형식 강제.md",
-    "concept/data_warehouse.md",
-    "인터렉티브 아트 경험.md",
-    "concept/독점 레퍼런스.md",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",

@@ -9,6 +9,7 @@ references:
   - https://blacklobster.tistory.com/7
   - https://hanrabong.com/entry/Javascript-Closure%EB%9E%80
 aliases:
+  - 클로저
 ---
 - 일급 객체 함수 개념을 이용하여 스코프에 묶인 변수를 바인딩 하기 위한 기술
 - 클로저는 함수를 저장한 레코드
