@@ -24,19 +24,6 @@
             "id": "fd1dca18ba1126fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/GX Pre-release 1.0.0a5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d70bb23db12b376",
-            "type": "leaf",
-            "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md"
@@ -44,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,11 +171,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1d70bb23db12b376",
+  "active": "fd1dca18ba1126fb",
   "lastOpenFiles": [
-    "Untitled 2.md",
-    "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
     "document/GX Pre-release 1.0.0a5.md",
+    "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
+    "Untitled 2.md",
     "document/Apache Iceberg.md",
     "Transaction DataLake.md",
     "ACID.md",
