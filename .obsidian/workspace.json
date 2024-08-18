@@ -26,15 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Apache Iceberg.md",
+                "file": "document/GX Pre-release 1.0.0a5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d70bb23db12b376",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5,
-    "collapsed": true
+    "width": 405.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -101,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Apache Iceberg.md",
+                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Apache Iceberg.md",
+                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Apache Iceberg.md"
+                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md"
               }
             }
           },
@@ -175,11 +184,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd1dca18ba1126fb",
+  "active": "1d70bb23db12b376",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
+    "document/GX Pre-release 1.0.0a5.md",
+    "document/Apache Iceberg.md",
     "Transaction DataLake.md",
     "ACID.md",
-    "document/Apache Iceberg.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "concept/closure.md",
     "move closure.md",
@@ -201,9 +213,6 @@
     "document/Great Expectations.md",
     "MECE.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_2_범위_스레드.md",
-    "Jconsole.md",
-    "Schema Registry.md",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
