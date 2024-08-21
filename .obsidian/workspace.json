@@ -24,9 +24,12 @@
             "id": "fd1dca18ba1126fb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md"
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md"
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
               }
             }
           },
@@ -173,8 +176,10 @@
   },
   "active": "fd1dca18ba1126fb",
   "lastOpenFiles": [
-    "document/GX Pre-release 1.0.0a5.md",
+    "Caterina Moruzzi.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
+    "document/GX Pre-release 1.0.0a5.md",
     "Untitled 2.md",
     "document/Apache Iceberg.md",
     "Transaction DataLake.md",
@@ -187,7 +192,6 @@
     "concept/panic.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
     "snippet.css",
     "demoscene.md",
@@ -199,7 +203,6 @@
     "빈센트 반 고흐.md",
     "document/Great Expectations.md",
     "MECE.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
