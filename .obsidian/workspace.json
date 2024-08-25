@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "d8d6a06bb0f1e301",
+        "id": "e1e684707062a5e4",
         "type": "tabs",
         "children": [
           {
-            "id": "80595a5fb0e62fb3",
+            "id": "b8cd04738fc6dc6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5321e9ff8e28855a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e901e57c50ec9ab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md"
               }
             }
           },
@@ -160,10 +187,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80595a5fb0e62fb3",
+  "active": "e901e57c50ec9ab7",
   "lastOpenFiles": [
-    "ELT.md",
+    "Summarization.md",
+    "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+    "Machine Translation.md",
+    "Sentiment Analysis.md",
+    "Reading Comprehension.md",
+    "Common Sense.md",
+    "Natural Language Inference.md",
+    "document/Data_Quality/CHAP2.md",
+    "document/LLAMA",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "ELT.md",
     "concept/ETL.md",
     "스테이징 영역.md",
     "분석 데이터 변환.md",
@@ -180,15 +216,7 @@
     "Untitled 2.md",
     "ACID.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
-    "concept/closure.md",
-    "move closure.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
-    "Relaxed.md",
-    "concept/panic.md",
-    "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
     "snippet.css",
-    "demoscene.md",
-    "공포 관리 이론.md",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
@@ -199,7 +227,6 @@
     "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
     "workspace/rust/CHAP_1_2",
     "fonts/나눔손글씨 하나되어 손글씨.ttf",
-    "fonts",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
