@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "Seq2Seq.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "Seq2Seq.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "Seq2Seq.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+                "file": "Seq2Seq.md"
               }
             }
           },
@@ -216,6 +216,7 @@
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "NLP.md",
     "Seq2Seq.md",
     "Summarization.md",
@@ -237,7 +238,6 @@
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Apache Iceberg.md",
     "Transaction DataLake.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "Caterina Moruzzi.md",
     "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
     "document/GX Pre-release 1.0.0a5.md",
