@@ -1,24 +1,6 @@
-## NLP
-- Language Model
-	- 나열된 단어들의 조합에 확률을 부여하는 모델
-	- 어떤 패턴이 더 그럴듯 한가?
-- 자연어 문제 두가지
-	- Natural Language Understanding(NLU): 자연어 이해
-		- e.g. 이 내용이 긍정적인가? 아닌가?
-	- Natural Language Generation(NLG): 자연어 생성
-		- e.g. 주제에 맞는 그림 그리기
-- NLP는 NLU와 NLG를 포함함
-	- NLU, NLG의 교집합 존재
-	- NLU + NLG는 NLP보다 작음
-- 두 문제는 상호 베타적이지 않다는 의미
+## [[NLP]]
 
-## Seq2Seq
-- 아래 두가지 요소로 이루어짐
-- Encoder: 주로 자연어 이해
-- Decoder: 주로 자연어 생성
-- 역할
-	- Encoder는 `Take your time`이라는 input을 이해하고 decoder에 전달
-	- decoder는 이에 맞는 한국어에 맞게 번역하여 리턴
+## [[Seq2Seq]]
 - 소개할 언어 모델은
 	- Encoder, Decoder를 모두 가지는 경우, 혹은 하나만 가진 경우도 존재
 

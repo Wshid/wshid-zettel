@@ -45,9 +45,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8966ef2cf2b1d665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0ad9f56e1c7a1f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md"
+                "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
               }
             }
           },
@@ -187,10 +213,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e901e57c50ec9ab7",
+  "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
-    "Summarization.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+    "NLP.md",
+    "Seq2Seq.md",
+    "Summarization.md",
     "Machine Translation.md",
     "Sentiment Analysis.md",
     "Reading Comprehension.md",
@@ -214,8 +242,6 @@
     "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
     "document/GX Pre-release 1.0.0a5.md",
     "Untitled 2.md",
-    "ACID.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",

@@ -1,0 +1,6 @@
+- 아래 두가지 요소로 이루어짐
+	- Encoder: 주로 자연어 이해
+	- Decoder: 주로 자연어 생성
+- 역할
+	- Encoder는 `Take your time`이라는 input을 이해하고 decoder에 전달
+	- decoder는 이에 맞는 한국어에 맞게 번역하여 리턴
