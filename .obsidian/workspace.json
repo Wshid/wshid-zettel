@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seq2Seq.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seq2Seq.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seq2Seq.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Seq2Seq.md"
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md"
               }
             }
           },
@@ -215,10 +215,14 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
+    "exploding gradient.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+    "vanishing gradient.md",
+    "Tokenization.md",
+    "concept/Token.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
-    "NLP.md",
     "Seq2Seq.md",
+    "NLP.md",
     "Summarization.md",
     "Machine Translation.md",
     "Sentiment Analysis.md",
@@ -238,10 +242,6 @@
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Apache Iceberg.md",
     "Transaction DataLake.md",
-    "Caterina Moruzzi.md",
-    "Excalidraw/Drawing 2024-08-17 18.46.22.excalidraw.md",
-    "document/GX Pre-release 1.0.0a5.md",
-    "Untitled 2.md",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",
