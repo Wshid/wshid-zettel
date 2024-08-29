@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md"
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
               }
             }
           },
@@ -215,8 +215,9 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
-    "exploding gradient.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+    "exploding gradient.md",
     "vanishing gradient.md",
     "Tokenization.md",
     "concept/Token.md",
@@ -239,7 +240,6 @@
     "형식 강제.md",
     "유형 변환.md",
     "스키마 검사.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Apache Iceberg.md",
     "Transaction DataLake.md",
     "snippet.css",
