@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Relaxed",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,8 +119,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md"
+                "file": "document/LLAMA/PART01_Generative_AI_Langauge_Models.md"
               }
             }
           },
@@ -216,9 +215,9 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
+    "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "Relaxed.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",

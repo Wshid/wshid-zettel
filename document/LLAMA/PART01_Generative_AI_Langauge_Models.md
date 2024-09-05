@@ -162,3 +162,60 @@
 - 디코더에서 생성하는 토큰들을 가지고 [[#Self-Attention]]을 한번 취하게 됨
 - 현재 시점상 아직 생성되지 않은 시점의 토큰은 masking을 함
 	- `-unlimited` 값을 부여하여 이 토큰들을 참조할 수 없도록 함
+
+
+# CH02-03. Multi-task learning of language model, GPT-2, T5
+
+## GPT-2의 특징
+- GPT와 구조적으로 유사
+	- 정규화 레이어, 리지듀얼 커넥션
+	- Direct Scale-up of GPT
+- GPT에 비해 많은 파라미터
+- Pre-training Dataset
+	- Web scrapped Dataset
+	- Reddit이라는 일종의 커뮤니티 사이트, 추천을 3번 이상 받은 글에 Outbound link를 보냄
+		- 어느정도 검증된 데이터
+		- 교육적이거나 흥미롭거나..
+	- 8 million links, 40GB data
+	- wikipedia 데이터 셋 제외
+		- 많은 자연어 데이터가 이미 학습되어 있으므로
+- zero-shot
+	- fine tuning을 통해 파라미터나 구조에 대한 변형 없이 바로 down-stream task에 적용
+
+## T5의 특징
+- Text-to-Text Transfer Transformer
+	- Transfer: 모델이 먼저 대규모 데이터에서 학습하고
+		- 나중에 다운스트림 태스크에서 학습된다는 의미
+		- pre-train fine tuning
+	- Transformer 구조 기반으로 개발
+
+### Text to Text model
+- 모든 input, output 형태는 text로 동일
+- BART와의 차이
+	- hidden state를 가공해서 output을 만드는 것이 아니라, 원하는 output을 바로 출력
+	- 이 문제가 어떤 문제인지에 대한 설명을 문제와 함께 넣어줌
+- 모든 NLP task에 대해서 동일한 loss와 hyper-parameter를 사용할 수 있음
+- No additional layer needed
+- Can solve all types of NLP task
+
+#### T5: Architecture
+- 일반적으로 새로운 모델을 제시하는 논문의 경우
+	- 한 가지 아키텍처를 채택해서 그 아이디어에 대한 설명을 함
+	- 왜 이 아키텍처를 설명하는가
+- 하지만 T5 논문은 여러 아키텍처를 가져와 실험하는 형태를 보여줌
+- attention model에서 input을 마스킹 하는 방법 3가지
+	- Fully-visible: full self-attention
+		- transformer의 encoder에서 일어나는 일과 유사
+		- 모든 토큰들을 한번에 참고할 수 있는 bi-directional 방식
+	- Casual: 이전 시점까지의 토큰만 참고
+		- transformer의 decoder에서 일어나는 일과 유사
+		- 시점이 하나씩 미래로 옮겨질 때마다 다음 토큰을 참조함
+	- Casual w/ prefix
+		- input 시퀀스는 전체 참조(특정 시점까지)
+		- 생성 시퀀스는 casual하게 참조(특정 시점부터)
+			- 시점이 하나 옮겨갈때마다 추가적인 토큰을 참고
+- 여러모델을 테스트 했을 때,
+	- 고전적인 encoder-decoder 모델이 제일 성능이 좋았음
+
+#### T5: Pre-train Objective
+- 4eksrPfmf rjcla
