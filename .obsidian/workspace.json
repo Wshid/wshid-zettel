@@ -201,6 +201,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "vscode-editor:Create Code File": false,
       "switcher:Open quick switcher": false,
@@ -215,11 +216,13 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "창의적 프로세스 5단계.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "Relaxed.md",
-    "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
@@ -240,8 +243,6 @@
     "ELT.md",
     "concept/ETL.md",
     "스테이징 영역.md",
-    "분석 데이터 변환.md",
-    "형식 강제.md",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",
