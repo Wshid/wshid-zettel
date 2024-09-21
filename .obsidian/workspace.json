@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -123,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 927.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md"
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md"
               }
             }
           },
@@ -216,8 +216,8 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
     "창의적 프로세스 5단계.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
