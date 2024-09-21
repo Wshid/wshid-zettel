@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+            "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "document/Creative_Programmer/CHAP4_제약_조건.md",
+            "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "document/Creative_Programmer/CHAP4_제약_조건.md"
+            "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md"
           }
         }
       },
@@ -132,6 +132,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,8 +147,8 @@
   },
   "active": "ad415cec81be8a0a",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
+    "Untitled 1.md",
     "데이터 레이블링.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_8_대기_파킹과_조건_변수.md",
     "Feature Engineering.md",
