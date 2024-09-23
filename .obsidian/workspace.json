@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md"
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md"
               }
             }
           },
@@ -216,11 +216,12 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
+    "집중적 사고.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "창의적 프로세스 5단계.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
-    "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "Relaxed.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
@@ -242,7 +243,6 @@
     "document/LLAMA",
     "ELT.md",
     "concept/ETL.md",
-    "스테이징 영역.md",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
     "document/attachments/Pasted image 20240414130835.png",

@@ -7,7 +7,7 @@ tags:
 references: 
 aliases:
 ---
-- fetch-and-modify
+Z- fetch-and-modify
 	- 아토믹 변수의 값을 변경하는 연산
 	- 원래 값을 읽어오는 (가져오는) 아토믹 연산
 - `fetch_add`: 덧셈
