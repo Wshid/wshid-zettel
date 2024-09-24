@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -123,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 927.5
+    "width": 702.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md"
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md"
               }
             }
           },
@@ -216,8 +216,10 @@
   },
   "active": "e0ad9f56e1c7a1f7",
   "lastOpenFiles": [
-    "집중적 사고.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "집중적 사고.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "창의적 프로세스 5단계.md",
@@ -225,8 +227,6 @@
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "Relaxed.md",
     "document/Creative_Programmer/CHAP4_제약_조건.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "exploding gradient.md",
     "vanishing gradient.md",
     "Tokenization.md",
