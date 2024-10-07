@@ -39,7 +39,163 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Introducing Netflix’s Key-Value Data Abstraction Layer.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59ae1831a226ebd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4474f9cbc56eb7cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86ceb15aa15aa96f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30cb3aff043bc7c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a9f0c5ffe173d75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c433144e4cbd498e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7135895799b68a78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "과매도 코드.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a7819b8b23f5c86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72e27e282baced2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1e0f343ac7cee8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b231ab04f51de30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "899141e1e711785a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "라이너스 폴링.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -113,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Introducing Netflix’s Key-Value Data Abstraction Layer.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Introducing Netflix’s Key-Value Data Abstraction Layer.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Introducing Netflix’s Key-Value Data Abstraction Layer.md"
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md"
               }
             }
           },
@@ -188,34 +344,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd9d2968da1dc44e",
+  "active": "0b231ab04f51de30",
   "lastOpenFiles": [
-    "Apache Cassandra.md",
-    "document/Introducing Netflix’s Key-Value Data Abstraction Layer.md",
-    "확산 모드 사고.md",
+    "조너스 쇼크.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
-    "창의적 프로세스 5단계.md",
+    "라이너스 폴링.md",
+    "정서적 진동.md",
+    "확산 모드 사고.md",
+    "로버트 스턴버그.md",
+    "과매도 코드.md",
+    "고르디우스의 매듭.md",
+    "concept/Code Smell.md",
     "집중적 사고.md",
+    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "document/Introducing Netflix’s Key-Value Data Abstraction Layer.md",
+    "Apache Cassandra.md",
+    "창의적 프로세스 5단계.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_2_fetch_and_modify_연산.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
     "document/Rust_Concurrency_Programming/CHAP2/2_1_아토믹한_데이터_load_및_store_연산.md",
     "Relaxed.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
     "exploding gradient.md",
     "vanishing gradient.md",
     "Tokenization.md",
     "concept/Token.md",
     "Seq2Seq.md",
-    "NLP.md",
-    "Summarization.md",
-    "Machine Translation.md",
-    "Sentiment Analysis.md",
-    "Reading Comprehension.md",
-    "Common Sense.md",
-    "Natural Language Inference.md",
     "document/LLAMA",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
