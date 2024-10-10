@@ -121,3 +121,72 @@ WITH CLUSTERING ORDER BY (key <ASC|DESC>)
   }                                                                             
 ]
 ```
+
+# Key APIs of the KV Abstraction
+- KV abstraction provides
+	- for basic CRUD API
+
+### PutItems — Write one or more Items to a Record
+- upsert operation
+
+```js
+message PutItemRequest (
+  IdempotencyToken idempotency_token,
+  string           namespace, 
+  string           id, 
+  List<Item>       items
+)
+```
+- idempotency token
+	- write retry에 대해 안전함
+- chunked data can be written by staging chunks
+	- then commiting them with appropriate metadata(e.g. num of chunks)
+
+### GetItems - Read one or more Items from a Record
+- provides a structured and adaptive way
+	- to fech data using ID, predicate, selection mechanisms
+- balances the need to retrieve large volumes of data
+	- while meeting stringent [[Data_SLA_SLO_SLI|SLO]] for performance and reliability
+
+```js
+message GetItemsRequest (
+  String              namespace,
+  String              id,
+  Predicate           predicate,
+  Selection           selection,
+  Map<String, Struct> signals
+)
+```
+- namespace
+	- the logical dataset or table
+- id
+	- identifies the entry in the top-level HashMap
+- Predicate
+	- filters the matching items
+		- `match all`: all items
+		- `mach_keys`: specific items
+		- `match_range`: range
+- Selection
+	- Narrow Returned response
+	- `page_size_bytes`: pagination
+	- `item_limit`: limiting the total number of items
+	- `include/exclude`: include or exclude large values from response
+- Signals
+	- in-band signaling to indicate client capabilities
+		- client compression or chunking
+
+#### GetItemResponse
+```js
+message GetItemResponse (
+  List<Item>       items,
+  Optional<String> next_page_token
+)
+```
+- Items
+	- retrived item based on `Predicate`, `Selection`
+- Next Page Token (Optional)
+	- the position for subsequent reads if needed,
+		- for handling large data set | mutiple requests
+	- Pagination is critical component
+		- for efficiently managing data retrieval
+		- dealing with large datasets that could exceed typical response size limit
