@@ -1,5 +1,4 @@
 [
-  "table-editor-obsidian",
   "calendar",
   "dataview",
   "obsidian-excalidraw-plugin",
@@ -9,5 +8,5 @@
   "url-into-selection",
   "vscode-editor",
   "obsidian-tasks-plugin",
-  "quick-latex"
+  "obsidian-style-settings"
 ]
