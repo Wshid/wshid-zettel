@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apache Iceberg와 Flink CDC 심층 탐구"
+              "title": "CHAP5_비판적_사고"
             }
           },
           {
@@ -195,8 +195,8 @@
   },
   "active": "ab930aab4ec2905e",
   "lastOpenFiles": [
-    "document/Apache Iceberg.md",
     "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
+    "document/Apache Iceberg.md",
     "document/데이터 다운타임이 증가하는 이유.md",
     "document/Recover Partitioned DBT Model.md",
     "document/Merge Small file on Apache Hive.md",
