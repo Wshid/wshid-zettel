@@ -533,3 +533,94 @@ aliases:
 	- 빠른 해결책을 제공하지는 못함
 - `ELT 테스트 체계`가 end-to-end로 진행되지 않았음을 의미하기 때문에
 	- 버그를 제거하려면 스택을 전체적으로 다시 점검해야 함
+
+## 3.7.2. 그레이트 익스펙테이션즈 단위 테스트
+- 단위 테스트의 형태로 '기대되는 것을 파악' 할 수 있는 다른 방법 제공
+- test가 python으로 작성되어 dbt보다 확장성이 뒤어나고
+	- ELT/ETL 솔루션에 적용 가능
+- 단일 소규모 데이터 배치부터 전체 변환에 아우르는
+	- 다양한 데이터 불륨 범위에서 단위 테스트 실행 가능
+- 테스트 적용 이후 `Data Doc`이라는 사람이 읽을 수 있는 결과 페이지 제공
+	- 다양한 테스트의 실패율에 대한 유용한 분석 제공
+	- 실패한 행을 무작위 샘플링 하여 보여줌
+
+### 일반적인 사용 편의성
+- 단일 yaml로 소스 관리
+- 데이터 검증을 위한 jupyter notebook 환경 사용
+
+### 슬랙 연동
+- 유효성 검사 단계 완료시 slack alert을 받을 수 있음
+
+### 파이썬으로 제한된 사용
+- SQL, R 등 사용 불가
+
+### 변환/작업 오케스트레이션 도구와 분리
+- DE 스택의 transformation(e.g. dbt model) 및 orchestration(dbt cloud) 조각과 밀접하게 연결된 dbt 단위 테스트와 달리,
+	- GX는 학습 곡선이 완전히 다름
+- Data Docs에서 분석을 제한적으로 사용하거나, 테스트에서 광범위한 사용자 지정 사용시
+	- dbt 테스트와 같이 통합된 것을 선호할 수 있음
+## 3.7.3. Deequ 단위 테스트
+- AWS에 의해 구축된 오픈소스 라이브러리
+- 데이터에 대한 단위 테스트 실행
+- Apache Spark 위에 구축되어 포맷 유연성이 좋음
+	- Spark DF에 들어갈 수 있는 csv, json, table on DW, app log data
+- PyDeequ 패키지 지원(Github, PyPI)
+- dbt test, GX와 마찬가지로
+	- 테스트 조건을 주장하고 실패한 행 또는 데이터 배치를 반환함
+- AWS 변환 및 스트리밍 환경에 통합 가능
+	- app 불량 테스트를 upstream에 공급하기 전 '검역'(quarantine)하도록 설계
+- 테스트 외에도 배포를 위한 더 나은 통합 도구가 될 수 있음
+
+### 실질적인 Deequ 테스팅
+- 진입점: `VerificationSuite` 클래스
+- `VerificationSuite` 객체를 사용하여 `.onData(data)`에 테스트할 데이터를 할당하고,
+	- `addCheck()`를 사용하여 개발 단위 테스트 `Checks`를 추가할 수 있음
+- e.g. 테스트한 데이터가 특정 크기를 가지고 있고,
+	- 고유하고 `NULL`이 아닌 열이 있으며, 적절한 범위 내의 분위 수가 있는지 테스트 가능
+- 호출시 Deequ는 `VerificationSuite`를 일련의 Spark 작업으로 전환
+
+#### 더미 데이터 집합에 대한 단순 단위 테스트 정의
+```scala
+import ...
+
+val verificationResult = VerificationSuite()
+	.onData(data)
+	.addCheck(
+		Check(CheckLevel.Error, "unit testing my data")
+		.hasSize(_ == 5) // 5개의 row
+		.isComplete("id") // is not null
+		.isUnique("id") // unique
+		.isComplete("productName")
+		.isCertainedIn("priority", Array("high", "low")) // high, low만 존재하는가
+		.isNonNegative("numViews") // > 0
+		.containsURL("description", _ >=0.5) // description의 절반 이상은 URL 포함
+		.hasApproxQuantile("numViews", 0.5, _ <= 10) // item의 절반은 10 view 보다 낮아야함
+	)
+```
+
+### Deequ의 장점
+- AWS 연동
+- 뛰어난 확장성
+	- scala로 수행시 scala 작업 orchestration 및 병렬 처리 활용 => 효율성 증가
+	- 데이터는 scala DF에 저장
+- Stateful 계산
+	- metric metadata 계산 후, 해당 메타데이터를 제자리에 저장 한 후
+		- 더 많은 데이터가 수집될 때 주요 메트릭 재계산 가능
+	- 메트릭 계산에 대한 점진적인 접근 방식
+		- 전체적으로 다시 계산할 여유가 없는 데이터셋으로 작업 가능
+	- 대규모 스트리밍 데이터셋에 유용
+- 이상 탐지 기능 내장
+	- 고급 이상 탐지를 위한 내장 기능
+	- c.f. GX는 변화율, 단순 임곗값을 기반으로 이상을 '탐지'하도록 구성
+	- Deequ는 조금 더 자세히 실행중인 **지표 평균 및 편차** 탐지 가능
+
+### Deequ의 단점
+- 스칼라의 학습 곡선
+- 통합 테스트로서는 제한된 적용 가능성
+	- dbt의 경우 모델별로 수행 및 ELT 파이프라인 전체에서 testing method 통합
+	- but, deequ는 사용자가 제공하는 모든 데이터 배치에서 유연하게 실행됨
+	- deequ는 통합 테스트 소프트웨어는 아님
+	- 통합 테스트와 유사하게 사용하려면 비용이 듦
+- 직관적인 UI 부족
+	- 기능적으로 DE 니즈를 만족시킴
+	- GX의 Data Docs, Slack alert 등이 지원되지 않음
