@@ -147,3 +147,92 @@ Flink를 사용하여 Mysql의 테이블을 Apache Iceberg로 CDC 운영하기
 	- `SPARK`의 `ALTER TABLE`등으로 강제 설정은 가능하나,
 		- 테이블 조회시 에러 발생 가능성 존재
 		- 권장하지 않음
+
+## Flink에서 Iceberg로 준비 과정
+- 팀의 미션
+	- 지표 계산에 필요한 데이터 수집
+		- 지표 계산에 문제가 없는 선에서 Mysql Table Column Type - Iceberg Table Column Type 매핑
+	- 하둡 파일 시스템 저장소, 하이브 메타스토어 카탈록 
+		- 지표 계산을 위해 사내 hadoop/hive를 이미 활용중
+	- 재처리시 멱등성 보장을 위해 `upsert` 모드 사용
+	- Flink Job은 오직 하나의 Mysql Table CDC 연동
+		- 하나의 Flink Job에서 여러 테이블의 변화분을 읽어오는 기능은 제공하나,
+		- Iceberg Flink 적재 API는 여러 테이블에 데이터를 적재하는 것을 지원하지 x
+### Flink 설정
+#### 하둡 인증 관련 설정
+- hadoop 인증 설정을 flink에 반영
+- `flink-conf.yaml`에 설정
+	- flink 1.19 이상 사용시, `conf.yaml`에 지정
+	- `flink-conf.yaml` -> `conf.yaml`로 설정 파일 변경됨
+```yaml
+hadoop.security.authentication: kerberos  
+security.kerberos.login.principal: seungmin-lee@HADOOP  
+security.kerberos.login.keytab: /../../seungmin-lee.keytab  
+security.kerberos.access.hadoopFileSystems: hdfs://hadoop-cluster
+```
+
+#### Flink Checkpoint 주기
+- Checkpoint
+	- Flink가 주기적으로 저장하는 상태 정보
+	- Flink Job이 중단될 경우 Job 복구에 사용되는 정보
+- 일반적으로 안정성 측면에서 **주기는 작게 설정하는 것이 좋음**
+- 단, Iceberg에 적재시 고려사항 존재
+	- Flink -> Iceberg Table로 적재시
+	- Flink Checkpoint 주기에 맞춰 Iceberg Table에 commit 수행
+		- 새로운 파일들이 생성됨
+	- 파일들이 작게, 많이 생성 되는 상황 => 테이블 조회 시간 증가
+		- 조회시간이 늘어나는 이유?
+			- 스캔플래닝 참조
+- 체크포인트 주기를 너무 늘려도 좋지 않음
+	- Iceberg 테이블 조회 관점에서,
+		- 테이블에 적재된 데이터는 커밋이 수행되야 조회가 가능해짐
+		- 실시간성이 떨어짐
+- **최종적으로 10min을 체크포인트 주기로 설정**
+
+### Hive 설정
+- DDL과 연관있는 `hive.metastore.disallow.incompatible.col.type.changes` 설정
+- Hive Server에서 전역 설정
+	- Column Type이 변경되는 DDL의 허용 여부를 결정
+- 기본적으로 Flink는
+	- Mysql -> Iceberg CDC 연동시 DDL 이벤트를 지원하지 않음
+	- Mysql의 데이터 변환분, 이벤트 타입에 맞춰 변경하는 코드는 `before|after` 키를 검증하나
+		- DDL 이벤트에는 해당 키 값이 존재하지 x
+		- DDL 정보만이 존재
+	- 따라서 Mysql 연동시, DDL 이벤트가 발생하면
+		- DDL과 이후 이벤트를 스킵하고
+		- Iceberg Table에 Spark SQL을 통한 DDL을 별도로 수행했었음
+- 단, SparkSQL로 DDL을 수정해도
+	-  `hive.metastore.disallow.incompatible.col.type.changes=true` 이기 때문에
+	- **컬럼 타입 변화가 기본 설정으로 지원되지 않음**
+- DDL 이벤트가 컬럼 타입 변화를 일으키는지 판단하는 기준
+	- Iceberg Metadata file의 관점에서 생각해보기
+	- e.g. metadata file에 존재하는 파티션 정보에서 n번째 컬럼 타입이 DDL 이벤트 후 변경시
+		- 타입 변화로 판단함
+	- 컬럼 순서 변경 역시 metadata file 관점에서 n 번째 컬럼 타입이 변경되는 것 -> 허용되지 x
+	- 만약 동일 타입의 컬럼들로만 테이블이 구성되었다면, 순서 변경이 성공할 수도 있음
+- 컬럼 타입변경을 위해 해당 값을 `false`로 지정해주어야 함
+
+### 카탈로그와 네임스페이스 설정
+- 카탈로그에는 **테이블 타입**, **카탈로그 타입** 및 파일들이 저장될 경로를 설정
+	- 테이블 타입: `iceberg`
+	- 카탈로그 타입: `hive`
+- `WAREHOUSE_LOCATION`: 모든 테이블들의 데이터 및 메타데이터 관련 파일이 저장되는 경로
+- `namespace`와 `table명`을 혼합하여 **테이블별 경로**를 구분하여 설정하는 것을 권장
+- hive를 카탈로그로 사용하려면 `hive metastore`의 thrift uri를 `uri` 설정에 추가해야 하나
+	- hadoop, hive 관련 설정이 flink cluster에 사용하는 container image에 포함되어 스킵
+- namespace에는 필수로 지정해야할 설정이 없음
+	- 단, `namespace`와 `table`의 소유주를 미리 지정한다면, 차후 운영 및 권한 관리 관점에서 유용
+	- 그에 따라 아래와 같이 설정
+```scala
+import org.apache.iceberg.flink.CatalogLoader  
+  
+hiveCatalogProps.put("type", "iceberg")  
+hiveCatalogProps.put("catalog-type", "hive")  
+hiveCatalogProps.put("warehouse", s"hdfs://hadoop-cluster/../../${namespace}/${table}")  
+val hivecatalog = CatalogLoader.hive("catalog_name", hadoopConf, hiveCatalogProps) // 기존 카탈로그 로드 또는 생성  
+  
+namespaceProps.put(HiveCatalog.HMS_TABLE_OWNER, "seungmin-lee")  
+namespaceProps.put(HiveCatalog.HMS_DB_OWNER, "seungmin-lee")  
+hiveCatalog.createNamespace(Namespace.of("namespace_name"), namespaceProps) // 기존 네임스페이스 로드 또는 생성
+```
+
