@@ -236,3 +236,60 @@ namespaceProps.put(HiveCatalog.HMS_DB_OWNER, "seungmin-lee")
 hiveCatalog.createNamespace(Namespace.of("namespace_name"), namespaceProps) // 기존 네임스페이스 로드 또는 생성
 ```
 
+### 테이블 설정
+- Iceberg 테이블 설정은 팀 내부 정책에 맞춰 설정해야할 부분도 있음
+	- 멱등성 보장을 위한 옵션
+		- `write.upsert.enabled=True`
+		- `format-version>=2`
+			- 2024.10월 기준 `format-version=3`은 개발중
+	- 사내 hive, trino 엔진을 통한 iceberg 테이블 조회 고려
+		- `engine.hive.enabled=true`
+- 파일 타입과 압축 방법은 기본값 사용
+	- `parquet`, `zstd`
+	- iceberg v1.4 이전까지는 `gzip` 
+	- Apache Trino를 통한 조회시 `zstd`가 조회나 압축 관점에서 더 좋은 성능과 `gc` 안정성을 보여줌
+		- 그에 따라 v1.4 버전 이후부터 `zstd` 압축 방식 사용
+- 메타 데이터 파일의 롤링
+	- `write.metadata.delete-after-commit.enabled=true`
+		- hadoop fs를 위해, hadoop block size보다 작은 파일 생성은 hadoop fs의 IO 성능에 좋지 않음
+	- 또한 최신의 metadata file에는 snapshot 만료 기능 미사용시
+		- 과거의 스냅샷 정보들이 전부 남아 있음
+		- 그에 따라 과거 metadata file은 보관할 필요가 없음
+	- 파일 유지 개수, `100`(default) 사용
+- 커밋과 쓰기 관련 설정
+	- `commit` 실패에 대한 안정성 향상
+		- retry 4 -> 60
+		- 시간 기준으로는 `5min`
+	- `isolation` 레벨 설정
+		- 쓰기 관련 옵션
+		- 동시에 여러 연산자가 데이터를 지우거나 갱신시, 어느정도 순서로 통제할지 결정
+			- 현재 구현상 CDC 연동시 증분 스냅샷 단계를 제외하면,
+				- iceberg 테이블에 유효한 쓰기 연산은 항상 하나만 존재
+		- 쓰기 연산이 하나이기 때문에 연산들의 순서가 엉키는 경우는 없으나
+			- 만약의 경우를 대비하여 `serializable`을 사용
+			- default, 가장 강하게 동시성 제한
+```scala
+tableProperties.put(TableProperties.COMMIT_NUM_RETRIES, "60") // 기본값 4에서 60으로 증가
+tableProperties.put(TableProperties.COMMIT_TOTAL_RETRY_TIME_MS, "300000") // 기본값 30분에서 5분으로 감소
+tableProperties.put(TableProperties.DEFAULT_FILE_FORMAT, "parquet")  
+tableProperties.put(TableProperties.ENGINE_HIVE_ENABLED, "true")  
+tableProperties.put(TableProperties.FORMAT_VERSION, "2")  
+tableProperties.put(TableProperties.METADATA_DELETE_AFTER_COMMIT_ENABLED, "true")  
+tableProperties.put(TableProperties.PARQUET_COMPRESSION, "zstd")  
+tableProperties.put(TableProperties.UPSERT_ENABLED, "true")
+```
+- 파티션
+	- 반드시 설정해야 하는 기능
+	- 기본키에 대해 버킷 파티션 설정
+	- 기본키가 만약 2개 이상의 column일 경우, `cardinality`가 더 높은 컬럼을 사용함
+	- 버킷 파티션의 `modulo` 값을 정할 때는
+		- 5, 10, 25, 50의 값을 테스트 함
+	- 너무 세분화된 파티션은 오히려 조회 성능에 영향
+		- 실제로 `50` 이상부터는 `spark`를 통한 테이블 조회시 수행시간이 늘어남
+	- 최종 `5`로 설정
+- 쓰기 모드 설정
+	- Iceberg Flink API 테이블 생성시 기본적으로 설정되는 `COW`를 사용
+	- 사용 환경, 방식에 따라 성능에 영향을 미치는 설정이나,
+		- Flink에서 iceberg table로 데이터를 적재하는 로직이 항상 `MOR`로 동작
+	- 또한 현재 Flink만이 쓰기 연산을 수행하고,
+		- 읽기 연산은 Spark를 통해 수행하기 때문에 해당 설정은 실질적인 의미가 x
