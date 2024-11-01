@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 702.5
+    "width": 702.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -193,7 +194,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1d242474a2eb8d24",
+  "active": "ab930aab4ec2905e",
   "lastOpenFiles": [
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",

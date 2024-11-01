@@ -293,3 +293,68 @@ tableProperties.put(TableProperties.UPSERT_ENABLED, "true")
 		- Flink에서 iceberg table로 데이터를 적재하는 로직이 항상 `MOR`로 동작
 	- 또한 현재 Flink만이 쓰기 연산을 수행하고,
 		- 읽기 연산은 Spark를 통해 수행하기 때문에 해당 설정은 실질적인 의미가 x
+
+## 플링크에서 아이스버그로 적재 과정
+- Flink -> Iceberg로 바로 데이터를 적재하면,
+	- Kafka Connect시 활용되는 Debezium의 `Change Event` 포맷이 아닌 `RowData` 포캣을 사용
+- 하기 설명 내용
+	- `RowData` 포맷 사용시 이점
+	- Flink Dynamic Table
+	- Iceberg 테이블을 어떻게 동적으로 생성하여 사용하는가
+	- Source, Writer, Committer 3개의 연산자들의 동작 과정
+### Source, Writer, Committer
+- Source: MySQL 테이블에서 데이터를 읽고 RowData 포맷의 메세지 생성
+- Writer: 상위 연산자가 건네준 메세지의 이벤트 타입에 맞춰 Iceberg 테이블에 데이터 적재
+- Committer: Flink Job이 Checkpoint 수행시 Iceberg 테이블에 Commit 수행
+
+### RowData Format
+- Debezium을 기반으로 하는 CDC 연동 -> 대부분 Kafka Connect를 사용
+	- `Change event` 포맷을 사용
+#### Change Event format
+- `Change event` 포맷은 아래와 같이 다양한 정보를 담은 Json 포맷
+	- 스키마 정보
+	- 쿼리 수행 전/후의 데이터
+	- 원천 데이터베이스 정보
+	- 라이브러리 정보
+- 다양한 정보를 담고 있기 때문에, 무거워진 메세지는 메세지 처리율에 부정적인 영향을 줌
+- 메세지를 가볍게 하고 싶다면 `Schema Registry`를 사용하여 스키마 정보 생략 가능
+	- 단, Registry 목적의 서버 구축 및 운영해야하는 단점 존재
+- Kafka와 Kafka Connect를 통해 Target MySQL 테이블에 데이터를 적재하고 있어,
+	- `Change event` 포맷을 사용하고 있었음
+
+### 기존 운영 방식과 RowData Format
+- `Flink`에서 `Target Mysql` 테이블로 바로 데이터를 적재하지 못하는 이유
+	- Flink CDC는 `Source Connector`위주로 데이터 수집 기능을 제공하기 때문
+- 하지만 Iceberg, Flink에서 바로 데이터 적재 가능하도록 API 제공
+	- Flink CDC의 Source Connector를 사용하여
+	- MySQL의 데이터를 가져온 후
+	- Iceberg의 Flink 적재 기능을 통해 Iceberg 테이블 적재 가능
+- 그에 따라 `Kafka` `Change event` 포맷을 사용하지 않아됨
+	- 대신 Flink의 `RowData` 포맷을 사용
+
+#### RowData Forrmat의 형태
+- `+I`, `+U`, `-D`
+	- INSERT, UPDATE, DELETE
+```sql
++I(23,seungmin,lee,seungmin@example.com,010-4321-9876,Employee,30000.00,1,1)
++U(24,Unknown,Unknown,null,None,None,0.00,-1,0)
+-D(25,gildong,hong,gildong@example.com,010-1234-5678,Employee,50000.00,1,1)
+```
+- 간단한 포맷으로 CDC가 가능한 이유?
+	- Flink Job에 필요한 모든 테이블의 정보가 이미 존재하기 때문
+	- 하나의 Flink Job: 하나의 Iceberg 테이블 적재 구조
+		- Change event 포맷처럼 db, table에 대한 정보를 메세지에 넣을 필요 x
+- 가벼워진 메세지 포맷은
+	- 메세지 처리율 향상
+	- 사내 카프카에 대한 의존성이 사라짐
+		- 메세지 처리율 상한 필요 x
+- 결과적으로 데이터베이스 부하만 조율하면 메세지 처리율을 원하는 만큼 증가 시킬 수 있음
+	- CDC 연동의 증분 스냅샷 단계를 더 빠르게 처리
+
+#### Iceberg 테이블 적재 구조의 처리율
+- 카프카 의존성이 사라진 상태
+- 가벼워진 메세지 포맷
+- 병렬성 1당 평균 `15k msg/s` 정도의 처리량을 가짐
+- `DBA`와 부하 테스트 진행시 최대 `45`까지의 병렬성 확인
+- 버퍼를 두어 `40`으로 설정 하더라도 `600k msg/s`의 처리량을 가짐
+- 현재 `20`으로 설정하여 2개의 flink job 운영
