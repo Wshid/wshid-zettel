@@ -358,3 +358,138 @@ tableProperties.put(TableProperties.UPSERT_ENABLED, "true")
 - `DBA`와 부하 테스트 진행시 최대 `45`까지의 병렬성 확인
 - 버퍼를 두어 `40`으로 설정 하더라도 `600k msg/s`의 처리량을 가짐
 - 현재 `20`으로 설정하여 2개의 flink job 운영
+
+### 테이블 동적 생성
+- Flink -> Iceberg 테이블 적재하는 Flink Job 수행시
+	- 동적으로 2개의 테이블을 생성해야 함
+		- Flink Dynamic Table
+		- Iceberg Table
+	- 두 테이블을 생성하는데 필요한 스키마를 어떻게 동적으로 사용하는가?
+	- Iceberg table을 Flink를 통해 생성하는 이유는 무엇인가?
+	- 각 시스템별로 정의된 테이블들의 Column Type을 매핑한 이유는 무엇인가
+
+#### Flink Dynamic Table
+- Flink -> Iceberg 테이블 적재시 반드시 사용하는 기능
+- Flink의 Table API 사용
+	- Table API의 핵심적인 기능
+- Mysql Table의 각 컬럼 값들을 어떤 타입으로 가져올지 결정하는 역할 수행
+- Flink Dynamic Table의 Column Type에 맞추어 Mysql 테이블의 각 컬럼 데이터를 읽어와 변환
+- 예시
+	- Mysql Table Int type, flink dynamic table 문자열 대응
+		- 정수형 값을 문자열로 변환함
+- Flink Dynamic Table을 생성하는 일반적인 방법
+	- 테이블 생성에 필요한 스키마 정보를 코드에 넣거나
+	- 설정 파일에 기입 후 Flink Job에서 동적으로 불러와 사용
+		- 테이블 스키마 정보를 코드나 설정 파일에 넣는 것은 보안상 좋지 않음?
+		- 또한 스키마가 예기치 않게 변할 수 있기 때문에
+			- 주기적으로 변할 가능성이 있는 정보를 파일로 관리하는 것은 운영상으로도 좋지 않음
+- Iceberg 테이블도 필요한 스키마 정보를 코드나 파일에 기입한 후 Flink Job에서 생성 가능
+- 단, Iceberg Table은 다른 방법으로도 생성 가능
+	- Spark, Trino와 같은 별도의 엔진을 통해 생성 가능
+		- 일반적으로 미리 테이블을 생성하는 방식을 많이 사용
+	- 하지만 다른 엔진을 사용하여 테이블 생성하는 것은
+		- Flink외에 다른 엔진에 대한 의존성을 만들고
+		- 고려해야할 부분이 늘어나기 때문에 결과적으로 전체 연동 과정을 복잡하게 만듦
+- 스키마 정보를 코드에 넣어 사용하는 예시
+```scala
+// 플링크 다이내믹 테이블 스키마 코드
+val flinkDynamicTableSchema = DataTypes.ROW(  
+  DataTypes.FIELD("id", DataTypes.BIGINT),  
+  DataTypes.FIELD("first_name", DataTypes.STRING),  
+  DataTypes.FIELD("last_name", DataTypes.STRING),  
+  DataTypes.FIELD("email", DataTypes.STRING),  
+  DataTypes.FIELD("phone_number", DataTypes.STRING),  
+  DataTypes.FIELD("job_title", DataTypes.STRING),  
+  DataTypes.FIELD("salary", DataTypes.STRING),  
+  DataTypes.FIELD("department_id", DataTypes.INT),  
+  DataTypes.FIELD("is_active", DataTypes.INT)
+)
+
+
+// 아이스버그 테이블 스키마 코드
+val icebergTableSchema = new Schema(  
+  Types.NestedField.required(1, "id", Types.LongType.get),  
+  Types.NestedField.optional(2, "first_name", Types.StringType.get),  
+  Types.NestedField.optional(3, "last_name", Types.StringType.get),  
+  Types.NestedField.optional(4, "email", Types.StringType.get),  
+  Types.NestedField.optional(5, "phone_number", Types.StringType.get),  
+  Types.NestedField.optional(6, "job_title", Types.StringType.get),  
+  Types.NestedField.optional(7, "salary", Types.StringType.get),  
+  Types.NestedField.optional(8, "department_id", Types.IntegerType.get),  
+  Types.NestedField.optional(9, "is_active", Types.IntegerType.get)
+)
+```
+- 컬럼 타입에 대한 이슈도 존재함
+	- Mysql Column Type, Flink의 Dynamic Table Column Type, Iceberg Column Type
+		- 모두 개별 시스템에서 정의된 값
+	- 컬럼 타입이 서로 호환되지 않거나
+		- Flink Dynamic Table의 Column Type과 Iceberg Table의 Column Type이 호환되지 않을 수 있음
+- 위 문제들을 해소하기 위해
+	- Flink Job에서 `MYSQL`에 `DESCRIBE TABLE` 구문을 먼저 수행
+		- 이후 수행 결과를 사용하여 동적으로 아래 정보 생성
+			- Flink Dynamic Table
+			- Iceberg Table 생성에 필요한 스키마
+- 컬럼 타입의 목표 -> 지표 추출
+	- 완전히 동일한 타입을 가져갈 필요도 없으며, 실제 가능하지도 않음
+
+#### 컬럼 타입 매핑 예시
+- 대신 라이브러리 코드 확인 및 테스트를 통해
+	- 각 컬럼 타입들 간의 변환이 호환되고,
+	- 지표 추출에도 문제가없는 선으로 매핑 룰을 정함
+- 아래와 같은 `convert` 함수 사용
+	- 해당 타입이 변환이 허용되는지를 파악함
+```java
+// 플링크 다이나믹 테이블의 칼럼 타입이 Int 타입인 경우
+public Object convert(Object dbzObj, Schema schema) {  
+    if (dbzObj instanceof Integer) {  
+        return dbzObj;  
+    } else {  
+        return dbzObj instanceof Long ? ((Long)dbzObj).intValue() : Integer.parseInt(dbzObj.toString());  
+    }  
+}
+
+
+// 플링크 다이나믹 테이블의 칼럼 타입이 Long 타입인 경우
+public Object convert(Object dbzObj, Schema schema) {  
+    if (dbzObj instanceof Integer) {  
+        return ((Integer)dbzObj).longValue();  
+    } else {  
+        return dbzObj instanceof Long ? dbzObj : Long.parseLong(dbzObj.toString());  
+    }  
+```
+
+#### 실제 사용하는 컬럼 타입 매핑 방법
+- 정수형 타입, 일부 시간 관련 타입은 동일한 타입 지정
+	- e.g. MySQL의 `datetime` 타입은 Flink Dynamic Table, iceberg Table에서 모두 지원되지 않음. `Timestamp` 타입 사용
+- MySQL `bit` 타입은 먼저 자릿수 확인
+	- 자릿수 1이면 True/False 데이터 취급. `String`으로 적재
+	- 이외네는 `VARBINARY` 타입으로 읽어와 Iceberg의 `String` 타입으로 적재
+- `tinyint`는 `int` 타입으로 적재
+	- `0, 1`로 일반적으로 True/False 값이나, 종종 `2`이상의 값도 사용하기 때문
+	- `String`으로 변환하게 되면, 2 이상의 값이 전부 `true`로 변환되어 지표 추출에 문제 발생
+	- 이외의 타입들은 전부 `String` 타입으로 변환 적재
+```scala
+import org.apache.flink.table.types.DataType
+import org.apache.iceberg.types.Types
+
+
+// desc table 결과 기준, 플링크 다이나믹 테이블 스키마 타입 맵핑 룰
+case "int" => DataTypes.INT()  
+case "bigint" => DataTypes.BIGINT()  
+case "tinyint" => DataTypes.INT() 
+case "bit" if n > 1 => DataTypes.VARBINARY(n)  
+case "date" => DataTypes.DATE()  
+case "datetime" => DataTypes.TIMESTAMP(n)  
+case "timestamp" => DataTypes.TIMESTAMP(n)  
+case _ => DataTypes.STRING()
+
+
+// desc table 결과 기준, 아이스버그 테이블 스키마 타입 맵핑 룰
+case "int" => Types.IntegerType.get  
+case "bigint" => Types.LongType.get  
+case "tinyint" => Types.IntegerType.get  
+case "datetime" => Types.TimestampType.withZone()  
+case "timestamp" => Types.TimestampType.withZone()  
+case "date" => Types.DateType.get  
+case _ => Types.StringType.get
+```
