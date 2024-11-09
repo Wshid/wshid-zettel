@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP3_데이터_수집_정제_변환_테스트"
+              "title": "Apache Iceberg와 Flink CDC 심층 탐구"
             }
           },
           {
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 702.5
+    "width": 702.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -195,6 +196,8 @@
   },
   "active": "ab930aab4ec2905e",
   "lastOpenFiles": [
+    "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "의도적 발견.md",
@@ -202,7 +205,6 @@
     "확증 편향.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
     "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Apache Iceberg.md",
     "document/데이터 다운타임이 증가하는 이유.md",
     "document/Recover Partitioned DBT Model.md",
@@ -221,7 +223,6 @@
     "라이너스 폴링.md",
     "창의적 코딩.md",
     "소프트웨어 장인 정신.md",
-    "().md",
     "document/LLAMA",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",

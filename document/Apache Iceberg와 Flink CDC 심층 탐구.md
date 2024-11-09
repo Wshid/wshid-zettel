@@ -493,3 +493,51 @@ case "timestamp" => Types.TimestampType.withZone()
 case "date" => Types.DateType.get  
 case _ => Types.StringType.get
 ```
+
+
+### 소스 연산자
+- 위 테이블들이 동적 생성 이후, 소스 연산자가 Mysql에서 데이터를 읽기 시작
+- 소스 연산자는 각 단계별 아래 데이터를 가져옴
+	- 증분 스냅샷 단계: 테이블 데이터
+	- 빈로그 스트림 단계: 바이너리 로그
+		- flink의 dynamic table schema에 맞춰 컬럼 값 변환
+		- 이후 RowData 타입의 메세지 생성
+
+#### 소스 연산자의 동작 과정
+- 단계
+	- 설정된 접속 정보에 맞춰 DB 연결
+	- MySQL 테이블의 데이터, 바이너리 로그를 읽음
+	- Flink dynamic table의 컬럼 타입에 맞춰 읽어온 값들을 변환하고,
+		- RowData 타입의 메세지 생성
+	- 생성된 메세지를 하위 연산자로 전송
+- 상세
+	- 읽어온 메세지를 `RowData` 포맷 메세지로 만들려면
+		- Flink CDC의 `RowDataDebeziumDeserializeSchema` 함수 사용
+		- 만약 Json 타입의 Change event format으로 변환시
+			- `JsonDebeziumDeserializationSchema`를 사용하면 됨
+	- `RowDataDebeziumDeserializeSchema`를 사용하려면 타입 변환 필요
+		- Flink Dynamic Table Schema(`DataType`) -> `TypeInformation[RowData]`
+	- 해당 변환은 `DataType, logicalType, TypeInformation[RowData]` 순서로 진행되며
+		- `staticfromDataTypeToLegacyInfo` 함수를 통해 한번에 변환은 가능하나,
+			- 해당 함수는 곧 deprecate 예정
+	- 타입 변환에는 Flink Table API에서 제공하는 `TypeConversions`와 `InternalTypeInfo`를 사용하면 됨
+
+```scala
+MySqlSource.builder[A]()  
+  .hostname(...)  
+  .port(...)  
+  ...
+  .deserializer(buildRowDataDebeziumDeserializeSchema(flinkDynamicTableSchema))
+  .build()
+  
+private def buildRowDataDebeziumDeserializeSchema(flinkDynamicTableSchema: DataType): RowDataDebeziumDeserializeSchema = {  
+  val logicalType = TypeConversions.fromDataToLogicalType(flinkDynamicTableSchema)  
+  val typeInfo = InternalTypeInfo.of(logicalType).asInstanceOf[TypeInformation[RowData]]  
+  
+  RowDataDebeziumDeserializeSchema.newBuilder  
+    .setPhysicalRowType(flinkDynamicTableSchema.getLogicalType.asInstanceOf[RowType])  
+    .setChangelogMode(DebeziumChangelogMode.UPSERT)  
+    .setResultTypeInfo(typeInfo)  
+    .build()  
+}
+```
