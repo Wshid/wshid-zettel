@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
+                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP5_비판적_사고"
+              "title": "CHAP3_데이터_수집_정제_변환_테스트"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 602.5
+    "width": 479.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -180,13 +180,14 @@
   },
   "active": "1c429e0b8ad94436",
   "lastOpenFiles": [
-    "기준점 편향.md",
-    "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "ingestion.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "기준점 편향.md",
     "document/Apache Iceberg.md",
     "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "의도적 발견.md",
     "로버트 스턴버그.md",
     "확증 편향.md",
@@ -206,7 +207,6 @@
     "template/book.md",
     "raw/repository/daily-poc/docs/[240221]Data_SLA_SLO_SLI.md",
     "라이너스 폴링.md",
-    "창의적 코딩.md",
     "document/LLAMA",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
