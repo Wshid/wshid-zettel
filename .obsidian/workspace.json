@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP3_데이터_수집_정제_변환_테스트"
+              "title": "CHAP5_비판적_사고"
             }
           }
         ]
@@ -180,8 +180,8 @@
   },
   "active": "1c429e0b8ad94436",
   "lastOpenFiles": [
-    "ingestion.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "ingestion.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "기준점 편향.md",
