@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "document/2025_ChatGPT_Bible/10년차 개발자가 보는 개발과 ChatGPT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "10년차 개발자가 보는 개발과 ChatGPT"
             }
           }
         ],
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 479.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -211,8 +212,10 @@
   },
   "active": "f171fcca0ae750e3",
   "lastOpenFiles": [
-    "사고 책임자.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "document/2025_ChatGPT_Bible/10년차 개발자가 보는 개발과 ChatGPT.md",
+    "document/2025_ChatGPT_Bible",
+    "사고 책임자.md",
     "playbook.md",
     "runbook.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
@@ -236,7 +239,6 @@
     "document/Merge Small file on Apache Hive.md",
     "document/Obsidian AnuPucchine 활용법.md",
     "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
-    "concept/RwLock.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "document/LLAMA",
     "snippet.css",
@@ -248,7 +250,6 @@
     "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
     "workspace/rust/CHAP_1_2",
-    "fonts/나눔손글씨 하나되어 손글씨.ttf",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
