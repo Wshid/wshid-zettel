@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/2025_ChatGPT_Bible/10년차 개발자가 보는 개발과 ChatGPT.md",
+                "file": "document/Creative_Programmer/CHAP6_호기심.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10년차 개발자가 보는 개발과 ChatGPT"
+              "title": "CHAP6_호기심"
             }
           }
         ],
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5,
-    "collapsed": true
+    "width": 479.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -212,13 +211,15 @@
   },
   "active": "f171fcca0ae750e3",
   "lastOpenFiles": [
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "고정된 사고방식.md",
+    "document/Creative_Programmer/CHAP6_호기심.md",
+    "성장 사고방식.md",
     "document/2025_ChatGPT_Bible/10년차 개발자가 보는 개발과 ChatGPT.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/2025_ChatGPT_Bible",
     "사고 책임자.md",
     "playbook.md",
     "runbook.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "데이터 신뢰성 라이프사이클.md",
     "이상 탐지.md",
@@ -237,8 +238,6 @@
     "document/데이터 다운타임이 증가하는 이유.md",
     "document/Recover Partitioned DBT Model.md",
     "document/Merge Small file on Apache Hive.md",
-    "document/Obsidian AnuPucchine 활용법.md",
-    "document/Rust_Concurrency_Programming/CHAP1/1_5_내부_가변성.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "document/LLAMA",
     "snippet.css",
