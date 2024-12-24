@@ -13,16 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
+                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_호기심"
+              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+            }
+          },
+          {
+            "id": "c7dab2672d73711c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+            }
+          },
+          {
+            "id": "4347e884f780fb2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHAP6_대규모_데이터_품질_문제_해결"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,23 +209,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "463e95935cde2a62",
+  "active": "4347e884f780fb2f",
   "lastOpenFiles": [
-    "document/Creative_Programmer/CHAP5_비판적_사고.md",
+    "runbook.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "postmortem.md",
+    "데이터 파이프라인에서 근본 원인 분석시 데이터 조직이 취해야할 5단계.md",
+    "document/Creative_Programmer/CHAP6_호기심.md",
+    "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "데이터 거버넌스.md",
     "document/Data_Governance",
-    "데이터 파이프라인에서 근본 원인 분석시 데이터 조직이 취해야할 5단계.md",
     "아마존의 5 Whys 접근법.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
     "고정된 사고방식.md",
     "성장 사고방식.md",
     "document/2025_ChatGPT_Bible/10년차 개발자가 보는 개발과 ChatGPT.md",
     "document/2025_ChatGPT_Bible",
     "사고 책임자.md",
     "playbook.md",
-    "runbook.md",
     "데이터 신뢰성 라이프사이클.md",
     "이상 탐지.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
@@ -207,7 +239,6 @@
     "document/LLAMA/PART01_Generative_AI_Langauge_Models.md",
     "의도적 발견.md",
     "로버트 스턴버그.md",
-    "확증 편향.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "document/LLAMA",
     "snippet.css",
