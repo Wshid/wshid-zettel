@@ -103,13 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "Apache Iceberg와 Flink CDC 심층 탐구"
             }
           }
         ],
@@ -144,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"데이터 신뢰성 라이프 사이클\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +165,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,8 +271,8 @@
   },
   "active": "5e3d36d2a8708e4b",
   "lastOpenFiles": [
-    "사고 책임자.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "사고 책임자.md",
     "데이터 신뢰성 스택.md",
     "데이터 신뢰성 라이프사이클.md",
     "데이터 신뢰성 라이프 사이클.md",

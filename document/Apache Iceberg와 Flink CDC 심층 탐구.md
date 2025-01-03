@@ -541,3 +541,70 @@ private def buildRowDataDebeziumDeserializeSchema(flinkDynamicTableSchema: DataT
     .build()  
 }
 ```
+
+### 쓰기 연산자
+- 상위 연산자에서 보낸 `RowData` 포맷의 메세지를 사용하여 iceberg 테이블 적재
+- iceberg에서 제공하는 flink api를 사용할 수 있음
+- `upsert` 모드를 사용하기 위해서는 동등 컬럼 설정 필요
+```scala
+FlinkSink.forRowData(rowDataFormatDataStmrea)
+	.table(...)
+	.tableLoader(...)
+	.upsert(true)
+	.equalityFieldColumns(pk)
+	.append()
+```
+
+#### Write시 데이터와 메타데이터 활용
+- 하기 코드상 메세지 타입에 따라 세부적인 동작이 다름
+- `+I`(INSERT), `+U`(UPDATE_AFTER) 타입의 메세지는 동일한 로직 수행
+- UPSERT 모드의 경우 메세지가 삭제 파일로도 들어감
+	- 테이블 조회시 과거 데이터를 지우고 항상 최신 데이터만을 보여주기 위함
+	- 테이블 조회시 데이터가 어떤 기준으로 삭제되어 보여지는지는 [[#스캔 플래닝]]파트에서 설명 예정
+- `-D`(DELETE)는 삭제 파일로만 들어감
+
+```java
+public void write(RowData row) throws IOException {  
+	RowDataDeltaWriter writer = route(row);  
+	switch (row.getRowKind()) {  
+		case INSERT:  
+		case UPDATE_AFTER:  
+			if (upsert) {  
+				writer.deleteKey(keyProjection.wrap(row));  
+			}  
+			writer.write(row);  
+			break;  
+		case UPDATE_BEFORE:  
+			if (upsert) {  
+			  break;
+			}  
+			writer.delete(row);  
+			break;  
+		case DELETE:  
+			if (upsert) {  
+				writer.deleteKey(keyProjection.wrap(row));  
+			} else {  
+				writer.delete(row);  
+			}  
+			break;  
+		default:  
+			throw new UnsupportedOperationException("Unknown row kind: " + row.getRowKind());  
+	}  
+}
+```
+
+#### 삭제 파일
+- 삭제파일은 하기 두 종류로 존재
+	- 포지션 삭제 파일
+	- 동등 삭제 파일
+- 데이터 삭제시 관련 정보다 어떤 종류의 삭제 파일에 쓰이는가에 따라 다르며, 엔진별 구현 방식 상이
+- UPSERT 모드인 경우 삭제 메세지가 삭제 파일로 들어가는 로직은 다음과 같으며, 흐름에 따라 삭제 파일이 결정됨
+	- 삭제 메시지 인입
+	- 동등 필드 컬럼값 확인
+	- 쓰기 연산자에 위치 정보 존재 여부
+		- 동등 컬럼 값이 동일한 메세지가 쓰기 연산자 메모리에 존재하는지 확인
+		- 동일 스냅샷 시점 및 동일 쓰기 연산자에서 한 번 이상 들어왔다면 메모리에 존재
+	- 정보 존재시,
+		- 데이터 파일, 포지션 파일이 존재. 포지션 삭제 파일로 유입
+	- 정보 미존재시,
+		- 미존재시 동등 삭제 파일로 유입
