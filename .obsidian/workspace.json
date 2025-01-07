@@ -73,17 +73,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
+                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_호기심"
+              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+            }
+          },
+          {
+            "id": "de18c1b84ad89c43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CHAP6_대규모_데이터_품질_문제_해결"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,15 +254,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "40649e2186d11e7f",
+  "active": "de18c1b84ad89c43",
   "lastOpenFiles": [
-    "Grit.md",
+    "Phantom data.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
+    "Grit.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "비즈니스 크리티컬 데이터.md",
     "전일적 접근 방식.md",
     "전일적 접근방식.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
     "사고 책임자.md",
     "데이터 신뢰성 스택.md",
@@ -268,7 +284,6 @@
     "이상 탐지.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "조너스 쇼크.md",
-    "집중적 사고.md",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "document/LLAMA",
     "snippet.css",
