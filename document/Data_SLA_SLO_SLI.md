@@ -113,3 +113,7 @@ aliases:
 ## 정리
 - SLA, SLI, SLO는 data downtime을 측정하는데 유용한 프레임워크 제공
 - end-to-end data observation을 통한 data downtime 방지
+
+### SLO
+- 많은 회사에서 특정 벤더, 프로덕트 또는 내부 조직이 제공할 서비스 수준과
+- 서비스를 제공하지 못할 경우 잠재적인 해결책을 정의하고 측정함
