@@ -13,73 +13,73 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "CHAP1_데이터_거버넌스란"
             }
           },
           {
-            "id": "2178c9c9cae43727",
+            "id": "d0bfdb316a6d76a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "데이터 거버넌스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "데이터 거버넌스"
             }
           },
           {
-            "id": "9c07ef19a751c5ec",
+            "id": "35440986bdc8f837",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "CHAP1_데이터_거버넌스란"
             }
           },
           {
-            "id": "e5c3638e5f154726",
+            "id": "60332cdda6b20db4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "CHAP1_데이터_거버넌스란"
             }
           },
           {
-            "id": "91f63517b3f85d35",
+            "id": "7c4a4b9e95886746",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "데이터 보안.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "데이터 보안"
             }
           },
           {
@@ -254,17 +254,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91f63517b3f85d35",
+  "active": "7c4a4b9e95886746",
   "lastOpenFiles": [
-    "해결시간.md",
+    "데이터 거버넌스.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "데이터 활성화.md",
+    "데이터 보안.md",
+    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무/[CH05]데이터_보안.md",
+    "데이터 스튜어드.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "데이터 사용자.md",
+    "데이터 주관자.md",
+    "지식 노동자.md",
+    "메타 데이터.md",
+    "해결시간.md",
     "탐지시간.md",
     "document/Data_SLA_SLO_SLI.md",
     "concept/data_downtime.md",
     "runbook.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
     "도태.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "Phantom data.md",
     "Grit.md",
     "비즈니스 크리티컬 데이터.md",
@@ -273,16 +282,7 @@
     "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
     "사고 책임자.md",
     "데이터 신뢰성 스택.md",
-    "데이터 신뢰성 라이프사이클.md",
-    "데이터 신뢰성 라이프 사이클.md",
-    "postmortem.md",
-    "데이터 파이프라인에서 근본 원인 분석시 데이터 조직이 취해야할 5단계.md",
-    "document/Creative_Programmer/CHAP5_비판적_사고.md",
-    "데이터 거버넌스.md",
     "document/Data_Governance",
-    "아마존의 5 Whys 접근법.md",
-    "고정된 사고방식.md",
-    "성장 사고방식.md",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "document/LLAMA",
