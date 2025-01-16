@@ -8,97 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "463e95935cde2a62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
-            "id": "d0bfdb316a6d76a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "데이터 거버넌스.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "데이터 거버넌스"
-            }
-          },
-          {
-            "id": "35440986bdc8f837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
-            "id": "60332cdda6b20db4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
-            "id": "7c4a4b9e95886746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "데이터 보안.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "데이터 보안"
-            }
-          },
-          {
             "id": "e8d2ae0c8d4bc7a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_SLA_SLO_SLI.md",
+                "file": "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data_SLA_SLO_SLI"
+              "title": "ChatGPT로_똑똑하게_일하기"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 479.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -254,12 +179,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c4a4b9e95886746",
+  "active": "e8d2ae0c8d4bc7a5",
   "lastOpenFiles": [
-    "데이터 거버넌스.md",
+    "document/Data_SLA_SLO_SLI.md",
+    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-    "데이터 활성화.md",
+    "데이터 거버넌스.md",
     "데이터 보안.md",
+    "데이터 활성화.md",
     "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무/[CH05]데이터_보안.md",
     "데이터 스튜어드.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
@@ -269,7 +196,6 @@
     "메타 데이터.md",
     "해결시간.md",
     "탐지시간.md",
-    "document/Data_SLA_SLO_SLI.md",
     "concept/data_downtime.md",
     "runbook.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
@@ -281,7 +207,6 @@
     "전일적 접근방식.md",
     "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
     "사고 책임자.md",
-    "데이터 신뢰성 스택.md",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
