@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Top 10 Data Engineering & AI Trends for 2025.md",
+                "file": "document/프로그래밍의_규칙/CHAP1_최대한_단순하게_그러나_너무_단순하지_않게.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top 10 Data Engineering & AI Trends for 2025"
+              "title": "CHAP1_최대한_단순하게_그러나_너무_단순하지_않게"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5,
-    "collapsed": true
+    "width": 479.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -181,8 +180,10 @@
   },
   "active": "e8d2ae0c8d4bc7a5",
   "lastOpenFiles": [
-    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Top 10 Data Engineering & AI Trends for 2025.md",
+    "document/프로그래밍의_규칙/CHAP1_최대한_단순하게_그러나_너무_단순하지_않게.md",
+    "document/프로그래밍의_규칙",
+    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Data_SLA_SLO_SLI.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "데이터 거버넌스.md",
@@ -206,7 +207,6 @@
     "비즈니스 크리티컬 데이터.md",
     "전일적 접근 방식.md",
     "전일적 접근방식.md",
-    "document/Apache Iceberg와 Flink CDC 심층 탐구.md",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
@@ -218,7 +218,6 @@
     "document/Data_Quality",
     "document/Creative_Programmer",
     "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
-    "workspace/rust/CHAP_1_2/1_2_scoped_thread.rs",
     "document/Pasted image 20240414130209.png",
     "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
