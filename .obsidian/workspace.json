@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "ChatGPT로_똑똑하게_일하기"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 479.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -180,6 +181,7 @@
   },
   "active": "e8d2ae0c8d4bc7a5",
   "lastOpenFiles": [
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
     "외재적 동기 부여.md",
@@ -189,7 +191,6 @@
     "document/프로그래밍의_규칙",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Data_SLA_SLO_SLI.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "데이터 거버넌스.md",
     "데이터 보안.md",
     "데이터 활성화.md",
