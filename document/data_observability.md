@@ -9,6 +9,7 @@ page:
 references: 
 aliases:
   - Data Observability
+  - 데이터 옵저버빌리티
 ---
 
 # Data Observability
