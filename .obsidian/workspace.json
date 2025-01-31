@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "Maestro_Data_ML_Workflow_Orchestrator_at_Netflix"
             }
           },
           {
@@ -223,8 +223,9 @@
   },
   "active": "bb5f59037dab0b7e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
+    "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
     "데이터 주도적 의사결정.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "concept/dev_ops.md",
@@ -249,7 +250,6 @@
     "데이터 주관자.md",
     "지식 노동자.md",
     "메타 데이터.md",
-    "해결시간.md",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
