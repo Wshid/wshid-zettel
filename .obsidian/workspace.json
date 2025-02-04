@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
+                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,191 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP6_호기심"
-            }
-          },
-          {
-            "id": "ada7d57eb0760a4a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-01-30 18.15.34.excalidraw"
-            }
-          },
-          {
-            "id": "88535c6a14515cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP6_호기심"
-            }
-          },
-          {
-            "id": "0ab185aa2c865f82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP6_호기심"
-            }
-          },
-          {
-            "id": "1c6e3375d31f6685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP6_호기심"
-            }
-          },
-          {
-            "id": "1e36e0d2fb350350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "불사조 접근법.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "불사조 접근법"
-            }
-          },
-          {
-            "id": "cf06f20c7ec75844",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "불사조 접근법.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "불사조 접근법"
-            }
-          },
-          {
-            "id": "a139c8337c332db1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "불사조 접근법.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "불사조 접근법"
-            }
-          },
-          {
-            "id": "51696c40c5ffd7aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP6_호기심"
+              "title": "CHAP6_대규모_데이터_품질_문제_해결"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -369,11 +188,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "51696c40c5ffd7aa",
+  "active": "e8d2ae0c8d4bc7a5",
   "lastOpenFiles": [
+    "document/[240213]DuckDB_vs_MotherDuck.md",
+    "document/Creative_Programmer/CHAP6_호기심.md",
+    "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
     "불사조 접근법.md",
     "아인슈타인 접근법.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
     "그룹 허그 접근법.md",
     "슬래시 접근법.md",
     "멀티포텐셜라이트.md",
@@ -381,7 +202,6 @@
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
-    "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
     "데이터 주도적 의사결정.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/data_observability.md",
@@ -397,7 +217,6 @@
     "데이터 거버넌스.md",
     "데이터 보안.md",
     "데이터 활성화.md",
-    "raw/repository/prompt_engineering/[PART_07]프롬프트_엔지니어링_실무/[CH05]데이터_보안.md",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
