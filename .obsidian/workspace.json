@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP6_대규모_데이터_품질_문제_해결"
+              "title": "CHAP1_데이터_거버넌스란"
+            }
+          },
+          {
+            "id": "a28df5976b68b115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP1_데이터_거버넌스란"
+            }
+          },
+          {
+            "id": "2271569cfc7d7ae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP1_데이터_거버넌스란"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,8 +237,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8d2ae0c8d4bc7a5",
+  "active": "2271569cfc7d7ae0",
   "lastOpenFiles": [
+    "AI 시스템을 신뢰할 수 있다고 간주하려면 충족해야 하는 7대 요건.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/[240213]DuckDB_vs_MotherDuck.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
     "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
@@ -200,10 +252,8 @@
     "멀티포텐셜라이트.md",
     "concept/dev_ops.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
     "데이터 주도적 의사결정.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/data_observability.md",
     "document/Local Go.md",
     "레오나르도 다 빈치.md",
@@ -216,7 +266,6 @@
     "document/Data_SLA_SLO_SLI.md",
     "데이터 거버넌스.md",
     "데이터 보안.md",
-    "데이터 활성화.md",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
