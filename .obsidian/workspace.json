@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+            }
+          },
+          {
+            "id": "18335aae87ce2b7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+            }
+          },
+          {
+            "id": "e4b78e36c6629e9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+            }
+          },
+          {
+            "id": "b4bdc3776f3a8dcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+            }
+          },
+          {
+            "id": "65114845ae7188fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+            }
+          },
+          {
+            "id": "e0cf22a6e921eefb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Maestro_Data_ML_Workflow_Orchestrator_at_Netflix"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -237,10 +357,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2271569cfc7d7ae0",
+  "active": "e0cf22a6e921eefb",
   "lastOpenFiles": [
-    "AI 시스템을 신뢰할 수 있다고 간주하려면 충족해야 하는 7대 요건.md",
+    "document/Data Engineering Trends 2024.md",
+    "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+    "4P.md",
+    "STP.md",
+    "SWOT 분석.md",
+    "3C 분석.md",
+    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "AI 시스템을 신뢰할 수 있다고 간주하려면 충족해야 하는 7대 요건.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/[240213]DuckDB_vs_MotherDuck.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
@@ -251,7 +378,6 @@
     "슬래시 접근법.md",
     "멀티포텐셜라이트.md",
     "concept/dev_ops.md",
-    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
     "데이터 주도적 의사결정.md",
     "document/data_observability.md",
@@ -259,13 +385,7 @@
     "레오나르도 다 빈치.md",
     "지그문트 프로이트.md",
     "document/Top 10 Data Engineering & AI Trends for 2025.md",
-    "외재적 동기 부여.md",
-    "내재적 동기부여.md",
-    "document/프로그래밍의_규칙/CHAP1_최대한_단순하게_그러나_너무_단순하지_않게.md",
     "document/프로그래밍의_규칙",
-    "document/Data_SLA_SLO_SLI.md",
-    "데이터 거버넌스.md",
-    "데이터 보안.md",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
