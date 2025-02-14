@@ -130,4 +130,24 @@ aliases:
 		- downstream & upstream
 - 다른 Maestro 기능과 같이 사용할 때 
 	- workflow를 dynamic하게 정의하고 복잡한 사용 사례에 맞게 parameterized workflow를 구성할 수 있음
-- 
+- code injection은 명백한 소프트웨어 보안 문제 야기
+	- 한 가지 방법은 사용자에게 workflow 정의 대신 비즈니스 로직에 삽입된 코드를 삽입하도록 요청하는 것이나
+	- 이럴경우 사용자에게 추가 작업 및 비즈니스 로직과 워크플로의 강결합 존재
+	- 경우에 따라 이 접근방식은 사용자가 복잡한 parameterized workflow를 만드는 것을 차단함
+- 위험 완화 및 사용자가 parameterized workflow를 지원하기 위해
+	- SEL(simple, secure, safe expression language)를 개발함
+- SEL은 code injection을 지원함
+	- syntax tree parsing 중에 유효성 검사를 통합
+	- Java security Manager를 사용하여 액세스 제한 -> 코드 실행을 위한 안전하고 통제된 환경 제공
+
+### Simple , Secure and Safe Expression Language
+- parameterized workflow에서 code injection과 관련된 위험을 해결하기 위한 자체 개발 언어
+- simple expression lanuage 이며 JLS(Java Language Specification)을 따름
+- SEL은 Mestro 사용 사례에  초점을 맞춘 JLS의 subset을 지원함
+- 예시
+	- data types for all maestro parameter types
+	- raising errors, datetime handling, many predefined utility methods
+- SEL은 additional runtime checks 지원 -> 보안 및 reliability 향상
+	- such as loop iteration limits, array size checks, object memory size limit and so on(객체 메모리 제한 등)
+- SEL에 대한 추가 설명은 하기 링크 참조
+	- https://github.com/Netflix/maestro/blob/main/netflix-sel/docs/index.md#welcome-to-sel

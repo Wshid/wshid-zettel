@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8d2ae0c8d4bc7a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
-            "id": "a3af47ff0fd3384a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
-            "id": "8e884a7aa5cf31f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
             "id": "fa86b725e4467b57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "Maestro_Data_ML_Workflow_Orchestrator_at_Netflix"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:Netfl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,11 +84,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 479.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -263,8 +192,8 @@
   },
   "active": "fa86b725e4467b57",
   "lastOpenFiles": [
-    "PII.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "PII.md",
     "SSN.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
