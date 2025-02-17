@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+                "file": "document/Creative_Programmer/CHAP6_호기심.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+              "title": "CHAP6_호기심"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Netfl",
+                "query": "\"기술 레이더\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,12 +109,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 479.5,
-    "collapsed": true
+    "width": 479.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -216,15 +216,16 @@
   },
   "active": "b61ed373232881a9",
   "lastOpenFiles": [
-    "STP.md",
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "document/Creative_Programmer/CHAP6_호기심.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+    "STP.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "PII.md",
     "SSN.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
     "concept/dev_ops.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
@@ -241,7 +242,6 @@
     "그룹 허그 접근법.md",
     "슬래시 접근법.md",
     "멀티포텐셜라이트.md",
-    "데이터 주도적 의사결정.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
