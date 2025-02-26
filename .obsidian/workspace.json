@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/Creative_Programmer/CHAP6_호기심.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "CHAP6_호기심"
+            }
+          },
+          {
+            "id": "9d731a56af11b5bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP3_Communication.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP3_Communication"
             }
           }
         ],
@@ -224,16 +248,16 @@
   },
   "active": "b61ed373232881a9",
   "lastOpenFiles": [
+    "document/Creative_Programmer/CHAP3_Communication.md",
+    "document/Creative_Programmer/CHAP6_호기심.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "이급 객체.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "STP.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "PII.md",
     "SSN.md",
     "concept/dev_ops.md",
