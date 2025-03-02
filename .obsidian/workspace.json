@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "프로세스에_따라_브랜드와_제품_기획하기"
+              "title": "CHAP1_데이터_거버넌스란"
             }
           },
           {
-            "id": "b61ed373232881a9",
+            "id": "feff696eb63f6e70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,79 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
-            }
-          },
-          {
-            "id": "e338496c1f625590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
-            }
-          },
-          {
-            "id": "a7b6528f86a06d25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
-            }
-          },
-          {
-            "id": "46d3848d19164f8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP1_데이터_거버넌스란"
             }
           },
           {
@@ -152,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -318,18 +246,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46d3848d19164f8d",
+  "active": "feff696eb63f6e70",
   "lastOpenFiles": [
-    "Convoy.md",
+    "지식 노동자.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "Convoy.md",
     "compliance.md",
     "paid marketing.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
     "document/Creative_Programmer/CHAP3_Communication.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "이급 객체.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
-    "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "STP.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
@@ -345,7 +274,6 @@
     "AI 시스템을 신뢰할 수 있다고 간주하려면 충족해야 하는 7대 요건.md",
     "document/[240213]DuckDB_vs_MotherDuck.md",
     "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
-    "불사조 접근법.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
