@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "프로세스에_따라_브랜드와_제품_기획하기"
             }
           },
           {
@@ -230,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,9 +249,10 @@
   },
   "active": "feff696eb63f6e70",
   "lastOpenFiles": [
-    "지식 노동자.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "Untitled 3.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "지식 노동자.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "Convoy.md",
     "compliance.md",
@@ -273,7 +275,6 @@
     "3C 분석.md",
     "AI 시스템을 신뢰할 수 있다고 간주하려면 충족해야 하는 7대 요건.md",
     "document/[240213]DuckDB_vs_MotherDuck.md",
-    "Excalidraw/Drawing 2025-01-30 18.15.34.excalidraw.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",

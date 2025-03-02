@@ -15,5 +15,13 @@
       ],
       "key": "S"
     }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F1"
+    }
   ]
 }
