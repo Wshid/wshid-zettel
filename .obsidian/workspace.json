@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/쿼리 최적화_빠른 쿼리를 위한 7가지 체크 리스트.md",
+                "file": "document/Creative_Programmer/CHAP6_호기심.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "쿼리 최적화_빠른 쿼리를 위한 7가지 체크 리스트"
+              "title": "CHAP6_호기심"
+            }
+          },
+          {
+            "id": "7c9f51b93567d50f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP6_호기심.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP6_호기심"
+            }
+          },
+          {
+            "id": "2c359c89ba4230a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP6_호기심.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP6_호기심"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,13 +247,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "78f6b3c167b477c4",
+  "active": "2c359c89ba4230a4",
   "lastOpenFiles": [
-    "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
+    "야크 털깎기.md",
+    "document/Creative_Programmer/CHAP6_호기심.md",
+    "마스도톤.md",
     "document/쿼리 최적화_빠른 쿼리를 위한 7가지 체크 리스트.md",
+    "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "최소 접근 원칙.md",
     "데이터 프로덕트 매니저.md",
@@ -224,8 +275,6 @@
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "PII.md",
     "SSN.md",
-    "concept/dev_ops.md",
-    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
