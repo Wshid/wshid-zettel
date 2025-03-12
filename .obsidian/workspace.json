@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP1_데이터_거버넌스란"
             }
           }
         ],
@@ -297,8 +297,8 @@
   },
   "active": "71ed26e032c9cfaa",
   "lastOpenFiles": [
-    "데이터 이니셔티브.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "데이터 이니셔티브.md",
     "데이터 스토리텔링.md",
     "데이터 프로덕트 매니저.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
