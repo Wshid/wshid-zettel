@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "직무_공통_이메일_번역_보고서작성"
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
+            }
+          },
+          {
+            "id": "03db21232c3b17d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
+            }
+          },
+          {
+            "id": "fb7bf2d109652e9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
+            }
+          },
+          {
+            "id": "b6cb262926a7ce9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -161,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5,
-    "collapsed": true
+    "width": 479.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -272,8 +343,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9fd5fd00c15af50c",
+  "active": "b6cb262926a7ce9f",
   "lastOpenFiles": [
+    "fan-out.md",
+    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+    "Lambda Architecture.md",
+    "document/Apache Iceberg.md",
+    "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
@@ -284,7 +360,6 @@
     "야크 털깎기.md",
     "마스도톤.md",
     "document/쿼리 최적화_빠른 쿼리를 위한 7가지 체크 리스트.md",
-    "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "최소 접근 원칙.md",
     "document/Untitled.md",
@@ -296,10 +371,6 @@
     "지식 노동자.md",
     "Convoy.md",
     "compliance.md",
-    "paid marketing.md",
-    "이급 객체.md",
-    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
-    "STP.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
