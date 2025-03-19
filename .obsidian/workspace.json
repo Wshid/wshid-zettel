@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP6_호기심.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP6_호기심"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
@@ -345,8 +345,8 @@
   },
   "active": "cff0906ef06d5c50",
   "lastOpenFiles": [
-    "제이미스 벅.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
+    "제이미스 벅.md",
     "Excalidraw/악당 찾기 보너스 챌린지.excalidraw.md",
     "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "fan-out.md",
