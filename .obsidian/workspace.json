@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+                "file": "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
+              "title": "직무_공통_이메일_번역_보고서작성"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 479.5,
+    "collapsed": true
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -200,9 +201,11 @@
   },
   "active": "8dd7b4e25f7b31c0",
   "lastOpenFiles": [
+    "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
+    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
+    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "write-only.md",
     "GDPR.md",
@@ -212,14 +215,12 @@
     "Lambda Architecture.md",
     "document/Apache Iceberg.md",
     "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
-    "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "데이터 이니셔티브.md",
     "데이터 스토리텔링.md",
     "데이터 프로덕트 매니저.md",
     "야크 털깎기.md",
     "마스도톤.md",
     "document/쿼리 최적화_빠른 쿼리를 위한 7가지 체크 리스트.md",
-    "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "최소 접근 원칙.md",
     "document/Untitled.md",
     "document/Maestro_Data_ML_Workflow_Orchestrator_at_Netflix.md",
