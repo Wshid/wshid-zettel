@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "77b01227da4b8466",
+        "id": "58ffbf63a2bf1c29",
         "type": "tabs",
         "children": [
           {
-            "id": "8dd7b4e25f7b31c0",
+            "id": "4d1257384ef55ebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           },
           {
-            "id": "28b05c1cf6e5e526",
+            "id": "c3e0a55ff921712b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,107 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "5d1d6a7415ea27fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "feb9f454717b1856",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "c769b652376a7069",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "a1b3fc947d157236",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -319,10 +223,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1b3fc947d157236",
+  "active": "c3e0a55ff921712b",
   "lastOpenFiles": [
-    "필립 올리버.md",
+    "데이터 이니셔티브.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "필립 올리버.md",
     "앙리 푸앵카레.md",
     "아르키메데스.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
@@ -333,7 +239,6 @@
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "write-only.md",
     "GDPR.md",
@@ -342,7 +247,6 @@
     "fan-out.md",
     "Lambda Architecture.md",
     "document/Apache Iceberg.md",
-    "데이터 이니셔티브.md",
     "데이터 스토리텔링.md",
     "데이터 프로덕트 매니저.md",
     "야크 털깎기.md",
