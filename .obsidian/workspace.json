@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP1_데이터_거버넌스란"
+            }
+          },
+          {
+            "id": "530b03d5698c7d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP1_데이터_거버넌스란"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,10 +247,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3e0a55ff921712b",
+  "active": "530b03d5698c7d9e",
   "lastOpenFiles": [
-    "데이터 이니셔티브.md",
+    "데이터 늪.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "데이터 이니셔티브.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "필립 올리버.md",
     "앙리 푸앵카레.md",
@@ -239,7 +265,6 @@
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
     "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "write-only.md",
     "GDPR.md",
     "제이미스 벅.md",
@@ -250,7 +275,6 @@
     "데이터 스토리텔링.md",
     "데이터 프로덕트 매니저.md",
     "야크 털깎기.md",
-    "마스도톤.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
