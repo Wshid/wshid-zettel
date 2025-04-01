@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "CHAP8_데이터_품질_민주화"
             }
+          },
+          {
+            "id": "c0dcefd0a90d2749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
+            "id": "b07dd3fb65985291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,8 +247,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4d1257384ef55ebb",
+  "active": "b07dd3fb65985291",
   "lastOpenFiles": [
+    "hub and spoke.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "플로.md",
@@ -207,7 +258,6 @@
     "집단적인 마인드셋.md",
     "개인의 마인드셋.md",
     "데이터 늪.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "데이터 이니셔티브.md",
     "필립 올리버.md",
     "앙리 푸앵카레.md",
@@ -225,7 +275,6 @@
     "제이미스 벅.md",
     "Excalidraw/악당 찾기 보너스 챌린지.excalidraw.md",
     "fan-out.md",
-    "Lambda Architecture.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
