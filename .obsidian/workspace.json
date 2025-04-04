@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
+            }
+          },
+          {
+            "id": "f899c560f49bca7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -271,10 +295,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a49ed768a7e0f642",
+  "active": "f899c560f49bca7a",
   "lastOpenFiles": [
-    "data locality.md",
+    "bin packing.md",
+    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "data locality.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "hub and spoke.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
@@ -294,11 +320,9 @@
     "document/2025_ChatGPT_Bible/직무_공통_이메일_번역_보고서작성.md",
     "document/2025_ChatGPT_Bible/프로세스에_따라_브랜드와_제품_기획하기.md",
     "document/2025_ChatGPT_Bible/ChatGPT로_똑똑하게_일하기.md",
-    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "write-only.md",
     "GDPR.md",
     "제이미스 벅.md",
-    "Excalidraw/악당 찾기 보너스 챌린지.excalidraw.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
