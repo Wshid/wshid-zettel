@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "deep work.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "deep work"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "540d607d4bfd3644",
   "lastOpenFiles": [
-    "Untitled 2.md",
     "deep work.md",
+    "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
     "().md",
