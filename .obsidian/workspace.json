@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP1_데이터_거버넌스란"
+            }
+          },
+          {
+            "id": "e0285754edc03eb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP1_데이터_거버넌스란"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,8 +247,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "540d607d4bfd3644",
+  "active": "e0285754edc03eb4",
   "lastOpenFiles": [
+    "only eventually correct.md",
+    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "하이브리드 클라우드 시스템.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "deep work.md",
     "Untitled 2.md",
     "Untitled 1.md",
@@ -232,8 +260,6 @@
     "().md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "딥 워크.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "bin packing.md",
     "data locality.md",
@@ -249,8 +275,6 @@
     "아르키메데스.md",
     "document/Creative_Programmer/CHAP6_호기심.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
-    "document/Creative_Programmer/CHAP4_제약_조건.md",
-    "document/Creative_Programmer/CHAP3_Communication.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
