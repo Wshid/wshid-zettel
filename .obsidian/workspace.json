@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "58ffbf63a2bf1c29",
+        "id": "4495af5db6326bce",
         "type": "tabs",
         "children": [
           {
-            "id": "4d1257384ef55ebb",
+            "id": "1d91873d67d67931",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "540d607d4bfd3644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
-            }
-          },
-          {
-            "id": "e0285754edc03eb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP1_데이터_거버넌스란"
+              "title": "NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Netfli",
+                "query": "\balaska",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -247,10 +198,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e0285754edc03eb4",
+  "active": "1d91873d67d67931",
   "lastOpenFiles": [
-    "only eventually correct.md",
+    "attachments/Pasted image 20250412140330.png",
+    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
+    "document/Apache Iceberg.md",
+    "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "document/attachments/Pasted image 20240414130835.png",
+    "document/attachments/Pasted image 20240414130345.png",
+    "attachments",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
+    "only eventually correct.md",
     "하이브리드 클라우드 시스템.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "deep work.md",
@@ -258,9 +216,7 @@
     "Untitled 1.md",
     "Untitled.md",
     "().md",
-    "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "딥 워크.md",
-    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "bin packing.md",
     "data locality.md",
     "hub and spoke.md",
@@ -273,8 +229,6 @@
     "필립 올리버.md",
     "앙리 푸앵카레.md",
     "아르키메데스.md",
-    "document/Creative_Programmer/CHAP6_호기심.md",
-    "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
@@ -282,13 +236,10 @@
     "document/LLAMA",
     "snippet.css",
     "document/Rust_Concurrency_Programming/CHAP2",
-    "document/attachments/Pasted image 20240414130835.png",
     "Excalidraw/attachments",
     "document/Data_Quality",
     "document/Creative_Programmer",
-    "workspace/rust/CHAP_1_2/1_2_scoped_thread_compile_error.rs",
     "document/Pasted image 20240414130209.png",
-    "document/attachments/Pasted image 20240414130345.png",
     "document/Pasted image 20240414130313.png",
     "raw/repository/daily-poc/Untitled.canvas"
   ]

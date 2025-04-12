@@ -267,3 +267,99 @@ aliases:
 - 실행이 완료된 task는 시스템 테이블에서 삭제
 - task scheduling 상태가 iceberg 테이블로 저장되어 있기 때문에
 	- 노드가 재시작되더라도 작업을 이어서 수행 가능
+
+## 카탈로그와 데이터 연동
+- Iceberg REST catalog를 사용
+- REST catalog의 handler 등의 구현체는 Iceberg SDK에 포함
+- SDK를 기반으로 Spring boot로 래핑하여 서버로 작동하게 만든 것 -> Puffin
+- REST Catalog를 사용하려면, 실제 메타 데이터 저장소가 필요 -> MYSQL을 backend catalog로 지정하여 사용
+- Alaska의 초기 설계부터 카탈로그를 사용자에게 제공하여 데이터 연동 지원하려고 했었음
+	- 로그에 포함되어 있는 데이터를 분석하려는 사용자가 다수
+		- 기존 로그 모니터링 시스템 환경에서는 Open API를 통한 로그 다운로드하여 사용
+	- 그렇기 때문에 카탈로그를 사용자에게 제공하면 사용자는 데이터 다운로드 없이
+		- 자신의 쿼리 엔진과 직접 연동해 바로 SQL 쿼리 실행 및 데이터 분석 가능
+- 데이터 연동을 위한 카탈로그에 다음과 같은 기능 구현
+	- 기존 로그 모니터링 시스템에서 발급받은 access key, 인증 시스템과 연동(authentication)
+	- 인증된 정보를 기반으로 권한이 있는 테이블에만 접근할 수 있도록 제(authorization)
+	- 데이터 연동시 read-only API에만 접근 허용, 테이블에 커밋 및 삭제 실행 불가하도록
+- 인증 기능은 Iceberg REST catalog 표준 스펙에 맞춰 구현,
+	- `iceberg.rest-catalog.oauth2.token`의 access key 값을 통해 사용자가 권한 있는 테이블에 읽기 전용 접근하도록 구성
+	- ![[Pasted image 20250412140330.png]]
+
+## 데이터 쿼리
+- 신규 로그 모니터링 시스템의 쿼리 엔진 -> Trino
+- Trino에 의존성을 가지지 않도록 내부 구조를 설계했기 때문에
+	- Spark와 다른 쿼리 엔진으로 변경 가능
+- 사용자는 Web UI, Open API 등으로 쿼리 수행 가능
+- 신규 모니터링 시스템에서는 기본적으로 다음과 같이 쿼리를 Main Query, Sub Query로 구분
+
+### Main Query와 Sub Query
+- Main Query
+	- Query for the data source
+	- Work asynchronously
+		- User requests a query
+		- API Server validates syntax and expected resource consumption
+		- The requested query is saved in MySQL
+		- Leader node schedules the submitted query
+		- Assigned node executes the query
+- Sub query for query results
+	- Subsequent query for the query result
+	- Work synchronously(User interactive)
+		- User requests a query
+		- API Server executes the query via Trino
+- Main Query는 원본 로그 데이터 테이블을 대상으로 실행하는 쿼리
+	- 기본적으로 비동기로 실행하며, CTAS로 쿼리 실행. 쿼리 결과는 또 다른 테이블로 저장
+- Sub Query는 메인 쿼리에 의해서 생성된 쿼리 결과 테이블을 대상으로 실행
+	- 동기 방식으로 실행
+- Main Query의 비동기 방식 이유
+	- 대용량의 데이터를 검색할 때 실행시간이 매우 길어질 수 있기 때문
+	- 일반적으로 인덱스가 없기 때문에 Elasticsearch 보다 응답 속도가 느림
+	- 장기간 검색을 허용하기 때문에 검색하는 데이터 양, 쿼리 형태에 따라 결과를 얻는데 수시간이 소요될 수 있음
+	- 이런 상황에서 동기 방식으로 쿼리를 실행하면 사용자는 무한정 대기
+	- Main Query를 통해 최대한 관심있는 데이터 영역만 필터링해 쿼리 결과를 만들면
+		- 그 이후부터는 관심 있는 데이터 영역 탐색 가능
+	- [[#새로운 타입의 데이터 저장 스토리지 필요성]]의 내용 처럼 장기보관 데이터에 대해서는 쿼리 발생 비율이 낮음
+		- 그렇기 때문에 Trino 클러스터를 적은 리소스로 제공
+		- 다만, 신규 SQL 쿼리 기능 도입으로 이전에 없던 쿼리 패턴이 등장해 쿼리 리소스가 과도하게 소모될 가능성 존재
+
+#### 쿼리 제약 사항
+- 테이블마다 Main Query는 동시에 최대 1개만 수행
+- Sub query의 실행 속도를 사용자마다 15 queries/min으로 제한
+- 쿼리를 [ANTLR 4](https://github.com/antlr/antlr4)기반으로 분석해 SQL 문법을 제한함
+	- SELECT 쿼리만 허용
+	- WITH, JOIN, UNION, INTERSECT, EXCEPT 연산자 사용 불가
+	- 중첩 쿼리(nested query) 사용 불가
+	- FROM 절에는 반드시 한 개의 대상 테이블만 명시
+- SQL 쿼리 실행시 사용되는 리소스 제한
+	- 사용자 쿼리 요청시 바로 실행하지 않고, Query Planning을 통해 리소스 예측
+	- 예측된 리소스가 제한 값을 초과하면 사용자에게 에러 반환
+- 쿼리 제약이 없다면 무거운 데이터 분석 쿼리로 쿼리 엔진 비용의 급속 증가 가능성 존재
+- 제약 사항을 넘어서는 쿼리 수행이 필요한 경우
+	- 카탈로그 데이터 연동을 통해 사용자의 쿼리 엔진 리소스를 사용하도록 안내
+
+## 신규 로그 모니터링 시스템 적용 결과
+- Iceberg의 신규 로그 모니터링 시스템 오픈 후
+	- 기존 Elasticsearch 기반의 로그 데이터는 최대 14일간만 보관
+	- 2,000대의 ES 노드 감소
+	- 데이터 용량 감소: 수 PB -> 수백 TB
+- 비용 절감 사유?
+	- 상대적으로 비용이 저렴한 오브젝트 스토리지에 데이터 저장
+	- Parquet 데이터 포맷에 zstd 압축을 적용해 데이터 압축률이 높음
+		- 전체 평균 원본 데이터 대비 6% 수준으로 압축
+	- 쿼리 엔진 리소스를 분리해 최소한의 규모로 운영
+		- 기존 ES 기반의 모니터링 시스템의 Warn 계층의 데이터 노드와 비교해 Trino 클러스터 규모가 더 작음
+
+## 마치며
+- 데이터 쿼리 패턴 분석시, 대규모 데이터의 70%는 검색이 거의 이루어지지 않았던 cold data
+- 이런 데이터를 고비용, 고성능 저장소인 ES에 저장해야할지 검토
+- 새로운 로그 모니터링 시스템, Iceberg라는 오픈 테이블 포맷 기반 구성
+- 오브젝트 스토리지에 저장하는 기술 개발, Trino Query engine에 기반해 로그 시스템 구축
+- 새로운 저비용의 로그 모니터링 시스템, 인프라 비용 절감
+	- 새로운 비용의 SQL 로그 검색/분석 기능 제공
+- Iceberg의 오픈 테이블 포맷을 사용한 데이터 저장은 데이터 분석 플랫폼에서 흔하게 쓰이는 방식
+	- 하지만 로그 모니터링(observability) 측면에서 기존 로그 모니터링 시스템의 요구사항 만족이 어려웠음
+	- 데이터 적재 및 최적화를 위한 오픈소스 활용이 어려워 Iceberg SDK를 사용해 직접 컴포넌트 개발
+	- Iceberg SDK의 레퍼런스 부족, 데이터를 시간 단위 나누어 저장하고 다시 병합하며
+		- 메타 데이터 관리에서는 많은 어려움이 있었음
+	- 또한 신규 시스템 트래픽이 사내 오브젝트 스토리지 시스템의 부하 발생 유발
+	- 하지만 컴포넌트 자체 개발로 특정 엔진에 제한되지 않고, 최신 Iceberg 버전을 적용할 수 있다는 점은 매우 큰 장점
