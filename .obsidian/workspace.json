@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
@@ -273,8 +273,8 @@
   },
   "active": "6c41111d00ba6280",
   "lastOpenFiles": [
-    "프리드히디 니체.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "프리드히디 니체.md",
     "임마누엘 칸트.md",
     "프레드릭 그로스.md",
     "document/프로그래밍의_규칙/CHAP5_첫_번째_최적화_교훈_최적화하지_말라.md",
