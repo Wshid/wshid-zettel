@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전사적 사전.md",
+                "file": "document/Airflow Priority Weights.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "전사적 사전"
+              "title": "Airflow Priority Weights"
             }
           }
         ],
@@ -298,6 +298,7 @@
   "active": "443cecf6b0e1afae",
   "lastOpenFiles": [
     "전사적 사전.md",
+    "document/Airflow Priority Weights.md",
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
@@ -326,7 +327,6 @@
     "data locality.md",
     "hub and spoke.md",
     "플로.md",
-    "Excalidraw/플로.excalidraw.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
