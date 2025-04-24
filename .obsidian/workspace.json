@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP2_데이터_거버넌스의_구성요소_도구"
+            }
+          },
+          {
+            "id": "280c65ed6182a6c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP2_데이터_거버넌스의_구성요소_도구"
+            }
+          },
+          {
+            "id": "58baf46a84d1c54b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "데이터 부류.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "데이터 부류"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -157,8 +205,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,15 +319,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ca4ce2d15361285",
+  "active": "58baf46a84d1c54b",
   "lastOpenFiles": [
-    "GDPR.md",
+    "데이터 부류.md",
+    "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
+    "전사적 사전.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "GDPR.md",
     "CCPA.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-    "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "document/Airflow Priority Weights.md",
-    "전사적 사전.md",
     "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "프리드히디 니체.md",
     "임마누엘 칸트.md",
@@ -303,7 +351,6 @@
     "().md",
     "딥 워크.md",
     "bin packing.md",
-    "data locality.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
