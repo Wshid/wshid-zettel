@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
@@ -345,8 +345,8 @@
   },
   "active": "db61fb254b293588",
   "lastOpenFiles": [
-    "포모도로 기법.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "포모도로 기법.md",
     "데이터 부류.md",
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "전사적 사전.md",
