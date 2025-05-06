@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa6da85f7a28d2fa",
+        "id": "a279e39cce0bb943",
         "type": "tabs",
         "children": [
           {
-            "id": "fc600841c1575a9b",
+            "id": "d104ae69273574cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
+                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,107 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP2_데이터_거버넌스의_구성요소_도구"
-            }
-          },
-          {
-            "id": "4a17f1f45881cb08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP2_데이터_거버넌스의_구성요소_도구"
-            }
-          },
-          {
-            "id": "45ba95ee083c10c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP2_데이터_거버넌스의_구성요소_도구"
-            }
-          },
-          {
-            "id": "42bc63772063632e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP2_데이터_거버넌스의_구성요소_도구"
-            }
-          },
-          {
-            "id": "6ae5c377da4c00e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전사적 정책집.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "전사적 정책집"
+              "title": "CHAP7_창의적_마인드셋"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,7 +198,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ae5c377da4c00e9",
+  "active": "d104ae69273574cc",
   "lastOpenFiles": [
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "전사적 정책집.md",
