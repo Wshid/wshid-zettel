@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Databricks Data Engineer Associate 준비.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "Databricks Data Engineer Associate 준비"
+            }
+          },
+          {
+            "id": "5d95de6cedab17d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databricks Certified Data Engineer Associate Test 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databricks Certified Data Engineer Associate Test 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -247,10 +271,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "79b9bb9be65b4fff",
+  "active": "5d95de6cedab17d8",
   "lastOpenFiles": [
-    "데이터 컴플라이언스.md",
+    "attachments/Pasted image 20250508214455.png",
+    "Databricks Certified Data Engineer Associate Test 1.md",
+    "document/Databricks Data Engineer Associate 준비.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "데이터 컴플라이언스.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "전사적 정책집.md",
@@ -276,9 +303,6 @@
     "only eventually correct.md",
     "하이브리드 클라우드 시스템.md",
     "deep work.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
