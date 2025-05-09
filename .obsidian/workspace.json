@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "Databricks Certified Data Engineer Associate Test 1"
             }
+          },
+          {
+            "id": "eab546dd642319ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databricks Certified Data Engineer Associate Test 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databricks Certified Data Engineer Associate Test 1"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -271,10 +295,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d95de6cedab17d8",
+  "active": "eab546dd642319ac",
   "lastOpenFiles": [
-    "attachments/Pasted image 20250508214455.png",
+    "DLT Pipeline.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
+    "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
+    "attachments/Pasted image 20250509204132.png",
+    "attachments/Pasted image 20250509201923.png",
+    "attachments/Pasted image 20250508214455.png",
     "document/Databricks Data Engineer Associate 준비.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "데이터 컴플라이언스.md",
@@ -302,7 +330,6 @@
     "attachments",
     "only eventually correct.md",
     "하이브리드 클라우드 시스템.md",
-    "deep work.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
