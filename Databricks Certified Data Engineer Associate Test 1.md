@@ -252,14 +252,15 @@ DROP TABLE table_name
 Which of the following is the correct statement for a session scoped temporary view?
 #### A19
 - Temporary views are lost once the notebook is detached and re-attached
-- Temporary view의 두가지 유형
-	- session scoped
-		- Spark session에서만 사용 가능
-		- 같은 클러스터의 다른 노트북은 액세스 불가
-		- 노트북이 분리/재연결시 local temp view lost
-	- Global
-		- 클러스터의 모든 노트북에서 global temp view 보기 가능
-		- 단, cluster 재시작시 temp view는 사라짐
+
+#### Temporary view의 두가지 유형
+- session scoped
+	- Spark session에서만 사용 가능
+	- 같은 클러스터의 다른 노트북은 액세스 불가
+	- 노트북이 분리/재연결시 local temp view lost
+- Global
+	- 클러스터의 모든 노트북에서 global temp view 보기 가능
+	- 단, cluster 재시작시 temp view는 사라짐
 
 ## Q20
 Which of the following is correct for the global temporary view?
@@ -443,15 +444,16 @@ Spark.readStream.format("delta").table("sales").createOrReplaceTempView("streami
 Which of the following techniques structured streaming uses to create an end-to-end fault tolerance?
 #### A29
 - Checkpointing and idempotent sinks
-- fault tolerance에 도달한 방법
-	- checkpointing
-		- write-ahead logs
-		- offset range of data being processed during trigger interval
-	- idempotent
-		- multiple writes of the same data
-		- do not result in duplicates being written to the sink
-		- 오프셋으로 식별되는 동일한 데이터를 여러번 쓰더라도, 싱크에 중복 기록이 발생하지 않음
-	- 그에 따라, end-to-end, exactly-once semantics 달성
+
+#### structured steaming의 fault tolerance
+- checkpointing
+	- write-ahead logs
+	- offset range of data being processed during trigger interval
+- idempotent
+	- multiple writes of the same data
+	- do not result in duplicates being written to the sink
+	- 오프셋으로 식별되는 동일한 데이터를 여러번 쓰더라도, 싱크에 중복 기록이 발생하지 않음
+- 그에 따라, end-to-end, exactly-once semantics 달성
 
 ## Q30
 Which of the following two options are supported in identifying the arrival of new files, and incremental data from Cloud object storage using Auto Loader?
@@ -468,6 +470,8 @@ Which of the following data workloads will utilize a Bronze table as its destina
 - A job that ingests raw data from a streaming source into the Lakehouse
 	- kafka
 	- optimized and stored in silver
+
+#### Medallian Architecture
 - https://www.databricks.com/glossary/medallion-architecture
 	- **Bronze: raw data**
 		- Raw copy of ingested data
@@ -561,6 +565,7 @@ You have noticed that Databricks SQL queries are running slow, you are asked to 
 Please note Databricks recently renamed SQL endpoint to SQL warehouse.
 #### A38
 - They can increase the maximum bound of the SQL endpoint(SQL warehouse)’s scaling range
+	- workspace를 확장하면, 클러스터의 수가 늘어남
 - SQL Endpoint(warehouse)를 확장하는 방법
 	- 쿼리가 순차적으로 실행되면 scale-up
 		- 하나의 클러스터 내에서 worker node 확장

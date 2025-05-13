@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d104ae69273574cc",
+            "id": "4bec7010a47d71d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "Databricks Certified Data Engineer Associate Test 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "Databricks Certified Data Engineer Associate Test 2"
             }
           },
           {
-            "id": "3f8984709fe3bf4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
-            }
-          },
-          {
-            "id": "79b9bb9be65b4fff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Databricks Data Engineer Associate 준비.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Data Engineer Associate 준비"
-            }
-          },
-          {
-            "id": "5d95de6cedab17d8",
+            "id": "0395200fb8af7b14",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,7 +56,31 @@
             }
           },
           {
-            "id": "eab546dd642319ac",
+            "id": "259dcdc5d93b61c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databricks Certified Data Engineer Associate Test 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databricks Certified Data Engineer Associate Test 1"
+            }
+          },
+          {
+            "id": "1e436fe9699c7e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -127,8 +103,7 @@
               "title": "Databricks Certified Data Engineer Associate Test 1"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reverse etl",
+                "query": "Complexities of large scale ETL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,7 +156,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -295,16 +271,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eab546dd642319ac",
+  "active": "4bec7010a47d71d9",
   "lastOpenFiles": [
-    "DLT Pipeline.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
+    "Databricks Certified Data Engineer Associate Test 2.md",
+    "attachments/Pasted image 20250513225106.png",
+    "Untitled 2.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "document/Databricks Data Engineer Associate 준비.md",
+    "document/Data-aware Scheduling.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "DLT Pipeline.md",
     "document/Data_Quality/CHAP3_데이터_수집_정제_변환_테스트.md",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
     "attachments/Pasted image 20250508214455.png",
-    "document/Databricks Data Engineer Associate 준비.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "데이터 컴플라이언스.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
@@ -320,16 +302,10 @@
     "임마누엘 칸트.md",
     "프레드릭 그로스.md",
     "document/프로그래밍의_규칙/CHAP5_첫_번째_최적화_교훈_최적화하지_말라.md",
-    "document/프로그래밍의_규칙/CHAP4_일반화에는_세_가지_사례가_필요하다.md",
-    "document/프로그래밍의_규칙/CHAP1_최대한_단순하게_그러나_너무_단순하지_않게.md",
-    "document/NELO Alaska_대용량 로그 데이터 저장을 위한 Apache Iceberg 도입기.md",
     "attachments/Pasted image 20250412140330.png",
-    "document/Apache Iceberg.md",
     "document/attachments/Pasted image 20240414130835.png",
     "document/attachments/Pasted image 20240414130345.png",
     "attachments",
-    "only eventually correct.md",
-    "하이브리드 클라우드 시스템.md",
     "document/프로그래밍의_규칙",
     "document/Data_Governance",
     "document/2025_ChatGPT_Bible",
