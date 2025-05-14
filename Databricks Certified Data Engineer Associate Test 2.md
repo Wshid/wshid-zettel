@@ -149,6 +149,8 @@ How do you create a delta live tables pipeline and deploy using DLT UI?
 You are noticing job cluster is taking 6 to 8 mins to start which is delaying your job to finish on time, what steps you can take to reduce the amount of time cluster startup time
 #### A16
 - Use cluster pools to reduce the startup time of the jobs
+
+#### Cluster Pool의 사용
 - Cluster pool을 사용하면 새로운 Job cluster가 생성될 때, VM을 미리 가져와 예약 가능
 	- VM을 사용하기 전에는 Azure 사용 비용만 청구되며
 	- Databricks run time cost는 VM이 cluster에 할당된 이후엠나 발생

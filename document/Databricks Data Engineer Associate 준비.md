@@ -37,3 +37,5 @@
 ### [[Databricks Certified Data Engineer Associate Test 1]]
 
 ### [[Databricks Certified Data Engineer Associate Test 2]]
+
+### [[Databricks Certified Data Engineer Associate Test 3]]

@@ -138,6 +138,8 @@ Which of the following developer operations in CI/CD flow can be implemented in 
 
 #### A9
 - Trigger Databricks Repos API to pull the latest version of code into production folder
+
+#### CI/CD Databricks Repo
 - 아래 그림에서 노란색의 강조 단계는 Databricks Repo에서 수행 가능
 - 회색으로 표시된 단계는 Github 또는 Azure DataOps와 같은 Git 공급자에서 수행 가능
 - ![[Pasted image 20250508214455.png]]
