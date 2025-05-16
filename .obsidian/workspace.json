@@ -8,108 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0395200fb8af7b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 3"
-            }
-          },
-          {
-            "id": "c7d50b1e95765215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 1"
-            }
-          },
-          {
-            "id": "8765054d33f650b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 3"
-            }
-          },
-          {
-            "id": "259dcdc5d93b61c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 1"
-            }
-          },
-          {
             "id": "1e436fe9699c7e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 1.md",
+                "file": "Databricks Certified Data Engineer Associate Test 4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 1"
+              "title": "Databricks Certified Data Engineer Associate Test 4"
             }
           }
         ]
@@ -294,12 +198,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0395200fb8af7b14",
+  "active": "1e436fe9699c7e28",
   "lastOpenFiles": [
-    "Databricks Certified Data Engineer Associate Test 2.md",
+    "document/Databricks Data Engineer Associate 준비.md",
+    "Databricks Certified Data Engineer Associate Test 4.md",
     "Databricks Certified Data Engineer Associate Test 3.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
-    "document/Databricks Data Engineer Associate 준비.md",
+    "Databricks Certified Data Engineer Associate Test 2.md",
     "도태.md",
     "document/Untitled.md",
     "document/Untitled 1.md",
@@ -325,7 +230,6 @@
     "GDPR.md",
     "CCPA.md",
     "document/Airflow Priority Weights.md",
-    "document/Data_Governance/CHAP1_데이터_거버넌스란.md",
     "attachments/Pasted image 20250412140330.png",
     "document/attachments/Pasted image 20240414130835.png",
     "document/attachments/Pasted image 20240414130345.png",
