@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a279e39cce0bb943",
+        "id": "7476bc56e1afa4e6",
         "type": "tabs",
         "children": [
           {
-            "id": "1e436fe9699c7e28",
+            "id": "cc2db57e5a97c557",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Complexities of large scale ETL",
+                "query": "file:Databricks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,10 +198,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1e436fe9699c7e28",
+  "active": "cc2db57e5a97c557",
   "lastOpenFiles": [
-    "document/Databricks Data Engineer Associate 준비.md",
     "Databricks Certified Data Engineer Associate Test 4.md",
+    "document/Databricks Data Engineer Associate 준비.md",
     "Databricks Certified Data Engineer Associate Test 3.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
     "Databricks Certified Data Engineer Associate Test 2.md",
