@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 4.md",
+                "file": "document/Databricks Data Engineer Associate 준비.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 4"
+              "title": "Databricks Data Engineer Associate 준비"
+            }
+          },
+          {
+            "id": "ba13e89cc56d5d10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databricks Certified Data Engineer Associate Test 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databricks Certified Data Engineer Associate Test 5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Databricks",
+                "query": "\"Support for diverse\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,14 +223,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc2db57e5a97c557",
+  "active": "ba13e89cc56d5d10",
   "lastOpenFiles": [
-    "Databricks Certified Data Engineer Associate Test 4.md",
     "document/Databricks Data Engineer Associate 준비.md",
-    "Databricks Certified Data Engineer Associate Test 3.md",
-    "Databricks Certified Data Engineer Associate Test 1.md",
     "Databricks Certified Data Engineer Associate Test 2.md",
+    "Databricks Certified Data Engineer Associate Test 1.md",
+    "Databricks Certified Data Engineer Associate Test 5.md",
     "도태.md",
+    "Databricks Certified Data Engineer Associate Test 4.md",
+    "Databricks Certified Data Engineer Associate Test 3.md",
     "document/Untitled.md",
     "document/Untitled 1.md",
     "data locality.md",
@@ -229,7 +255,6 @@
     "전사적 사전.md",
     "GDPR.md",
     "CCPA.md",
-    "document/Airflow Priority Weights.md",
     "attachments/Pasted image 20250412140330.png",
     "document/attachments/Pasted image 20240414130835.png",
     "document/attachments/Pasted image 20240414130345.png",
