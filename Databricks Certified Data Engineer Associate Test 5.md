@@ -7,6 +7,131 @@ tags:
 references: 
 aliases:
 ---
+## Q4
+You were asked to write python code to stop all running streams, which of the following command can be used to get a list of all active streams currently running so we can stop them, fill in the blank.
+```python
+for s in _______________:
+  s.stop()
+```
+#### A4
+```python
+spark.streams.active
+```
+
+## Q5
+At the end of the inventory process a file gets uploaded to the cloud object storage, you are asked to build a process to ingest data which of the following method can be used to ingest the data incrementally, schema of the file is expected to change overtime ingestion process should be able to handle these changes automatically. Below is the auto loader to command to load the data, fill in the blanks for successful execution of below code.
+```python
+spark.readStream
+.format("cloudfiles")
+.option("_______",”csv)
+.option("_______", ‘dbfs:/location/checkpoint/’)
+.load(data_source)
+.writeStream
+.option("_______",’ dbfs:/location/checkpoint/’)
+.option("_______", "true")
+.table(table_name))
+```
+#### A5
+- `cloudfiles.format, cloudfiles.schemalocation, checkpointlocation, mergeSchema`
+
+## Q6
+Which of the following scenarios is the best fit for AUTO LOADER?
+#### A6
+Efficiently process new data incrementally from cloud object storage
+
+## Q7
+You are asked to setup an AUTO LOADER to process the incoming data, this data arrives in JSON format and get dropped into cloud object storage and you are required to process the data as soon as it arrives in cloud storage, which of the following statements is correct
+#### A7
+AUTO LOADER can support file notification method so it can process data as it arrives
+- File Notification의 후속 처리로 external storage의 내용을 정리하면 됨
+
+## Q8
+What is the main difference between the bronze layer and silver layer in a medallion architecture?
+#### A8
+Bronze is raw copy of ingested data, silver contains data with production schema and optimized for ELT/ETL throughput
+
+## Q9
+What is the main difference between the silver layer and the gold layer in medalion architecture?
+#### A9
+Gold may contain aggregated data
+
+## Q10
+What is the main difference between the silver layer and gold layer in medallion architecture?
+
+#### A10
+Silver optimized to perform ETL, Gold is optimized query performance
+- Gold에서는 query 성능 튜닝
+- Silver에서는 ETL 성능 튜닝
+- [[Databricks Certified Data Engineer Associate Test 1#Medallian Architecture]]
+
+## Q11
+A dataset has been defined using Delta Live Tables and includes an expectations clause: `CONSTRAINT valid_timestamp EXPECT (timestamp > '2020-01-01')`
+
+What is the expected behavior when a batch of data containing data that violates these constraints is processed?
+#### A11
+Records that violate the expectation are added to the target dataset and recorded as invalid in the event log.
+- target dataset에 추가되면서 event log에 추가됨
+- [[Databricks Certified Data Engineer Associate Test 1#Retain invalid records]]
+
+## Q12
+A dataset has been defined using Delta Live Tables and includes an expectations clause: `CONSTRAINT valid_timestamp EXPECT (timestamp > '2020-01-01') ON VIOLATION DROP ROW`
+
+What is the expected behavior when a batch of data containing data that violates these constraints is processed?
+#### A12
+Records that violate the expectation are dropped from the target dataset and recorded as invalid in the event log.
+- Drop은 하되, event log에는 기록이 됨
+
+## Q13
+What is the output of below function when executed with input parameters 1, 3 :
+```python
+def check_input(x,y):
+    if x < y:
+        x= x+1
+        if x>y:
+            x= x+1
+            if x <y:
+            x = x+1
+    return x
+```
+#### A13
+2
+
+## Q14
+Your colleague was walking you through how a job was setup, but you noticed a warning message that said, “Jobs running on all-purpose cluster are considered all purpose compute", the colleague was not sure why he was getting the warning message, how do you best explain this warning message?
+#### A14
+All-purpose clusters are more expensive than the job clusters
+- All-purpose는 job cluster보다 비싸다
+
+## Q15
+Your team has hundreds of jobs running but it is difficult to track cost of each job run, you are asked to provide a recommendation on how to monitor and track cost across various workloads
+#### A15
+Use Tags, during job creation so cost can be easily tracked
+- job 관련 내용은 tag 태깅으로 구분은 가능함
+
+## Q16
+The sales team has asked the Data engineering team to develop a dashboard that shows sales performance for all stores, but the sales team would like to use the dashboard but would like to select individual store location, which of the following approaches Data Engineering team can use to build this functionality into the dashboard.
+#### A16
+Use query Parameters which then allow user to choose any location
+```sql
+-- Multi
+SELECT *  FROM sales WHERE field IN ( {{ Multi Select Parameter }} )
+
+-- Single
+SELECT *  FROM sales WHERE field =  {{ Single Select Parameter }}
+```
+## Q17
+You are working on a dashboard that takes a long time to load in the browser, due to the fact that each visualization contains a lot of data to populate, which of the following approaches can be taken to address this issue?
+#### A17
+Use Databricks SQL Query filter to limit the amount of data in each visualization
+- query filter의 사용
+```sql
+SELECT action AS `action::filter`, COUNT(0) AS "actions count"
+FROM events
+GROUP BY action
+```
+- 이미 쿼리는 수행 한뒤, 브라우저에서 보여줄 때 필터링 하는 조건
+- 소규모 데이터셋에 적합함
+
 ## Q18
 One of the queries in the Databricks SQL Dashboard takes a long time to refresh, which of the below steps can be taken to identify the root cause of this issue?
 #### A18

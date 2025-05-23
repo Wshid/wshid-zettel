@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "ba13e89cc56d5d10",
+            "id": "db2a1826dec46859",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,6 +53,30 @@
               },
               "icon": "lucide-file",
               "title": "Databricks Certified Data Engineer Associate Test 5"
+            }
+          },
+          {
+            "id": "8337820c72f540e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databricks Certified Data Engineer Associate Test 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databricks Certified Data Engineer Associate Test 1"
             }
           }
         ],
@@ -88,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Support for diverse\"",
+                "query": "Retain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,13 +247,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba13e89cc56d5d10",
+  "active": "db2a1826dec46859",
   "lastOpenFiles": [
     "document/Databricks Data Engineer Associate 준비.md",
-    "Databricks Certified Data Engineer Associate Test 2.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
     "Databricks Certified Data Engineer Associate Test 5.md",
     "도태.md",
+    "Databricks Certified Data Engineer Associate Test 2.md",
     "Databricks Certified Data Engineer Associate Test 4.md",
     "Databricks Certified Data Engineer Associate Test 3.md",
     "document/Untitled.md",
