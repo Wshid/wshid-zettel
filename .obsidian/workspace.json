@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Databricks Data Engineer Associate 준비.md",
+                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Databricks Data Engineer Associate 준비"
-            }
-          },
-          {
-            "id": "db2a1826dec46859",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 5"
-            }
-          },
-          {
-            "id": "8337820c72f540e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databricks Certified Data Engineer Associate Test 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate Test 1"
+              "title": "CHAP7_창의적_마인드셋"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -247,10 +197,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "db2a1826dec46859",
+  "active": "cc2db57e5a97c557",
   "lastOpenFiles": [
-    "document/Databricks Data Engineer Associate 준비.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
+    "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "document/Databricks Data Engineer Associate 준비.md",
     "Databricks Certified Data Engineer Associate Test 5.md",
     "도태.md",
     "Databricks Certified Data Engineer Associate Test 2.md",
@@ -271,7 +222,6 @@
     "attachments/Pasted image 20250509201923.png",
     "attachments/Pasted image 20250508214455.png",
     "데이터 컴플라이언스.md",
-    "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "전사적 정책집.md",
     "데이터 부류.md",
