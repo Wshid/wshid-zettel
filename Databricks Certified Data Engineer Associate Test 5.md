@@ -215,9 +215,9 @@ Which of the following locations hosts the driver and worker nodes of a Databric
 - Data plane
 - 컴퓨팅(all-purpose, job cluster, DLT) -> customer cloud account
 - 한가지 예외 존재
-	- SQL Warehouses compute는 classic, pro, serverless 존재
-	- classic, pro compute는 customer cloud account에 저장
-	- serverless의 경우 databricks cloud account에 저장
+	- SQL Warehouses compute는 classic, pro, serverless 3가지 존재
+	- classic, pro compute: customer cloud account에 저장
+	- serverless: databricks cloud account에 저장
 
 ## Q27
 You have written a notebook to generate a summary data set for reporting, Notebook was scheduled using the job cluster, but you realized it takes an average of 8 minutes to start the cluster, what feature can be used to start the cluster in a timely fashion?
@@ -402,7 +402,7 @@ Which of the following array functions takes input column return unique list of 
 - 원소 자체가 고유하게 끔 합치는 함수
 - 모든 행에서 원소 자체가 겹친다면 하나만 출력
 - `COLLECT_LIST`는 모든 원소를 하나의 array로
-
+c.f. `ARRAY_UNION` 같은 경우,  `FLATTEN + ARRAY_DISTINCT`
 ## Q45
 You are looking to process the data based on two variables, one to check if the department is supply chain or check if process flag is set to True
 #### A45

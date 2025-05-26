@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7476bc56e1afa4e6",
+        "id": "1e9b1440e6a67eb3",
         "type": "tabs",
         "children": [
           {
-            "id": "cc2db57e5a97c557",
+            "id": "d2cc95c4cf5dd1c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "Databricks Certified Data Engineer Associate Test 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "Databricks Certified Data Engineer Associate Test 5"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Retain",
+                "query": "file:databricks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +198,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc2db57e5a97c557",
+  "active": "d2cc95c4cf5dd1c5",
   "lastOpenFiles": [
-    "Databricks Certified Data Engineer Associate Test 1.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "Databricks Certified Data Engineer Associate Test 1.md",
     "document/Databricks Data Engineer Associate 준비.md",
     "Databricks Certified Data Engineer Associate Test 5.md",
     "도태.md",
