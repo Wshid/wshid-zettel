@@ -114,6 +114,10 @@ Which of the following locations in Databricks product architecture hosts jobs/p
 - Databricks가 자체 Azure 계정에서 관리하는 백엔드 서비스 포함
 - notebook commands 및 기타 많은 workspace configurations는 해당 제어 영역에 저장
 - 미사용시 암호화
+- Web Application
+- Compute orchestration
+- Unity Catalog
+- Queries and Code
 
 #### Data Plane
 - Stored in Customer Cloud Account
