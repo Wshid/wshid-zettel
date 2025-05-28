@@ -175,3 +175,270 @@ RETURN value +1;
 - UDF시 키워드는 `CREATE FUNCTION`
 - 파라미터 및 리턴 타입, 리턴 인자 필요
 	- RETURNS, RETURN
+
+## Q21
+When dropping a Delta table, which of the following explains why only the table's metadata will be deleted, while the data files will be kept in the storage ?
+#### A21
+The table is external
+- 메타 데이터는 지워지지만 데이터는 남음
+
+## Q22
+Given the two tables **students_course_1** and **students_course_2**. Which of the following commands can a data engineer use to get all the students from the above two tables without duplicate records ?
+#### A22
+```sql
+SELECT * FROM students_course_1
+UNION
+SELECT * FROM students_course_2
+```
+
+## Q23
+Given the following command:
+
+`CREATE DATABASE IF NOT EXISTS hr_db ;`
+
+In which of the following locations will the **hr_db** database be located?
+#### A23
+`dbfs:/user/hive/warehouse`
+- LOCATION이 지정되지 않으면 기본적으로 `warehouse`하위에 위치
+
+## Q24
+Given the following table **faculties**
+
+Fill in the below blank to get the students enrolled in less than 3 courses from the array column **students**
+```sql
+SELECT
+  faculty_id,
+  students,
+  ___________ AS few_courses_students
+FROM faculties
+```
+#### A24
+```sql
+FILTER (students, i -> i.total_courses < 3)
+```
+
+## Q25
+Given the following Structured Streaming query:
+```python
+(
+	spark.table("orders")
+    .withColumn("total_after_tax", col("total")+col("tax"))
+    .writeStream
+        .option("checkpointLocation", checkpointPath)
+        .outputMode("append")
+         .______________ 
+        .table("new_orders")
+)
+
+```
+Fill in the blank to make the query executes a micro-batch to process data every 2 minutes
+
+#### A25
+```python
+trigger(processingTime=”2 minutes")
+```
+
+## Q26
+Which of the following is used by Auto Loader to load data incrementally?
+#### A26
+Spark Structured Streaming
+- Auto Loader는 Spark Streaming source로 `cloudFiles`를 사용
+
+## Q27
+Which of the following statements best describes Auto Loader ?
+#### A27
+Auto loader monitors a source location, in which files accumulate, to identify and ingest only new arriving files with each command run. While the files that have already been ingested in previous runs are skipped.
+
+## Q28
+A data engineer has defined the following data quality constraint in a Delta Live Tables pipeline:
+
+`CONSTRAINT valid_id EXPECT (id IS NOT NULL) _____________`
+
+Fill in the above blank so records violating this constraint will be added to the target table, and reported in metrics
+#### A28
+There is no need to add ON VIOLATION clause. By default, records violating the constraint will be kept, and reported as invalid in the event log
+- **ON VIOLATION DROP ROW**
+- **ON VILOATION FAIL UPDATE** 
+- [[Databricks Certified Data Engineer Associate Test 1#Drop invalid records]]
+- [[Databricks Certified Data Engineer Associate Test 1#Fail on invalid records]]
+
+## Q29
+The data engineer team has a DLT pipeline that updates all the tables once and then stops. The compute resources of the pipeline continue running to allow for quick testing.
+
+Which of the following best describes the execution modes of this DLT pipeline ?
+#### A29
+The DLT pipeline executes in Triggered Pipeline mode under Development mode.
+
+#### DLT Pipeline - Triggered Pipeline
+- 현재 사용 가능한 모든 데이터로 각 테이블 업데이트 및 종료
+#### DLT Pipeline - Development Mode
+- 클러스터 재사용을 통한 재시작 오버헤드 회피
+- 개발모드 활성화시 클러스터 2시간 동안 수행
+- 파이프라인 재시도를 비활성화 -> 오류 즉시 감지 및 수정 가능
+
+## Q30
+Which of the following will utilize Gold tables as their source?
+#### A30
+Dashboards
+
+
+## Q31
+Which of the following code blocks can a data engineer use to query the existing streaming table **events** ?
+#### A31
+```python
+spark.readStream
+.table("events")
+```
+- Spark Structured Streaming에서는 `readStream`을 통해 테이블 참조
+
+## Q32
+In multi-hop architecture, which of the following statements best describes the Bronze layer ?
+#### A32
+It maintains raw data ingested from various sources
+
+## Q33
+Given the following Structured Streaming query
+```python
+(spark.readStream
+        .format("cloudFiles")
+        .option("cloudFiles.format", "json")
+        .load(ordersLocation)
+     .writeStream
+        .option("checkpointLocation", checkpointPath)
+        .table("uncleanedOrders")
+)
+```
+Which of the following best describe the purpose of this query in a multi-hop architecture?
+#### A33
+The query is performing raw data ingestion into a Bronze table
+- cloudFiles로 보아 AUTO LOADER를 사용하는 기능
+- ordersLocation이라는 Raw json 데이터 수집
+
+## Q34
+A data engineer has the following query in a Delta Live Tables pipeline:
+```sql
+CREATE LIVE TABLE aggregated_sales
+AS
+  SELECT store_id, sum(total)
+  FROM cleaned_sales
+  GROUP BY store_id
+```
+The pipeline is failing to start due to an error in this query
+
+Which of the following changes should be made to this query to successfully start the DLT pipeline ?
+#### A34
+```sql
+CREATE LIVE TABLE aggregated_sales
+AS
+  SELECT store_id, sum(total)
+  FROM LIVE.cleaned_sales
+  GROUP BY store_id
+```
+- `CREATE LIVE TABLE` 키워드를 사용하고
+	- 다른 Live table을 참조하기 위해 `LIVE.`을 사용해야 함
+
+## Q35
+A data engineer has defined the following data quality constraint in a Delta Live Tables pipeline:
+
+`CONSTRAINT valid_id EXPECT (id IS NOT NULL) _____________`
+
+Fill in the above blank so records violating this constraint will be dropped, and reported in metrics
+#### A35
+```sql
+ON VIOLATION DROP ROW
+```
+
+## Q36
+Which of the following compute resources is available in Databricks SQL ?
+#### A36
+
+#### SQL warehouses
+- Compute resource: 클라우드에서 처리기능을 제공하는 인프라 리소스
+- SQL warehouse: Databricks SQL내에서 데이터 개체에 대해 SQL 명령을 수행하는 Compute resource
+- SQL endpoint의 다른 이름!
+
+## Q37
+Which of the following is the benefit of using the Auto Stop feature of Databricks SQL warehouses ?
+#### A37
+Minimizes the total running time of the warehouse
+- Auto Stop: 지정된 시간동안 idle할 경우 warehouse를 중지하는 기능
+
+## Q38
+Which of the following alert destinations is **Not** supported in Databricks SQL ?
+#### A38
+SMS
+
+#### Databricks SQL destinations
+- email, webhook, slack, Microsoft teams
+
+## Q39
+A data engineering team has a long-running multi-tasks Job. The team members need to be notified when the run of this job completes.
+
+Which of the following approaches can be used to send emails to the team members when the job completes ?
+#### A39
+They can configure email notifications settings in the job page
+- Job 시작, 성공, 실패시 Email notification In Job page
+- 여러 이메일 주소 입력 가능
+- Job Owner가 아니어도 설정 가능
+
+## Q40
+A data engineer wants to increase the cluster size of an existing Databricks SQL warehouse.
+
+Which of the following is the benefit of increasing the cluster size of Databricks SQL warehouses ?
+#### A40
+Improves the latency of the queries execution
+- Cluster Size의 증가
+	- cluster worker 수의 증가
+	- compute 리소스 향상(쿼리 및 대시보드에서 활용)
+	- query latency를 줄임
+
+## Q41
+Which of the following describes Cron syntax in Databricks Jobs ?
+#### A41
+It’s an expression to represent complex job schedule that can be defined programmatically
+- Job Schedule을 Cron으로 구성할 수 있음
+
+## Q42
+The data engineer team has a DLT pipeline that updates all the tables at defined intervals until manually stopped. The compute resources terminate when the pipeline is stopped.
+
+Which of the following best describes the execution modes of this DLT pipeline ?
+#### A42
+The DLT pipeline executes in Continuous Pipeline mode under Production mode.
+
+
+#### DLT Pipeline - Continuous Pipeline
+- 입력 데이터가 변경되면 테이블 지속 업데이트
+- 업데이트가 시작되면 파이프라인 종료시까지 진행
+
+#### DLT Pipeline - Production Mode
+- pipeline이 중지되면 클러스터 즉시 종료
+- 복구 가능한 오류가 있는 경우 클러스터 다시 시작
+	- memory leak, leak or stale credentials
+- 특정 오류가 발생한 경우 retry
+	- e.g. failure to start a cluster
+
+## Q43
+Which part of the Databricks Platform can a data engineer use to grant permissions on tables to users ?
+#### A43
+Data Explorer
+- [[Databricks Certified Data Engineer Associate Test 2#Data explorer]]
+
+## Q44
+Which of the following commands can a data engineer use to grant full permissions to the HR team on the table **employees** ?
+#### A44
+```sql
+GRANT ALL PRIVILEGES ON TABLE employees TO hr_team
+```
+
+#### ALL_PRIVILEGES
+- SELECT, CREATE, MODIFY, USAGE, READ_METADATA
+
+## Q45
+A data engineer uses the following SQL query:
+
+`GRANT MODIFY ON TABLE employees TO hr_team`
+
+Which of the following describes the ability given by the `MODIFY` privilege ?
+#### A45
+All the above abilities are given by the `MODIFY` privilege
+- MODIFY는 add, delete, modify 권한을 모두 부여

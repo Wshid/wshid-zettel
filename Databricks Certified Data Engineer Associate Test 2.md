@@ -51,11 +51,12 @@ How does a Delta Lake differ from a traditional data lake?
 ## Q6
 Newly joined data analyst requested read-only access to tables, assuming you are owner/admin which section of Databricks platform is going to facilitate granting select access to the user
 #### A6
-- Data explorer
-	- explore and manage permissions on dbs and tables
-	- user: view schema details, preview sample data, see table details, properties
-	- admin: [view and change owner](https://docs.databricks.com/aws/en/catalog-explorer#manage-data-object-ownership)
-	- admins and data object owner can grant and revoke permissions
+
+#### Data explorer
+- explore and manage permissions on dbs and tables
+- user: view schema details, preview sample data, see table details, properties
+- admin: [view and change owner](https://docs.databricks.com/aws/en/catalog-explorer#manage-data-object-ownership)
+- admins and data object owner can grant and revoke permissions
 
 ## Q7
 You noticed that colleague is manually copying the notebook with `_bkp` to store the previous versions, which of the following feature would you recommend instead.
