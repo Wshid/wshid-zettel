@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databricks Certified Data Engineer Associate - Practice Exam 1.md",
+                "file": "document/Databricks Data Engineer Associate 준비.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Databricks Certified Data Engineer Associate - Practice Exam 1"
+              "title": "Databricks Data Engineer Associate 준비"
+            }
+          },
+          {
+            "id": "c9b291853e75919f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databricks Certified Data Engineer Associate - Practice Exam 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Databricks Certified Data Engineer Associate - Practice Exam 2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ALL_PRIVILEGES",
+                "query": "\"EXTENDED\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,11 +247,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "35030d59b8cc1a40",
+  "active": "4d1968254b1cd534",
   "lastOpenFiles": [
+    "Databricks Certified Data Engineer Associate - Practice Exam 2.md",
     "document/Databricks Data Engineer Associate 준비.md",
-    "Databricks Certified Data Engineer Associate Test 2.md",
     "Databricks Certified Data Engineer Associate - Practice Exam 1.md",
+    "Databricks Certified Data Engineer Associate Test 2.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
     "Databricks Certified Data Engineer Associate Test 5.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
@@ -254,7 +279,6 @@
     "데이터 부류.md",
     "포모도로 기법.md",
     "전사적 사전.md",
-    "GDPR.md",
     "attachments/Pasted image 20250412140330.png",
     "document/attachments/Pasted image 20240414130835.png",
     "document/attachments/Pasted image 20240414130345.png",

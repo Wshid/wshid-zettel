@@ -46,6 +46,8 @@
 
 ### [[Databricks Certified Data Engineer Associate - Practice Exam 1]]
 
+### [[Databricks Certified Data Engineer Associate - Practice Exam 2]]
+
 ## Data Engineering & Streaming
 - [https://www.databricks.com/dataaisummit/agenda?page=1&track=data-engineering-and-streaming](https://www.databricks.com/dataaisummit/agenda?page=1&track=data-engineering-and-streaming)
 - [DLT 최적화](https://www.databricks.com/dataaisummit/session/top-performance-and-cost-optimizations-dlt)
