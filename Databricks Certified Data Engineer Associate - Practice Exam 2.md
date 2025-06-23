@@ -190,3 +190,214 @@ FROM faculties
 TRANSFORM (students, i -> i.total_courses + 1)
 ```
 - transform 함수는 array -> array
+
+## Q21
+Fill in the below blank to successfully create a table using data from CSV files located at **/path/input**
+```sql
+CREATE TABLE my_table
+(col1 STRING, col2 STRING)
+____________
+OPTIONS (header = "true",
+        delimiter = ";")
+LOCATION = "/path/input"
+```
+#### A21
+```bash
+USING CSV
+```
+- https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table-using
+- USING `datasource`
+
+## Q22
+Which of the following statements best describes the usage of `CREATE SCHEMA` command ?
+#### A22
+It’s used to create a database
+- `CREATE SCHEMA`는 `CREATE DATABASE`와 동치어
+
+## Q23
+Which of the following statements is **Not** true about CTAS statements ?
+#### A23
+CTAS statements support manual schema declaration
+- CTAS는 infer schema로 처리함. 별도 스키마를 지정할 수 없음
+
+
+## Q24
+Which of the following SQL commands will append this new row to the existing Delta table **users**?
+#### A24
+```sql
+INSERT INTO users VALUES (“0015”, “Adam”, 23)
+```
+
+## Q25
+Given the following Structured Streaming query:
+```sql
+(spark.table("orders")
+        .withColumn("total_after_tax", col("total")+col("tax"))
+    .writeStream
+        .option("checkpointLocation", checkpointPath)
+        .outputMode("append")
+        .___________
+        .table("new_orders") )
+```
+Fill in the blank to make the query executes multiple micro-batches to process all available data, then stops the trigger.
+#### A25
+```python
+trigger(availableNow=True)
+```
+- 사용 가능한 모든 데이터를 여러개의 마이크로 배치로 처리하는 방법
+- 사용가능한 데이터 처리가 완료되면 자체적으로 종료
+
+## Q26
+Which of the following techniques allows Auto Loader to track the ingestion progress and store metadata of the discovered files ?
+#### A26
+Checkpointing
+- keeps track of discovered files using checkpointing
+- AUTO LOADER가 exactly-once를 보증함
+
+## Q27
+A data engineer has defined the following data quality constraint in a Delta Live Tables pipeline:
+```sql
+CONSTRAINT valid_id EXPECT (id IS NOT NULL) _____________
+
+```
+#### A27
+```
+ON VIOLATION FAIL UPDATE
+```
+- [[Databricks Certified Data Engineer Associate Test 1#Fail on invalid records]]
+
+## Q28
+In multi-hop architecture, which of the following statements best describes the Silver layer tables?
+#### A28
+They provide a more refined view of raw data, where it’s filtered, cleaned, and enriched.
+
+## Q29
+The data engineer team has a DLT pipeline that updates all the tables at defined intervals until manually stopped. The compute resources of the pipeline continue running to allow for quick testing.
+
+Which of the following best describes the execution modes of this DLT pipeline ?
+#### A29
+The DLT pipeline executes in Continuous Pipeline mode under Development mode.
+- Continous Pipeline: 주기적으로 데이터를 업데이트 함
+- [[Databricks Certified Data Engineer Associate - Practice Exam 1#DLT Pipeline - Continuous Pipeline]]
+- [[Databricks Certified Data Engineer Associate - Practice Exam 1#DLT Pipeline - Triggered Pipeline]]
+
+## Q30
+Given the following Structured Streaming query:
+```python
+(spark.readStream
+        .table("cleanedOrders")
+        .groupBy("productCategory")
+        .agg(sum("totalWithTax"))
+    .writeStream
+        .option("checkpointLocation", checkpointPath)
+        .outputMode("complete")
+        .table("aggregatedOrders")
+)
+```
+Which of the following best describe the purpose of this query in a multi-hop architecture?
+#### A30
+The query is performing a hop from Silver layer to a Gold table
+
+## Q31
+Given the following Structured Streaming query:
+```python
+(spark.readStream
+        .table("orders")
+    .writeStream
+        .option("checkpointLocation", checkpointPath)
+        .table("Output_Table")
+)
+```
+Which of the following is the trigger Interval for this query ?
+#### A31
+Every half second
+- `trigger(processingTime=”500ms")`
+- trigger 기본값은 0.5s로 보임
+
+## Q32
+A data engineer has the following query in a Delta Live Tables pipeline
+```sql
+CREATE STREAMING TABLE sales_silver
+AS
+  SELECT store_id, total + tax AS total_after_tax
+  FROM LIVE.sales_bronze
+```
+The pipeline is failing to start due to an error in this query.
+
+Which of the following changes should be made to this query to successfully start the DLT pipeline ?
+#### A32
+```sql
+CREATE STREAMING TABLE sales_silver
+AS
+  SELECT store_id, total + tax AS total_after_tax
+  FROM STREAM(LIVE.sales_bronze)
+```
+
+#### CREATE STREAMING TABLE
+- `STREAM()` 함수를 사용하면 동일 파이프라인의 다른 테이블의 데이터 스트리밍 가능
+- 이때, `CREATE STREAMING TABLE` 구문을 사용해야 함
+- [[Databricks Certified Data Engineer Associate - Practice Exam 1#CREATE LIVE TABLE]]
+- LIVE 테이블의 경우 무조건 `LIVE.`를 붙여주어야 함
+- 또한 `CREATE STREAMING LIVE TABLE`은 곧 deprecated 예정이라고 함
+- LIVE TABLE의 경우 `CREATE MATERIALIZED VIEW`로 변경되었다는 이야기가 있음
+	- stateless 연산을 수행하며, 필요시 전체 테이블을 재계산함
+
+## Q33
+In multi-hop architecture, which of the following statements best describes the Gold layer tables?
+#### A33
+- They provide business-level aggregations that power analytics, machine learning, and production applications
+
+## Q34
+The data engineer team has a DLT pipeline that updates all the tables once and then stops. The compute resources of the pipeline terminate when the pipeline is stopped.
+
+Which of the following best describes the execution modes of this DLT pipeline ?
+#### A34
+The DLT pipeline executes in Triggered Pipeline mode under Production mode.
+- [[Databricks Certified Data Engineer Associate - Practice Exam 1#DLT Pipeline - Production Mode]]
+- 파이프라인 종료시 모든 리소스가 반환됨(클러스터 종료)
+
+## Q35
+A data engineer needs to determine whether to use Auto Loader or COPY INTO command in order to load input data files incrementally.
+In which of the following scenarios should the data engineer use Auto Loader over COPY INTO command ?
+#### A35
+If they are going to ingest files in the order of millions or more over time
+- 수천개 단위로 파일 수집: COPY INTO 사용
+- 수백만개 이상의 파일 수집: AUTO LOADER 사용
+- schema primitive 및 evolution 관점에서도 AUTO LOADER가 우위
+
+## Q36
+From which of the following locations can a data engineer set a schedule to automatically refresh a Databricks SQL query ?
+#### A36
+From the query's page in Databricks SQL
+- Query 페이지에서 Refresh Schedule을 설정할 수 있음
+
+## Q37
+Databricks provides a declarative ETL framework for building reliable and maintainable data processing pipelines, while maintaining table dependencies and data quality.
+
+Which of the following technologies is being described above?
+#### A37
+Delta Live Tables
+- DLT는 reliable, maintainable, testable한 pipeline
+- 사용자가 Transformations를 정의하면 task orchestration, cluster management, monitoring, data quality, error handling을 지원함
+
+## Q38
+Which of the following services can a data engineer use for orchestration purposes in Databricks platform ?
+#### A38
+Databricks Jobs
+- Databricks에서 Orchestration 목적으로 사용하려면 Job을 사용해야 함
+
+## Q39
+A data engineer has a Job with multiple tasks that takes more than 2 hours to complete. In the last run, the final task unexpectedly failed.
+
+Which of the following actions can the data engineer perform to complete this Job Run while minimizing the execution time ?
+#### A39
+They can repair this Job Run so only the failed tasks will be re-executed
+- task와 그 하위 작업만 재수행하면 됨
+- 전체 task를 재수행 할 필요는 없음
+
+## Q40
+A data engineering team has a multi-tasks Job in production. The team members need to be notified in the case of job failure.
+
+Which of the following approaches can be used to send emails to the team members in the case of job failure ?
+#### A40
+They can configure email notifications settings in the job page

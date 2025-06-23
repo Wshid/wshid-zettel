@@ -334,6 +334,8 @@ AS
   FROM LIVE.cleaned_sales
   GROUP BY store_id
 ```
+
+#### CREATE LIVE TABLE
 - `CREATE LIVE TABLE` 키워드를 사용하고
 	- 다른 Live table을 참조하기 위해 `LIVE.`을 사용해야 함
 
