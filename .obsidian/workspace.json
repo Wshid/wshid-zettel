@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35030d59b8cc1a40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "84481fa6981e5a14",
+            "id": "da2f0ccb2e1245c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,78 +32,6 @@
             }
           },
           {
-            "id": "6111eb23a1d7071e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "f3d1fc8f95e7fd5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "da2f0ccb2e1245c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP5_비판적_사고.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP5_비판적_사고"
-            }
-          },
-          {
             "id": "c71477e212d0bb84",
             "type": "leaf",
             "state": {
@@ -139,8 +43,7 @@
               "title": "Drawing 2025-06-24 21.23.49.excalidraw"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,8 +96,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -308,14 +210,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f3d1fc8f95e7fd5b",
+  "active": "da2f0ccb2e1245c1",
   "lastOpenFiles": [
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
-    "아하-에를레브니스.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "아하-에를레브니스.md",
     "concept/Symmathesy.md",
     "생각을 표현하는 5가지 방법.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "Excalidraw/Drawing 2025-06-24 21.23.49.excalidraw.md",
     "concept/데이터 검색.md",
     "잭 런던.md",
