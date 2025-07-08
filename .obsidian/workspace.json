@@ -32,6 +32,102 @@
             }
           },
           {
+            "id": "9aab28f7d9b5e05e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
+            "id": "a22df74892ffceb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
+            "id": "71cc682f76071e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
+            "id": "c8734ba0063ce92c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
             "id": "c71477e212d0bb84",
             "type": "leaf",
             "state": {
@@ -43,7 +139,8 @@
               "title": "Drawing 2025-06-24 21.23.49.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -75,7 +172,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "아하-",
+                "query": "RACI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +193,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,11 +308,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da2f0ccb2e1245c1",
+  "active": "c8734ba0063ce92c",
   "lastOpenFiles": [
+    "데이터 분포.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "데이터 신선도.md",
+    "RACI.md",
     "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "아하-에를레브니스.md",
     "concept/Symmathesy.md",
     "생각을 표현하는 5가지 방법.md",
@@ -236,9 +337,6 @@
     "data locality.md",
     "attachments/Pasted image 20250513225106.png",
     "Untitled 2.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "document/Data-aware Scheduling.md",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
     "attachments/Pasted image 20250508214455.png",
