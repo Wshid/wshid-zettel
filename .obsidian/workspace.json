@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c71477e212d0bb84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
-            "id": "dc6c6bc3ade908c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
-            }
-          },
-          {
             "id": "3533f36558ea6646",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,8 +200,8 @@
   },
   "active": "3533f36558ea6646",
   "lastOpenFiles": [
-    "오믈렛 뒤 프로마쥬.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "오믈렛 뒤 프로마쥬.md",
     "해마.md",
     "Excalidraw/Drawing 2025-06-24 21.23.49.excalidraw.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
