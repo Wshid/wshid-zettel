@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1e9b1440e6a67eb3",
+        "id": "468c0e75766dd03a",
         "type": "tabs",
         "children": [
           {
-            "id": "3533f36558ea6646",
+            "id": "4ce2b63f3e997bac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ]
@@ -198,10 +198,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3533f36558ea6646",
+  "active": "4ce2b63f3e997bac",
   "lastOpenFiles": [
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "document/Cursor_AI/커서 시작하기.md",
+    "document/Cursor_AI",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "오믈렛 뒤 프로마쥬.md",
     "해마.md",
     "Excalidraw/Drawing 2025-06-24 21.23.49.excalidraw.md",
@@ -225,7 +227,6 @@
     "Databricks Certified Data Engineer Associate Test 4.md",
     "Databricks Certified Data Engineer Associate Test 3.md",
     "document/Untitled.md",
-    "document/Untitled 1.md",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
@@ -243,7 +244,6 @@
     "document/Rust_Concurrency_Programming/CHAP2",
     "Excalidraw/attachments",
     "document/Data_Quality",
-    "document/Creative_Programmer",
     "document/Pasted image 20240414130209.png",
     "document/Pasted image 20240414130313.png",
     "raw/repository/daily-poc/Untitled.canvas"
