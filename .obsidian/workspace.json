@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP7_창의적_마인드셋"
+            }
+          },
+          {
+            "id": "73035b07ec5b87d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP7_창의적_마인드셋"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,12 +223,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ce2b63f3e997bac",
+  "active": "73035b07ec5b87d5",
   "lastOpenFiles": [
+    "조너스 소크.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "document/Cursor_AI/커서 시작하기.md",
     "document/Cursor_AI",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "오믈렛 뒤 프로마쥬.md",
     "해마.md",
     "Excalidraw/Drawing 2025-06-24 21.23.49.excalidraw.md",
@@ -226,7 +252,6 @@
     "도태.md",
     "Databricks Certified Data Engineer Associate Test 4.md",
     "Databricks Certified Data Engineer Associate Test 3.md",
-    "document/Untitled.md",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
