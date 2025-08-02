@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Cursor_AI/유투브_요약_서비스.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "유투브_요약_서비스"
             }
           }
         ],
@@ -273,12 +273,15 @@
   },
   "active": "e8d3f21118a3602e",
   "lastOpenFiles": [
-    "80대 20법칙.md",
+    "document/Cursor_AI/커서 시작하기.md",
+    "document/Cursor_AI/Nextjs 프로젝트 세팅 가이드북.md",
+    "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
+    "document/Cursor_AI/유투브_요약_서비스.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "80대 20법칙.md",
     "단일 진실 공급원.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "조너스 소크.md",
-    "document/Cursor_AI/커서 시작하기.md",
     "document/Cursor_AI",
     "오믈렛 뒤 프로마쥬.md",
     "해마.md",
@@ -292,14 +295,11 @@
     "생각을 표현하는 5가지 방법.md",
     "concept/데이터 검색.md",
     "잭 런던.md",
-    "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "Databricks Certified Data Engineer Associate - Practice Exam 1.md",
     "document/Databricks Data Engineer Associate 준비.md",
     "Databricks Certified Data Engineer Associate - Practice Exam 2.md",
     "Databricks Certified Data Engineer Associate Test 1.md",
     "Databricks Certified Data Engineer Associate Test 2.md",
-    "Databricks Certified Data Engineer Associate Test 5.md",
-    "도태.md",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
