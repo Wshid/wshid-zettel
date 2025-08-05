@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP7_창의적_마인드셋"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
@@ -297,8 +297,8 @@
   },
   "active": "2ae29b6df96030a5",
   "lastOpenFiles": [
-    "1+1=3.md",
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
+    "1+1=3.md",
     "document/Cursor_AI/유투브_요약_서비스.md",
     "document/Cursor_AI/커서 시작하기.md",
     "document/Cursor_AI/Nextjs 프로젝트 세팅 가이드북.md",
