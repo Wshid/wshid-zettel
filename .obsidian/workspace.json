@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,11 +220,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_창의적_기법"
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
+            "id": "5bb041c72eeaa445",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
+            }
+          },
+          {
+            "id": "8bcdf7167f61404f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -391,10 +439,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6125105ac1500f46",
+  "active": "8bcdf7167f61404f",
   "lastOpenFiles": [
-    "스프린트 회고 진행 방법.md",
+    "concept/데이터 카탈로그.md",
+    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "데이터 컴플라이언스.md",
     "document/Creative_Programmer/CHAP8_창의적_기법.md",
+    "스프린트 회고 진행 방법.md",
     "스크럼.md",
     "애자일 소프트웨어 개발을 위한 선언문.md",
     "블라드미르 나보코프.md",
@@ -404,7 +455,6 @@
     "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "document/Cursor_AI/AI_면접_프로그램_웹사이트.md",
     "document/Cursor_AI/유투브_요약_서비스.md",
-    "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "1+1=3.md",
     "document/Cursor_AI/커서 시작하기.md",
     "document/Cursor_AI/Nextjs 프로젝트 세팅 가이드북.md",
@@ -418,8 +468,6 @@
     "Excalidraw/Drawing 2025-06-24 21.23.49.excalidraw.md",
     "데이터 분포.md",
     "데이터 신선도.md",
-    "RACI.md",
-    "document/Creative_Programmer/CHAP5_비판적_사고.md",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
