@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_데이터_품질_민주화"
+              "title": "CHAP8_창의적_기법"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RACI",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "vscode-editor:Create Code File": false,
@@ -200,9 +201,12 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
+    "예술 기반 학습.md",
+    "예술적 미메시스.md",
     "document/Creative_Programmer/CHAP8_창의적_기법.md",
-    "안토니우스 페스트.md",
+    "document/Cursor_AI/Upbit.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "안토니우스 페스트.md",
     "document/Cursor_AI/AI_면접_프로그램_웹사이트.md",
     "concept/데이터 카탈로그.md",
     "데이터 컴플라이언스.md",
@@ -224,9 +228,6 @@
     "document/Cursor_AI",
     "오믈렛 뒤 프로마쥬.md",
     "해마.md",
-    "Excalidraw/Drawing 2025-06-24 21.23.49.excalidraw.md",
-    "데이터 분포.md",
-    "데이터 신선도.md",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
