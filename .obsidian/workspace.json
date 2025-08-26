@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
+                "file": "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_창의적_기법"
+              "title": "CHAP8_데이터_품질_민주화"
             }
           }
         ]
@@ -201,9 +201,9 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
+    "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "예술 기반 학습.md",
     "예술적 미메시스.md",
-    "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "document/Cursor_AI/Upbit.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "안토니우스 페스트.md",
