@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
+                "file": "document/Cursor_AI/know-how.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP8_창의적_기법"
+              "title": "know-how"
             }
           }
         ]
@@ -202,6 +202,7 @@
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
+    "document/Cursor_AI/know-how.md",
     "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "예술 기반 학습.md",
     "예술적 미메시스.md",
@@ -227,7 +228,6 @@
     "조너스 소크.md",
     "document/Cursor_AI",
     "오믈렛 뒤 프로마쥬.md",
-    "해마.md",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
     "attachments/Pasted image 20250509201923.png",
