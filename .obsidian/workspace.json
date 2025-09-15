@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Cursor_AI/know-how.md",
+                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "know-how"
+              "title": "CHAP8_창의적_기법"
             }
           }
         ],
@@ -226,10 +226,10 @@
   },
   "active": "0e936aee91f19f0f",
   "lastOpenFiles": [
+    "document/Cursor_AI/know-how.md",
     "document/Cursor_AI/커서 시작하기.md",
     "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "화살을 덜 만들면 더 많은 나무가 남는다.md",
-    "document/Cursor_AI/know-how.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
     "예술 기반 학습.md",
     "예술적 미메시스.md",
