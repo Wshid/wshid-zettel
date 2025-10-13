@@ -78,9 +78,57 @@
               "icon": "lucide-file",
               "title": "CHAP8_창의적_기법"
             }
+          },
+          {
+            "id": "2303642c1c60cce0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_창의적_기법"
+            }
+          },
+          {
+            "id": "2353f6f6bb4c4aff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Creative_Programmer/CHAP8_창의적_기법.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHAP8_창의적_기법"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,10 +296,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "50a39f0fe7234445",
+  "active": "2353f6f6bb4c4aff",
   "lastOpenFiles": [
-    "트리플 니켈.md",
+    "고무 오리.md",
     "document/Creative_Programmer/CHAP8_창의적_기법.md",
+    "트리플 니켈.md",
     "document/Cursor_AI/know-how.md",
     "document/Cursor_AI/커서 시작하기.md",
     "화살을 덜 만들면 더 많은 나무가 남는다.md",
@@ -275,7 +324,6 @@
     "document/Cursor_AI/Nextjs 프로젝트 세팅 가이드북.md",
     "document/Data_Governance/CHAP2_데이터_거버넌스의_구성요소_도구.md",
     "80대 20법칙.md",
-    "단일 진실 공급원.md",
     "document/Cursor_AI",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
