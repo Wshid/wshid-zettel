@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP9_창의성에_대한_마지막_생각"
+              "title": "CHAP2_효율성_효과성_생산성"
             }
           }
         ],
@@ -370,8 +370,8 @@
   },
   "active": "3f4837987e0e4ef9",
   "lastOpenFiles": [
-    "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
+    "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "코드 카타 연습.md",
     "효과성.md",
