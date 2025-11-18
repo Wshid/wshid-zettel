@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP9_창의성에_대한_마지막_생각"
+              "title": "CHAP2_효율성_효과성_생산성"
             }
           }
         ]
@@ -201,10 +201,14 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "document/Creative_Programmer/CHAP8_창의적_기법.md",
-    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
-    "document/[240212]DBT와_Airflow_도입하며_마주한_7가지_문제들.md",
     "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
+    "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
+    "이상 탐지.md",
+    "false-positive.md",
+    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+    "수박 효과.md",
+    "document/Creative_Programmer/CHAP8_창의적_기법.md",
+    "document/[240212]DBT와_Airflow_도입하며_마주한_7가지_문제들.md",
     "코드 카타 연습.md",
     "효과성.md",
     "document/Leading_Effective Engineering Teams",
@@ -224,10 +228,6 @@
     "스프린트 회고 진행 방법.md",
     "스크럼.md",
     "애자일 소프트웨어 개발을 위한 선언문.md",
-    "블라드미르 나보코프.md",
-    "작가적 블록.md",
-    "마르쿠스 아우렐리우스.md",
-    "document/Creative_Programmer/CHAP7_창의적_마인드셋.md",
     "document/Cursor_AI",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
