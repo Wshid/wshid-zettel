@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP9_창의성에_대한_마지막_생각"
+              "title": "CHAP2_효율성_효과성_생산성"
             }
           }
         ]
@@ -199,10 +199,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2ae36ebec1cc59fd",
+  "active": "1d242474a2eb8d24",
   "lastOpenFiles": [
-    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
+    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "이상 탐지.md",
     "false-positive.md",
