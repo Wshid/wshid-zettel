@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_커뮤니케이션의_핵심"
+              "title": "CHAP2_효율성_효과성_생산성"
             }
           }
         ]
@@ -201,8 +201,8 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "도메인 스토리.md",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
+    "도메인 스토리.md",
     "C4 컨텍스트 다이어그램.md",
     "UML 클래스 다이어그램.md",
     "안티패턴.md",
