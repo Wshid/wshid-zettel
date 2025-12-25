@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+                "file": "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP2_효율성_효과성_생산성"
+              "title": "CHAP1_임원직을_향한_여정"
             }
           }
         ]
@@ -162,8 +162,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -172,8 +172,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -187,27 +187,29 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
-      "vscode-editor:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
+    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+    "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
+    "document/The_Engineering_Executives_Primer",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
     "도메인 스토리.md",
     "C4 컨텍스트 다이어그램.md",
     "UML 클래스 다이어그램.md",
     "안티패턴.md",
     "패턴.md",
-    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/Communication_Patterns",
     "Untitled.base",
     "OKR.md",
@@ -229,7 +231,6 @@
     "document/Cursor_AI/커서 시작하기.md",
     "화살을 덜 만들면 더 많은 나무가 남는다.md",
     "document/Data_Quality/CHAP8_데이터_품질_민주화.md",
-    "예술 기반 학습.md",
     "document/Cursor_AI",
     "attachments/Pasted image 20250513225106.png",
     "attachments/Pasted image 20250509204132.png",
@@ -244,7 +245,6 @@
     "document/2025_ChatGPT_Bible",
     "Excalidraw/attachments/Pasted Image 20240425211931_073.png",
     "document/LLAMA",
-    "snippet.css",
     "document/Pasted image 20240414130209.png",
     "document/Pasted image 20240414130313.png",
     "raw/repository/daily-poc/Untitled.canvas"
