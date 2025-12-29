@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_임원직을_향한_여정"
+              "title": "CHAP2_효율성_효과성_생산성"
             }
           }
         ]
@@ -195,14 +195,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+    "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
     "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
+    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/The_Engineering_Executives_Primer",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
     "도메인 스토리.md",
@@ -215,7 +216,6 @@
     "OKR.md",
     "SMART 목표.md",
     "GQM.md",
-    "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
     "document/Data_Quality/CHAP6_대규모_데이터_품질_문제_해결.md",
     "이상 탐지.md",
     "false-positive.md",
