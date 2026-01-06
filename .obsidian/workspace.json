@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP1_커뮤니케이션의_핵심"
+              "title": "CHAP2_효율성_효과성_생산성"
             }
           }
         ]
@@ -201,8 +201,8 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "인지 부하.md",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
+    "인지 부하.md",
     "추상화 레벨.md",
     "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
