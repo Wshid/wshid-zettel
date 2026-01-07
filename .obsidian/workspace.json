@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+                "file": "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP2_효율성_효과성_생산성"
+              "title": "CHAP1_임원직을_향한_여정"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 810.5
   },
   "right": {
     "id": "563b7e3a135cb1cf",
@@ -201,10 +201,10 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
+    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
     "인지 부하.md",
     "추상화 레벨.md",
-    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
     "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
     "document/The_Engineering_Executives_Primer",
