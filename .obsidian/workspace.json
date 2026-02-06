@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+                "file": "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
+              "title": "CHAP1_임원직을_향한_여정"
             }
           }
         ],
@@ -226,11 +226,12 @@
   },
   "active": "7f2eaed1b61fe1ce",
   "lastOpenFiles": [
-    "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
+    "DEF 14A 보고서.md",
+    "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+    "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
     "document/프로그래밍의_규칙/CHAP5_첫_번째_최적화_교훈_최적화하지_말라.md",
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
-    "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
     "STAR 기법.md",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
     "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
@@ -254,7 +255,6 @@
     "수박 효과.md",
     "document/Creative_Programmer/CHAP8_창의적_기법.md",
     "document/[240212]DBT와_Airflow_도입하며_마주한_7가지_문제들.md",
-    "코드 카타 연습.md",
     "document/Leading_Effective Engineering Teams",
     "document/Cursor_AI",
     "attachments/Pasted image 20250513225106.png",
