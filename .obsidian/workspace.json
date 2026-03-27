@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+                "file": "텍스트 균형 잡기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP2_엔지니어링_임원의_첫_90일"
+              "title": "텍스트 균형 잡기"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,15 +223,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c7f4dab5a7046ce",
+  "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+    "텍스트 균형 잡기.md",
+    "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
+    "스코프 크리크.md",
     "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+    "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
     "컬처 앰프.md",
     "스킵 레벨.md",
     "액셀러레이트.md",
     "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
-    "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
     "선 점프.md",
     "관계 거미줄 안티패턴.md",
     "DEF 14A 보고서.md",
@@ -253,8 +254,6 @@
     "document/Communication_Patterns",
     "Untitled.base",
     "OKR.md",
-    "SMART 목표.md",
-    "GQM.md",
     "document/Leading_Effective Engineering Teams",
     "document/Cursor_AI",
     "attachments/Pasted image 20250513225106.png",
