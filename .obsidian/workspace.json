@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+                "file": "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
+              "title": "CHAP2_엔지니어링_임원의_첫_90일"
             }
           }
         ],
@@ -220,13 +220,14 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "7c7f4dab5a7046ce",
   "lastOpenFiles": [
-    "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+    "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
     "컬처 앰프.md",
     "스킵 레벨.md",
     "액셀러레이트.md",
