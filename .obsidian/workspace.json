@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+                "file": "document/Communication_Patterns/CHAP3_접근성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP2_효율성_효과성_생산성"
+              "title": "CHAP3_접근성"
             }
           },
           {
@@ -225,8 +225,15 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "텍스트 균형 잡기.md",
+    "대비.md",
+    "웹 콘텐츠 접근성 가이드라인.md",
+    "document/Communication_Patterns/CHAP3_접근성.md",
+    "녹내장.md",
+    "원추각막.md",
+    "광 공포증.md",
     "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
+    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
+    "텍스트 균형 잡기.md",
     "스코프 크리크.md",
     "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
@@ -241,19 +248,12 @@
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
     "STAR 기법.md",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
-    "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "인지 부하.md",
     "추상화 레벨.md",
     "document/Creative_Programmer/CHAP9_창의성에_대한_마지막_생각.md",
     "document/The_Engineering_Executives_Primer",
-    "도메인 스토리.md",
-    "C4 컨텍스트 다이어그램.md",
-    "UML 클래스 다이어그램.md",
-    "안티패턴.md",
-    "패턴.md",
     "document/Communication_Patterns",
     "Untitled.base",
-    "OKR.md",
     "document/Leading_Effective Engineering Teams",
     "document/Cursor_AI",
     "attachments/Pasted image 20250513225106.png",
