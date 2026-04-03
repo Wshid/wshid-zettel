@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP2_엔지니어링_임원의_첫_90일"
+              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
+            }
+          },
+          {
+            "id": "bf1b23324ba9fc31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "렌시오니 모델.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "렌시오니 모델"
             }
           },
           {
@@ -55,7 +79,8 @@
               "title": "텍스트 균형 잡기"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,11 +248,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2ae36ebec1cc59fd",
+  "active": "bf1b23324ba9fc31",
   "lastOpenFiles": [
-    "주간 5-15 리포트.md",
-    "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+    "렌시오니 모델.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+    "팀 효과성 모델.md",
+    "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+    "주간 5-15 리포트.md",
     "document/Communication_Patterns/CHAP3_접근성.md",
     "대비.md",
     "웹 콘텐츠 접근성 가이드라인.md",
@@ -249,8 +276,6 @@
     "document/실전_LLM/CHAP4_맞춤형_파인튜닝으로_LLM을_최적화하기.md",
     "STAR 기법.md",
     "document/Communication_Patterns/CHAP1_커뮤니케이션의_핵심.md",
-    "인지 부하.md",
-    "추상화 레벨.md",
     "document/The_Engineering_Executives_Primer",
     "document/Communication_Patterns",
     "Untitled.base",
