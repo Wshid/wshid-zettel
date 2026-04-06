@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "렌시오니 모델.md",
+                "file": "document/Communication_Patterns/CHAP3_접근성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "렌시오니 모델"
+              "title": "CHAP3_접근성"
             }
           },
           {
