@@ -6,6 +6,7 @@ page:
   - "43"
 tags:
 references:
+  - https://lethain.com/eeprimer-refs-2/
 aliases:
 ---
 마이클 왓킨스의 저서 '90일 만의 장악하라'(동녘사이언스, 2018)
