@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+                "file": "document/Communication_Patterns/CHAP3_접근성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
+              "title": "CHAP3_접근성"
             }
           },
           {
@@ -250,8 +250,8 @@
   },
   "active": "bf1b23324ba9fc31",
   "lastOpenFiles": [
-    "multiplier.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+    "multiplier.md",
     "diminisher.md",
     "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
     "document/The_Engineering_Executives_Primer/CHAP1_임원직을_향한_여정.md",
