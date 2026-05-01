@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+                "file": "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
+              "title": "CHAP3_엔지니어링_전략_세우기"
             }
           },
           {
@@ -251,6 +251,7 @@
   "active": "bf1b23324ba9fc31",
   "lastOpenFiles": [
     "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+    "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
     "조직적 레버리지.md",
     "개인적 레버리지.md",
@@ -275,7 +276,6 @@
     "스킵 레벨.md",
     "액셀러레이트.md",
     "선 점프.md",
-    "관계 거미줄 안티패턴.md",
     "document/The_Engineering_Executives_Primer",
     "document/Communication_Patterns",
     "Untitled.base",
