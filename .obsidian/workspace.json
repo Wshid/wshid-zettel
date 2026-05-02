@@ -32,36 +32,12 @@
             }
           },
           {
-            "id": "bf1b23324ba9fc31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP3_엔지니어링_전략_세우기"
-            }
-          },
-          {
             "id": "7c7f4dab5a7046ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "텍스트 균형 잡기.md",
+                "file": "document/Communication_Patterns/CHAP3_접근성.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "텍스트 균형 잡기"
+              "title": "CHAP3_접근성"
             }
           }
         ],
@@ -248,10 +224,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf1b23324ba9fc31",
+  "active": "7c7f4dab5a7046ce",
   "lastOpenFiles": [
-    "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
+    "텍스트 균형 잡기.md",
     "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
+    "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
     "조직적 레버리지.md",
     "개인적 레버리지.md",
@@ -270,7 +247,6 @@
     "광 공포증.md",
     "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
     "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
-    "텍스트 균형 잡기.md",
     "스코프 크리크.md",
     "컬처 앰프.md",
     "스킵 레벨.md",
