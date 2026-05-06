@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "큰 그림 우선 패턴.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "큰 그림 우선 패턴"
+              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
             }
           }
         ],
@@ -226,8 +226,8 @@
   },
   "active": "7c7f4dab5a7046ce",
   "lastOpenFiles": [
-    "C4 컨텍스트 다이어그램.md",
     "큰 그림 우선 패턴.md",
+    "C4 컨텍스트 다이어그램.md",
     "document/Communication_Patterns/CHAP4_내러티브.md",
     "document/Communication_Patterns/CHAP3_접근성.md",
     "텍스트 균형 잡기.md",
