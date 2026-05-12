@@ -220,8 +220,7 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "7c7f4dab5a7046ce",
