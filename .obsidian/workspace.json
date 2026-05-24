@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+                "file": "document/Communication_Patterns/CHAP4_내러티브.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
-            }
-          },
-          {
-            "id": "7c7f4dab5a7046ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CHAP3_엔지니어링_전략_세우기"
+              "title": "CHAP4_내러티브"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,15 +199,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c7f4dab5a7046ce",
+  "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
+    "다이어그램 흐름을 기대에 맞추는 패턴.md",
+    "document/Communication_Patterns/CHAP4_내러티브.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
+    "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
     "큰 그림 우선 패턴.md",
     "C4 컨텍스트 다이어그램.md",
-    "document/Communication_Patterns/CHAP4_내러티브.md",
     "document/Communication_Patterns/CHAP3_접근성.md",
     "텍스트 균형 잡기.md",
-    "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
     "document/The_Engineering_Executives_Primer/CHAP2_엔지니어링_임원의_첫_90일.md",
     "조직적 레버리지.md",
     "개인적 레버리지.md",
@@ -251,7 +227,6 @@
     "document/Communication_Patterns/CHAP2_난잡함_정리하기.md",
     "document/Leading_Effective Engineering Teams/CHAP2_효율성_효과성_생산성.md",
     "스코프 크리크.md",
-    "컬처 앰프.md",
     "document/The_Engineering_Executives_Primer",
     "document/Communication_Patterns",
     "Untitled.base",
