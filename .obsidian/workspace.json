@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Communication_Patterns/CHAP4_내러티브.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP4_내러티브"
+              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
             }
           }
         ]
@@ -201,8 +201,8 @@
   },
   "active": "2ae36ebec1cc59fd",
   "lastOpenFiles": [
-    "다이어그램 흐름을 기대에 맞추는 패턴.md",
     "document/Communication_Patterns/CHAP4_내러티브.md",
+    "다이어그램 흐름을 기대에 맞추는 패턴.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
     "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
     "큰 그림 우선 패턴.md",
