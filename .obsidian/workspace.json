@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
+                "file": "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHAP3_엔지니어링_전략_세우기"
+              "title": "CHAP3_효과적인_엔지니어링을_위한_3E_모델"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "alert_rule_gx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,14 +195,13 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "vscode-editor:Create Code File": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "2ae36ebec1cc59fd",
+  "active": "1d242474a2eb8d24",
   "lastOpenFiles": [
-    "스태프 엔지니어.md",
     "document/The_Engineering_Executives_Primer/CHAP3_엔지니어링_전략_세우기.md",
+    "스태프 엔지니어.md",
     "document/Leading_Effective Engineering Teams/CHAP3_효과적인_엔지니어링을_위한_3E_모델.md",
     "document/Communication_Patterns/CHAP4_내러티브.md",
     "다이어그램 흐름을 기대에 맞추는 패턴.md",
